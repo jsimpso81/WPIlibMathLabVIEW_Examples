@@ -77,12 +77,12 @@ To run on a real robot:
 
 The teleop controls were assigned to an game (xbox) type controller.
 
-![joystick!](images/xbox-360_controller.PNG)
+![joystick!](images/xbox-360_controller.png)
 
-- *Left Stick X* -- Turn robot left and right
-- *Left Stick Y* -- Drive robot forward and backwards
-- *A* -- Execute trajectory
-- *B* -- Execute trajectory in reverse
+- **Left Stick X** -- Turn robot left and right
+- **Left Stick Y** -- Drive robot forward and backwards
+- **A** -- Execute trajectory
+- **B** -- Execute trajectory in reverse
 
 ### Items that may need to be customized
 
@@ -137,14 +137,14 @@ This LabVIEW robot project is a simple swerve drive robot.
 
 The teleop controls were assigned to an game (xbox) type controller.
 
-![joystick!](images/xbox-360_controller.PNG)
+![joystick!](images/xbox-360_controller.png)
 
-- *Left Stick X* -- Drive robot left and right (robot orientation stays the same)
-- *Left Stick Y* -- Drive robot forward and backwards
-- *Right Trigger* -- Spin robot orientation clockwise
-- *Left Trigger* -- Spin robot orientation counter-clockwise
-- *A* -- Execute trajectory
-- *B* -- Execute trajectory in reverse
+- **Left Stick X** -- Drive robot left and right (robot orientation stays the same)
+- **Left Stick Y** -- Drive robot forward and backwards
+- **Right Trigger** -- Spin robot orientation clockwise
+- **Left Trigger** -- Spin robot orientation counter-clockwise
+- **A** -- Execute trajectory
+- **B** -- Execute trajectory in reverse
 
 
 ## FRC_LV_Trajectory_Dashboard Project
