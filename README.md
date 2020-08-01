@@ -73,6 +73,23 @@ To run on a real robot:
 3. Build and deploy the robot code the same as would be done for any robot.
 4. Drive the robot...
 
+### Joystick control map
+
+The teleop controls were assigned to an game (xbox) type controller.
+
+![joystick!](images/xbox-360_controller.PNG)
+
+- *Left Stick X* -- Turn robot left and right
+- *Left Stick Y* -- Drive robot forward and backwards
+- *A* -- Execute trajectory
+- *B* -- Execute trajectory in reverse
+
+### Items that may need to be customized
+
+Here are some items that may need to be customed on the simulated and real robots to maximize performance.
+
+![Samp1Notes](images/sample1_bookmarks.PNG)
+
 ## FRC_Traj_Robot_Sample_2 Project
 
 This LabVIEW project contains both a simulated and real robot. The robot code reads a trajectory from a file as part of BEGIN.vi routine. The trajectory can then be executed in TELEOP by pressing the “A” button on an xbox style controller, or equivalent button on any controller.   A number of Network Table variables are written showing the status of an executing trajectory.  Also, the Driver Station log shows the status of the trajectory file read.  ("Prints" may need to be enabled to see these messages.)
@@ -83,25 +100,52 @@ To run on a real robot.
 1. Use the special build specfication to build and deploy the trajectory file.
 2. Follow the real robot steps for "Robot Sample 1".
 
+The joystick controls are the same as Sample 1
+
 Special build/deploy step to copy the trajectory CSV file.
 
 ![Samp2 Build!](images/Sample2_BuildSpec.PNG)
 
+### Items that may need to be customized
+
+Here are some items that may need to be customed on the simulated and real robots to maximize performance.
+
+![Samp1Notes](images/sample1_bookmarks.PNG)
+
+Also, the trajectory file may need to be rebuilt to customize the constraints for a real robot.
 
 
 ## FRC_Traj_Robot_Sample_3 Project
 
 This LabVIEW project is identical to" Robot Sample 1" except that it uses quintic splines instead of cubic splines. 
+
+The joystick controls are the same as Sample 1
  
 ## FRC_Traj_Robot_Sample_4 Project
 
 This LabVIEW project is identical to "Robot Sample 1" except that it uses Jaci's Pathfinder to create the trajectory.
+
+The joystick controls are the same as Sample 1
 
 Pathfinder is a shared library that needs to be copied to the RoboRIO.  There is a 
 
 ## FRC_Traj_Robot_Sample_5 Project
 
 This LabVIEW robot project is a simple swerve drive robot.  
+
+### Joystick control map:
+
+The teleop controls were assigned to an game (xbox) type controller.
+
+![joystick!](images/xbox-360_controller.PNG)
+
+- *Left Stick X* -- Drive robot left and right (robot orientation stays the same)
+- *Left Stick Y* -- Drive robot forward and backwards
+- *Right Trigger* -- Spin robot orientation clockwise
+- *Left Trigger* -- Spin robot orientation counter-clockwise
+- *A* -- Execute trajectory
+- *B* -- Execute trajectory in reverse
+
 
 ## FRC_LV_Trajectory_Dashboard Project
 
