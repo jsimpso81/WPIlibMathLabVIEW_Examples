@@ -23,10 +23,10 @@ of the programming language used on the robot.  The utilities are:
 	e. Write the trajectory to a file.
 
 	Sample screen shot
-	![Create Trajectory Field!](Util_create_traj.PNG)
+	![Create Trajectory Field!](images/Util_create_traj.PNG)
 
 	Sample trajectory file
-	![Trajectory File Sample!](trajectory_sample.PNG)
+	![Trajectory File Sample!](images/trajectory_sample.PNG)
 
 - **Create_Trajectory_Using_PathfinderDifferential**
 
@@ -85,7 +85,7 @@ To run on a real robot.
 
 Special build/deploy step to copy the trajectory CSV file.
 
-![Samp2 Build!](Sample2_BuildSpec.PNG)
+![Samp2 Build!](images/Sample2_BuildSpec.PNG)
 
 
 
