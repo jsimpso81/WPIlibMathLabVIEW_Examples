@@ -38,6 +38,10 @@ of the programming language used on the robot.  The utilities are:
 	One of the biggest differences between this Trajectory Library and Pathfinder is that Pathfinder uses S curves instead of
 	trapezoids.
 
+	Sample trajectory file
+	![Trajectory File Sample!](images/trajectory_pathfinder_sample.PNG)
+
+
 - **Create_Trajectory_Using_PathfinderSwerve**
 
 	Create a trajectory using Jaci Brunning's Pathfinder library for a robot using a "swerve drive" and write it to a 
@@ -150,6 +154,16 @@ The teleop controls were assigned to an game (xbox) type controller.
 ## FRC_LV_Trajectory_Dashboard Project
 
 This LabVIEW dashboard project contains tabs showing trajectory progress diagnostic information.
+
+![dash samp!](images/dash_traj_tab.PNG)
+
+![dash samp!](images/dash_drive_right_tab.PNG)
+
+
+The sample robots publish a number of Network Table variables.  Any dashboard can view these.  
+![dash samp!](images/dash_traj_nt_vars.PNG)
+
+
 
 
 
