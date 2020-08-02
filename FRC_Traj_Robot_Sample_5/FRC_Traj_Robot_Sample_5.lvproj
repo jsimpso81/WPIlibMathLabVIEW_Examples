@@ -32,6 +32,7 @@
 			<Item Name="TRAJECTORY_CREATE_PATHFINDER_BEGIN.vi" Type="VI" URL="../TRAJECTORY_CREATE_PATHFINDER_BEGIN.vi"/>
 			<Item Name="TRAJECTORY_EXECUTE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE.vi"/>
 			<Item Name="TRAJECTORY_EXECUTE_SWERVE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE_SWERVE.vi"/>
+			<Item Name="TRAJECTORY_EXECUTE_SWERVE_REVERSE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE_SWERVE_REVERSE.vi"/>
 			<Item Name="TRAJECTORY_FGV.vi" Type="VI" URL="../TRAJECTORY_FGV.vi"/>
 			<Item Name="TRAJECTORY_READFILE_BEGIN.vi" Type="VI" URL="../TRAJECTORY_READFILE_BEGIN.vi"/>
 		</Item>
@@ -68,6 +69,8 @@
 		<Item Name="readme.md" Type="Document" URL="../readme.md"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
+		<Item Name="Sample-Robot-2-Trajectory-Pathfinder.csv" Type="Document" URL="../Sample-Robot-2-Trajectory-Pathfinder.csv"/>
+		<Item Name="Sample-Robot-2-Trajectory-TrajLibrary.csv" Type="Document" URL="../Sample-Robot-2-Trajectory-TrajLibrary.csv"/>
 		<Item Name="Secret_Control_Library_Protected.lvlib" Type="Library" URL="../../Secret_Control_Library_Protected/Secret_Control_Library_Protected.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -834,12 +837,15 @@ DirectoryIndex index.htm
 			<Item Name="TRAJECTORY_CREATE_PATHFINDER_BEGIN.vi" Type="VI" URL="../TRAJECTORY_CREATE_PATHFINDER_BEGIN.vi"/>
 			<Item Name="TRAJECTORY_EXECUTE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE.vi"/>
 			<Item Name="TRAJECTORY_EXECUTE_SWERVE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE_SWERVE.vi"/>
+			<Item Name="TRAJECTORY_EXECUTE_SWERVE_REVERSE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE_SWERVE_REVERSE.vi"/>
 			<Item Name="TRAJECTORY_FGV.vi" Type="VI" URL="../TRAJECTORY_FGV.vi"/>
 			<Item Name="TRAJECTORY_READFILE_BEGIN.vi" Type="VI" URL="../TRAJECTORY_READFILE_BEGIN.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Secret_Control_Library_Protected.lvlib" Type="Library" URL="../../Secret_Control_Library_Protected/Secret_Control_Library_Protected.lvlib"/>
 		<Item Name="readme.md" Type="Document" URL="../readme.md"/>
+		<Item Name="Sample-Robot-2-Trajectory-Pathfinder.csv" Type="Document" URL="../Sample-Robot-2-Trajectory-Pathfinder.csv"/>
+		<Item Name="Sample-Robot-2-Trajectory-TrajLibrary.csv" Type="Document" URL="../Sample-Robot-2-Trajectory-TrajLibrary.csv"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="WPI_JoystickRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Get.vi"/>
