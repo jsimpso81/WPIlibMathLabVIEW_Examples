@@ -1,7 +1,7 @@
-This is a modified sample tank/arcade drive test robot program for using the 
+This is a modified sample swerve drive test robot program for using the 
 FRC LabVIEW trajectory Library.
 
-This sample creates a trajectory on the robot using jaci's pathfinder.
+This sample reads a trajectory from a file, similar to sample 2
 
 This robot can be run on a windows PC using the LabVIEW simulation.
 
