@@ -28,6 +28,6 @@ NOTE: Consider the trajectory library implementation to be beta code.  It hasn't
 It has never been tested on a real robot.  If you find errors or make fixes, please let me know.
 
 
-3/27/2020 J.Simpson
+Updated 8/1/2020 J.Simpson
 
 
