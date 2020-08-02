@@ -60,7 +60,7 @@ of the programming language used on the robot.  The utilities are:
 
 ## FRC_Traj_Samples Project
 
-This LabVIEW project contains a number of test programs and samples using the Trajectory Library.  Many of the test programs are VERY rudimentrary.  This project is a continuing work in progress. 
+This LabVIEW project contains a number of sample programs using the Trajectory Library.  These are intended to used for training and as samples of how to use particular functionality.  This project is a continuing work in progress. 
 
 ## FRC_Traj_Robot_Sample_1 Project
 
@@ -163,6 +163,9 @@ This LabVIEW dashboard project contains tabs showing trajectory progress diagnos
 The sample robots publish a number of Network Table variables.  Any dashboard can view these.  
 ![dash samp!](images/dash_traj_nt_vars.PNG)
 
+## FRC_Traj_Test Project
+
+This LabVIEW project contains a number of test programs using the Trajectory Library.  The programs in this project are intented to verify the functionality of the library and test new and changed functionality.  These routines are not likely good candidates for training.
 
 
 
