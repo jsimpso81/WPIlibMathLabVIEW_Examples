@@ -1,3 +1,5 @@
+## FRC LabVIEW Trajectory Sample Robot 3
+
 This is a modified sample tank/arcade drive test robot program for using the 
 FRC LabVIEW trajectory Library.
 
@@ -11,10 +13,12 @@ equivalent on another controller when in teleop enabled mode.
 There are network table variables that can be watched during execution to view the
 current trajectory error and the drive system variables.  
 
-There are 3 custom subVI for the Trajectory.
-	TRAJECTORY_CREATE_QUINTIC_BEGIN
-	TRAJECTORY_EXECUTE
-	TRAJECTORY_FGV
+There are several custom subVI for the Trajectory.
+- TRAJECTORY_CREATE_QUINTIC_BEGIN
+- TRAJECTORY_EXECUTE
+- TRAJECTORY_EXECUTE_REVERSE
+- TRAJECTORY_FGV
+- ROBOT_DRIVE_PARAMS
 
 Hopefully they are documented enough to figure out what they do and how they work.
 
@@ -24,7 +28,6 @@ code from the FRC java / c++ WPILIB.
 NOTE: Consider the trajectory library implementation to be beta code.  It hasn't been fully tested.
 It has never been tested on a real robot.  If you find errors or make fixes, please let me know.
 
-
-3/27/2020 J.Simpson
+Updated 8/1/2020 J.Simpson
 
 

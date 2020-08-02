@@ -50,7 +50,7 @@
 		<Item Name="TestPrograms" Type="Folder" URL="../TestPrograms">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="READ_ME.txt" Type="Document" URL="../READ_ME.txt"/>
+		<Item Name="readme.md" Type="Document" URL="../../FRC_LV_Trajectory_Dashboard/readme.md"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
 		<Item Name="Secret_Control_Library_Protected.lvlib" Type="Library" URL="../../Secret_Control_Library_Protected/Secret_Control_Library_Protected.lvlib"/>
@@ -817,7 +817,7 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Secret_Control_Library_Protected.lvlib" Type="Library" URL="../../Secret_Control_Library_Protected/Secret_Control_Library_Protected.lvlib"/>
-		<Item Name="READ_ME.txt" Type="Document" URL="../READ_ME.txt"/>
+		<Item Name="readme.md" Type="Document" URL="../../FRC_LV_Trajectory_Dashboard/readme.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="WPI_JoystickRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Get.vi"/>
