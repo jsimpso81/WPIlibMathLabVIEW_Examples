@@ -1,3 +1,5 @@
+## FRC LabVIEW Trajectory Robot Sample 4
+
 This is a modified sample tank/arcade drive test robot program for using the 
 FRC LabVIEW trajectory Library.
 
@@ -11,10 +13,11 @@ equivalent on another controller when in teleop enabled mode.
 There are network table variables that can be watched during execution to view the
 current trajectory error and the drive system variables.  
 
-There are 3 custom subVI for the Trajectory.
-	TRAJECTORY_CREATE_PAATHFINDER_BEGIN
-	TRAJECTORY_EXECUTE
-	TRAJECTORY_FGV
+There are several custom subVI for the Trajectory.
+- TRAJECTORY_CREATE_PAATHFINDER_BEGIN
+- TRAJECTORY_EXECUTE
+- TRAJECTORY_EXECUTE_REVERSE
+- TRAJECTORY_FGV
 
 Hopefully they are documented enough to figure out what they do and how they work.
 
