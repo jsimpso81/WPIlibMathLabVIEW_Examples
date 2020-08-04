@@ -1,12 +1,14 @@
 # FRC LabVIEW Trajectory Library Utilities and Samples
 
-This repository contains several LabVIEW projects containing utilities,
-library sample and test programs, several sample robots, and a sample
-robot dashboard.
+This repository contains several LabVIEW projects containing utilities,library sample and test programs,
+several sample robots, and a sample robot dashboard for the FRC LabVIEW Trajectory.  This library is an UNOFFICIAL port of the Java/C++ WPILIB routines that don't already exist in LabVIEW.  Before using these projects, install the library.  Here is a link to the github repository for the library.
 
+https://github.com/jsimpso81/FRC_IV_TrajLib
+
+Each project has a more detailed readme.md file.  Here is a summary of the projects.
+
+---
 ## FRC_Traj_Util Project
-
-[Project specific readme file](tree/master/FRC_Traj_Util/readme.md)
 
 This LabVIEW project contains the source and build specifications for the 4 utilties
 installed with the FRC LabVIEW Trajectory Library.  These utilities create trajectory files
@@ -60,17 +62,20 @@ of the programming language used on the robot.  The utilities are:
 	Read a JSON file created by the PathWeaver utility.  Write this trajectory as a CSV file for use with this library.
 
 
+---
 ## FRC_Traj_Samples Project
 
-[Project specific readme file](tree/master/FRC_Traj_Samples/readme.md)
 
-This LabVIEW project contains a number of sample programs using the Trajectory Library.  These are intended to used for training and as samples of how to use particular functionality.  This project is a continuing work in progress. 
+This LabVIEW project contains a number of sample programs using the Trajectory Library.  These are intended to used for training and as samples of how to use particular functionality.  This project is a work in progress. Contributions of new sample VIs are welcome.  See https:Contributing.md for additional details.
 
+---
 ## FRC_Traj_Robot_Sample_1 Project
 
-[Project specific readme file](tree/master/FRC_Traj_Robot_Sample_1/readme.md)
+This LabVIEW project contains both a simulated and real robot. The simulated robot runs on a PC.  The real robot, after modifying the code to match the robot's hardware, can be run on an FRC robot.  
 
-This LabVIEW project contains both a simulated and real robot. The robot code creates a trajectory using cubic splines as part of the BEGIN routine. The trajectory can then be executed in TELEOP by pressing the “A” button on an xbox style controller, or equivalent button on any controller.  The trajectory can be executed in reverse by pressing the "B" button.  A number of Network Table variables are written showing the status of an executing trajectory.
+The robot code creates a trajectory using cubic splines as part of the BEGIN routine. The trajectory can then be executed in TELEOP by pressing the “A” button on an xbox style controller, or equivalent button on any controller.  The trajectory can be executed in reverse by pressing the "B" button.  A number of Network Table variables are written showing the status of an executing trajectory.
+
+This robot code does not have an autonomous routine to execute a trajectory, but you could easily add that.
 
 To run the simulated robot:
 1. Start the FRC Driverstation and optionally start the dashboard.
@@ -78,8 +83,10 @@ To run the simulated robot:
 3. A simulated field should be displayed.  Communications with the driver station should be established.
 4. Use the driver station to change the mode to "teleop enabled", then use the joystick to drive the robot.
 
+![simulation!](images/sim_robot.PNG)
+
 To run on a real robot:
-1. Update BEGIN.VI and PERIODIC TASKS.VI as needed to match the hardware on your robot.
+1. Update BEGIN.VI and PERIODIC TASKS.VI, and others, as needed to match the hardware on your robot.
 3. Build and deploy the robot code the same as would be done for any robot.
 4. Drive the robot...
 
@@ -100,11 +107,10 @@ Here are some items that may need to be customed on the simulated and real robot
 
 ![Samp1Notes](images/sample1_bookmarks.PNG)
 
+---
 ## FRC_Traj_Robot_Sample_2 Project
 
-[Project specific readme file](tree/master/FRC_Traj_Robot_Sample_2/readme.md)
-
-This LabVIEW project contains both a simulated and real robot. The robot code reads a trajectory from a file as part of BEGIN.vi routine. The trajectory can then be executed in TELEOP by pressing the “A” button on an xbox style controller, or equivalent button on any controller.   A number of Network Table variables are written showing the status of an executing trajectory.  Also, the Driver Station log shows the status of the trajectory file read.  ("Prints" may need to be enabled to see these messages.)
+This LabVIEW project is similar to FRC_Traj_Robot_Sample_1.  It contains both a simulated and real robot. THe only difference in this project is that the trajectory is read from a file, as part of BEGIN.VI, instead fo being created on the robot.  The trajectory can then be executed in TELEOP by pressing the “A” button on an xbox style controller, or equivalent button on any controller.   A number of Network Table variables are written showing the status of an executing trajectory.  Also, the Driver Station log shows the status of the trajectory file read.  ("Prints" may need to be enabled to see these messages.)
 
 To run  the simulated robot, the .CSV file needs to be copied to the “\Documents\LabVIEW Data” directory before running the simulated robot. Then follow the steps for "Robot Sample 1" to run the robot.
 
@@ -126,31 +132,31 @@ Here are some items that may need to be customed on the simulated and real robot
 
 Also, the trajectory file may need to be rebuilt to customize the constraints for a real robot.
 
+### Using a Custom Trajectory File
+Use the utility programs to create your own trajectory.  If you don't want to modify the BEGIN.INI to read a different file, use the same file name for your trajectory.  Copy the new trajectory to the correct directory or the PC or the robot, then execute the robot program.  Any errors reading the directory will display on the Driver Station event log.
 
+---
 ## FRC_Traj_Robot_Sample_3 Project
 
-[Project specific readme file](tree/master/FRC_Traj_Robot_Sample_3/readme.md)
+This LabVIEW project is identical to" Robot Sample 1" except that it uses quintic splines instead of cubic splines. The resulting trajectories are very similar.
 
-This LabVIEW project is identical to" Robot Sample 1" except that it uses quintic splines instead of cubic splines. 
-
-The joystick controls are the same as Sample 1
- 
+Everything else is the same as robot sample 1 
+---
 ## FRC_Traj_Robot_Sample_4 Project
 
-[Project specific readme file](tree/master/FRC_Traj_Robot_Sample_4/readme.md)
+This LabVIEW project is identical to "Robot Sample 1" except that it uses Jaci's Pathfinder to create the trajectory.  Some teams may prefer these trajectories because they rate limit acceleration in addition to rate limiting velocity.  These are called "S curve" trajectories.  These trajectories do not have any of the other constraints that are available with the FRC LabVIEW or WPILIB Trajectory libraries.
 
-This LabVIEW project is identical to "Robot Sample 1" except that it uses Jaci's Pathfinder to create the trajectory.
+Everything else is the same as robot sample 1 
 
-The joystick controls are the same as Sample 1
+Pathfinder is a shared library that needs to be copied to the RoboRIO.  Nothing needs to be done on the PC.  On the roboRIO, there is a build specification to copy the library (so file) to the roboRIO.
 
-Pathfinder is a shared library that needs to be copied to the RoboRIO.  There is a 
-
+---
 ## FRC_Traj_Robot_Sample_5 Project
 
 
 This LabVIEW robot project is a simple swerve drive robot.  (No swerve drive is really simple...)
 
-[Project specific readme file](tree/master/FRC_Traj_Robot_Sample_5/readme.md)
+Similar to sample 2, it reads a trajectory file.  Otherwise this sample robot is quite different.
 
 ### Running in Simulation
 
@@ -159,6 +165,15 @@ This will display an overhead simulation screen.  The other simulation screen wi
 
 ![sample 5 simulation!](images/sample_5_simulation.PNG)
 
+### Running on a robot
+
+This sample could be modfied to run on a real robot.  At a minimum, the following would need to be done.
+The robot code needs to be modified to:
+1. match the hardware that exists on the real robot.
+2. use the physical robot's swerve drive locations.
+3. tune the serve drive and wheel drive control parameters.
+4. tune the robot orientation control
+5. add filtering if needed for gyro and wheel encoder readings.
 
 ### Joystick control map:
 
@@ -175,13 +190,14 @@ The teleop controls were assigned to an game (xbox) type controller.
 - **X** -- Execute trajectory in reverse (robot orientation stays the same)
 - **Y** -- Execute trajectory in reverse (robot orientation points in direction of travel)
 
+**NOTE:** The **X** and **Y** functions are still a work in progress.
+
 When not executing a trajectory, combinations of the other controls can be used to drive the robot.  
 For example, **Left Stick Y** and **Right Trigger** pressed at the same time will cause the robot to travel in a circle. 
 
 
+---
 ## FRC_LV_Trajectory_Dashboard Project
-
-[Project specific readme file](tree/master/FRC_LV_Traj_Trajectory_Dashboard/readme.md)
 
 This LabVIEW dashboard project contains tabs showing trajectory progress diagnostic information.
 
@@ -193,11 +209,14 @@ This LabVIEW dashboard project contains tabs showing trajectory progress diagnos
 The sample robots publish a number of Network Table variables.  Any dashboard can view these.  
 ![dash samp!](images/dash_traj_nt_vars.PNG)
 
+---
 ## FRC_Traj_Test Project
 
-This LabVIEW project contains a number of test programs using the Trajectory Library.  The programs in this project are intented to verify the functionality of the library and test new and changed functionality.  These routines are not likely good candidates for training.
+This LabVIEW project contains a number of test programs using the Trajectory Library.  The programs in this project are intented to verify the functionality of the library and test new and changed functionality.  These routines are not likely good candidates for training.  Contributions of new test VIs are welcome.  See https:Contributing.md for additional details.
 
 
+---
+File last updated: 8/4/2020
 
 
 
