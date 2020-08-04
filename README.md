@@ -6,6 +6,8 @@ robot dashboard.
 
 ## FRC_Traj_Util Project
 
+[Project specific readme file](http:FRC_Traj_Util/readme.md)
+
 This LabVIEW project contains the source and build specifications for the 4 utilties
 installed with the FRC LabVIEW Trajectory Library.  These utilities create trajectory files
 and convert trajectory files from one type to another.  They can be used regardless 
@@ -60,9 +62,13 @@ of the programming language used on the robot.  The utilities are:
 
 ## FRC_Traj_Samples Project
 
+[Project specific readme file](http:FRC_Traj_Samples/readme.md)
+
 This LabVIEW project contains a number of sample programs using the Trajectory Library.  These are intended to used for training and as samples of how to use particular functionality.  This project is a continuing work in progress. 
 
 ## FRC_Traj_Robot_Sample_1 Project
+
+[Project specific readme file](http:FRC_Traj_Robot_Sample_1/readme.md)
 
 This LabVIEW project contains both a simulated and real robot. The robot code creates a trajectory using cubic splines as part of the BEGIN routine. The trajectory can then be executed in TELEOP by pressing the “A” button on an xbox style controller, or equivalent button on any controller.  The trajectory can be executed in reverse by pressing the "B" button.  A number of Network Table variables are written showing the status of an executing trajectory.
 
@@ -96,6 +102,8 @@ Here are some items that may need to be customed on the simulated and real robot
 
 ## FRC_Traj_Robot_Sample_2 Project
 
+[Project specific readme file](http:FRC_Traj_Robot_Sample_2/readme.md)
+
 This LabVIEW project contains both a simulated and real robot. The robot code reads a trajectory from a file as part of BEGIN.vi routine. The trajectory can then be executed in TELEOP by pressing the “A” button on an xbox style controller, or equivalent button on any controller.   A number of Network Table variables are written showing the status of an executing trajectory.  Also, the Driver Station log shows the status of the trajectory file read.  ("Prints" may need to be enabled to see these messages.)
 
 To run  the simulated robot, the .CSV file needs to be copied to the “\Documents\LabVIEW Data” directory before running the simulated robot. Then follow the steps for "Robot Sample 1" to run the robot.
@@ -121,11 +129,15 @@ Also, the trajectory file may need to be rebuilt to customize the constraints fo
 
 ## FRC_Traj_Robot_Sample_3 Project
 
+[Project specific readme file](http:FRC_Traj_Robot_Sample_3/readme.md)
+
 This LabVIEW project is identical to" Robot Sample 1" except that it uses quintic splines instead of cubic splines. 
 
 The joystick controls are the same as Sample 1
  
 ## FRC_Traj_Robot_Sample_4 Project
+
+[Project specific readme file](http:FRC_Traj_Robot_Sample_4/readme.md)
 
 This LabVIEW project is identical to "Robot Sample 1" except that it uses Jaci's Pathfinder to create the trajectory.
 
@@ -135,7 +147,18 @@ Pathfinder is a shared library that needs to be copied to the RoboRIO.  There is
 
 ## FRC_Traj_Robot_Sample_5 Project
 
-This LabVIEW robot project is a simple swerve drive robot.  
+
+This LabVIEW robot project is a simple swerve drive robot.  (No swerve drive is really simple...)
+
+[Project specific readme file](http:FRC_Traj_Robot_Sample_5/readme.md)
+
+### Running in Simulation
+
+This robot runs somewhat differently in simulation.  Instead of executing `Robot Main.VI`, execute `simulate-robot.vi`.  
+This will display an overhead simulation screen.  The other simulation screen will appear, but it should be ignored.
+
+![sample 5 simulation!](images/sample_5_simulation.PNG)
+
 
 ### Joystick control map:
 
@@ -143,15 +166,22 @@ The teleop controls were assigned to an game (xbox) type controller.
 
 ![joystick!](images/xbox-360_controller.png)
 
-- **Left Stick X** -- Drive robot left and right (robot orientation stays the same)
 - **Left Stick Y** -- Drive robot forward and backwards
+- **Right Stick X** -- Drive robot left and right (robot orientation stays the same)
 - **Right Trigger** -- Spin robot orientation clockwise
 - **Left Trigger** -- Spin robot orientation counter-clockwise
-- **A** -- Execute trajectory
-- **B** -- Execute trajectory in reverse
+- **A** -- Execute trajectory (robot orientation stays the same)
+- **B** -- Execute trajectory (robot orientation points in direction of travel)
+- **X** -- Execute trajectory in reverse (robot orientation stays the same)
+- **Y** -- Execute trajectory in reverse (robot orientation points in direction of travel)
+
+When not executing a trajectory, combinations of the other controls can be used to drive the robot.  
+For example, **Left Stick Y** and **Right Trigger** pressed at the same time will cause the robot to travel in a circle. 
 
 
 ## FRC_LV_Trajectory_Dashboard Project
+
+[Project specific readme file](http:FRC_LV_Traj_Trajectory_Dashboard/readme.md)
 
 This LabVIEW dashboard project contains tabs showing trajectory progress diagnostic information.
 

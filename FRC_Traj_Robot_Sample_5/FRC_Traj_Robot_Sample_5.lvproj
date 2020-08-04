@@ -33,7 +33,6 @@
 			<Item Name="TRAJECTORY_CREATE_PATHFINDER_BEGIN.vi" Type="VI" URL="../TRAJECTORY_CREATE_PATHFINDER_BEGIN.vi"/>
 			<Item Name="TRAJECTORY_EXECUTE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE.vi"/>
 			<Item Name="TRAJECTORY_EXECUTE_SWERVE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE_SWERVE.vi"/>
-			<Item Name="TRAJECTORY_EXECUTE_SWERVE_REVERSE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE_SWERVE_REVERSE.vi"/>
 			<Item Name="TRAJECTORY_FGV.vi" Type="VI" URL="../TRAJECTORY_FGV.vi"/>
 			<Item Name="TRAJECTORY_READFILE_BEGIN.vi" Type="VI" URL="../TRAJECTORY_READFILE_BEGIN.vi"/>
 		</Item>
@@ -835,7 +834,6 @@ DirectoryIndex index.htm
 			<Item Name="TRAJECTORY_CREATE_PATHFINDER_BEGIN.vi" Type="VI" URL="../TRAJECTORY_CREATE_PATHFINDER_BEGIN.vi"/>
 			<Item Name="TRAJECTORY_EXECUTE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE.vi"/>
 			<Item Name="TRAJECTORY_EXECUTE_SWERVE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE_SWERVE.vi"/>
-			<Item Name="TRAJECTORY_EXECUTE_SWERVE_REVERSE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE_SWERVE_REVERSE.vi"/>
 			<Item Name="TRAJECTORY_FGV.vi" Type="VI" URL="../TRAJECTORY_FGV.vi"/>
 			<Item Name="TRAJECTORY_READFILE_BEGIN.vi" Type="VI" URL="../TRAJECTORY_READFILE_BEGIN.vi"/>
 		</Item>
@@ -1366,6 +1364,7 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="TRAJECTORY_EXECUTE_SWERVE_REVERSE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE_SWERVE_REVERSE.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
