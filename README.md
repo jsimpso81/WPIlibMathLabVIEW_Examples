@@ -6,7 +6,7 @@ robot dashboard.
 
 ## FRC_Traj_Util Project
 
-[Project specific readme file](http:FRC_Traj_Util/readme.md)
+[Project specific readme file](FRC_Traj_Util/readme.md)
 
 This LabVIEW project contains the source and build specifications for the 4 utilties
 installed with the FRC LabVIEW Trajectory Library.  These utilities create trajectory files
@@ -62,13 +62,13 @@ of the programming language used on the robot.  The utilities are:
 
 ## FRC_Traj_Samples Project
 
-[Project specific readme file](http:FRC_Traj_Samples/readme.md)
+[Project specific readme file](FRC_Traj_Samples/readme.md)
 
 This LabVIEW project contains a number of sample programs using the Trajectory Library.  These are intended to used for training and as samples of how to use particular functionality.  This project is a continuing work in progress. 
 
 ## FRC_Traj_Robot_Sample_1 Project
 
-[Project specific readme file](http:FRC_Traj_Robot_Sample_1/readme.md)
+[Project specific readme file](FRC_Traj_Robot_Sample_1/readme.md)
 
 This LabVIEW project contains both a simulated and real robot. The robot code creates a trajectory using cubic splines as part of the BEGIN routine. The trajectory can then be executed in TELEOP by pressing the “A” button on an xbox style controller, or equivalent button on any controller.  The trajectory can be executed in reverse by pressing the "B" button.  A number of Network Table variables are written showing the status of an executing trajectory.
 
@@ -102,7 +102,7 @@ Here are some items that may need to be customed on the simulated and real robot
 
 ## FRC_Traj_Robot_Sample_2 Project
 
-[Project specific readme file](http:FRC_Traj_Robot_Sample_2/readme.md)
+[Project specific readme file](FRC_Traj_Robot_Sample_2/readme.md)
 
 This LabVIEW project contains both a simulated and real robot. The robot code reads a trajectory from a file as part of BEGIN.vi routine. The trajectory can then be executed in TELEOP by pressing the “A” button on an xbox style controller, or equivalent button on any controller.   A number of Network Table variables are written showing the status of an executing trajectory.  Also, the Driver Station log shows the status of the trajectory file read.  ("Prints" may need to be enabled to see these messages.)
 
@@ -129,7 +129,7 @@ Also, the trajectory file may need to be rebuilt to customize the constraints fo
 
 ## FRC_Traj_Robot_Sample_3 Project
 
-[Project specific readme file](http:FRC_Traj_Robot_Sample_3/readme.md)
+[Project specific readme file](FRC_Traj_Robot_Sample_3/readme.md)
 
 This LabVIEW project is identical to" Robot Sample 1" except that it uses quintic splines instead of cubic splines. 
 
@@ -137,7 +137,7 @@ The joystick controls are the same as Sample 1
  
 ## FRC_Traj_Robot_Sample_4 Project
 
-[Project specific readme file](http:FRC_Traj_Robot_Sample_4/readme.md)
+[Project specific readme file](FRC_Traj_Robot_Sample_4/readme.md)
 
 This LabVIEW project is identical to "Robot Sample 1" except that it uses Jaci's Pathfinder to create the trajectory.
 
@@ -150,7 +150,7 @@ Pathfinder is a shared library that needs to be copied to the RoboRIO.  There is
 
 This LabVIEW robot project is a simple swerve drive robot.  (No swerve drive is really simple...)
 
-[Project specific readme file](http:FRC_Traj_Robot_Sample_5/readme.md)
+[Project specific readme file](FRC_Traj_Robot_Sample_5/readme.md)
 
 ### Running in Simulation
 
@@ -181,7 +181,7 @@ For example, **Left Stick Y** and **Right Trigger** pressed at the same time wil
 
 ## FRC_LV_Trajectory_Dashboard Project
 
-[Project specific readme file](http:FRC_LV_Traj_Trajectory_Dashboard/readme.md)
+[Project specific readme file](FRC_LV_Traj_Trajectory_Dashboard/readme.md)
 
 This LabVIEW dashboard project contains tabs showing trajectory progress diagnostic information.
 
