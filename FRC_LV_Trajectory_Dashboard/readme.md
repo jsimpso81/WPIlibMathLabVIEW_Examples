@@ -1,34 +1,29 @@
-## FRC LabVIEW Trajectory Robot Sample 4
+## FRC_LB_Trajectory_Dashboard Project
 
-This is a modified sample tank/arcade drive test robot program for using the FRC LabVIEW trajectory Library.
+This is an enhancement of the standard LabVIEW dashboard project, containing a number of additional tabs showing trajectory and robot drive information.  This is intended to be used with the sample robot projects that demonstrate the FRC LabVIEW Trajectory Library.  This library is an UNOFFICIAL port of the Java/C++ 
+WPILIB routines that don't already exist in LabVIEW.  Before using these projects, install the library.  Here is a link to the github repository for the library.  https://github.com/jsimpso81/FRC_LV_TrajLib
 
-This sample creates a trajectory on the robot Jaci's Pathfinder Library.
+### Additional Dashboard Tabs
 
-This robot can be run on a windows PC using the LabVIEW simulation.
+![dash samp!](images/dash_traj_tab.PNG)
 
-Run the trajectory by pressing the "A" button (on an xbox 360 controller), or it's 
-equivalent on another controller when in teleop enabled mode.  Run the trajectory
-in reverse by pressing the "B" button (on an xbox 360 controller).
+![dash samp!](images/dash_drive_right_tab.PNG)
 
-There are network table variables that can be watched during execution to view the
-current trajectory error and the drive system variables.  
+![dash samp!](images/dash_drive_left_tab.PNG)
 
-There are several custom subVI for the Trajectory.
-- TRAJECTORY_CREATE_PATHFINDER_BEGIN
-- TRAJECTORY_EXECUTE
-- TRAJECTORY_EXECUTE_REVERSE
-- TRAJECTORY_FGV
-- ROBOT_DRIVE_PARAMS
+The sample robots publish a number of Network Table variables.  Any dashboard can view these.  
+![dash samp!](images/dash_traj_nt_vars.PNG)
 
-Hopefully they are documented enough to figure out what they do and how they work.
+### Using the Dashboard
 
-NOTE: The Trajectory library is an implementation of the FRC java/c++ trajectory/ramsete 
-code from the FRC java / c++ WPILIB.  
+1. **Build** the dashboard.  
+1. Copy the **FRC_Dashboard** directory the is created under **Builds** to **%HOMEDRIVE%%HOMEPATH%\Documents\LabVIEW Data\builds\**
+1. Configure the Driver Station to use the **LabVIEW** Dashboard
 
-NOTE: Consider the trajectory library implementation to be beta code.  It hasn't been fully tested.
-It has never been tested on a real robot.  If you find errors or make fixes, please let me know.
+![dash type!](images/DriverStation_Dash_Type.PNG)
 
+---
+File last updated: 8/4/2020
 
-Updated 8/1/2020 J.Simpson
 
 

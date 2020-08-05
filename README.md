@@ -215,6 +215,14 @@ The sample robots publish a number of Network Table variables.  Any dashboard ca
 
 This LabVIEW project contains a number of test programs using the Trajectory Library.  The programs in this project are intented to verify the functionality of the library and test new and changed functionality.  These routines are not likely good candidates for training.  Contributions of new test VIs are welcome.  See [Contributing.md](Contributing.md) for additional details.
 
+---
+## Secret_Control_Library_Protected Library
+
+This LabVIEW library contains a few subVIs that are used by the sample robot projects.  As these routines
+are not part of the Java/C++ WPILIB library and are described in the Secret Book of FRC LabVIEW excercises
+to be written by students, the library is protected.  These routines can easily be recreated by completing
+the exercies in the book.  
+
 
 ---
 File last updated: 8/4/2020
