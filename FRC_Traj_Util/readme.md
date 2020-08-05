@@ -10,16 +10,30 @@ of the programming language used on the robot.  The utilities are:
 	Create a trajectory using the trajectory library routines and write it to a CSV (comma separated value) file that can be
 	copied to a RoboRIO and read by the robot code.  The trajectory is created by:
 
-	a. Defining robot properties
-	b. Defining drive system constraints
-	c. Defining the trajectory "waypoints".
-	d. Creating and reviewing the trajectory.  If changes need to be made to back to steps 1,2,3 as needed.
-	e. Write the trajectory to a file.
+	1. Defining robot properties
+	1. Defining drive system constraints
+	1. Defining the trajectory "waypoints".
+	1. Creating and reviewing the trajectory.  If changes need to be made to back to steps *a*,*b*,*c* as needed.
+	1. Write the trajectory to a file.
 
-	Sample screen shot
+	**Sample screen shot**
+
+	![Create Trajectory Field!](images/Util_create_traj_robot_params.PNG)
+
+	![Create Trajectory Field!](images/Util_create_traj_robot_constraints.PNG)
+
+	![Create Trajectory Field!](images/Util_create_traj_traj.PNG)
+
 	![Create Trajectory Field!](images/Util_create_traj.PNG)
 
-	Sample trajectory file
+	![Create Trajectory Field!](images/Util_create_traj_trends.PNG)
+
+	![Create Trajectory Field!](images/Util_create_traj_results.PNG)
+
+	![Create Trajectory Field!](images/Util_create_traj_file.PNG)
+
+	**Sample trajectory file**
+
 	![Trajectory File Sample!](images/trajectory_sample.PNG)
 
 - **Create_Trajectory_Using_PathfinderDifferential**
@@ -32,7 +46,7 @@ of the programming language used on the robot.  The utilities are:
 	One of the biggest differences between this Trajectory Library and Pathfinder is that Pathfinder uses S curves instead of
 	trapezoids.
 
-	Sample trajectory file
+	**Sample trajectory file**
 	![Trajectory File Sample!](images/trajectory_pathfinder_sample.PNG)
 
 
