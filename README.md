@@ -141,14 +141,15 @@ Use the utility programs to create your own trajectory.  If you don't want to mo
 This LabVIEW project is identical to" Robot Sample 1" except that it uses quintic splines instead of cubic splines. The resulting trajectories are very similar.
 
 Everything else is the same as robot sample 1 
+
 ---
 ## FRC_Traj_Robot_Sample_4 Project
 
 This LabVIEW project is identical to "Robot Sample 1" except that it uses Jaci's Pathfinder to create the trajectory.  Some teams may prefer these trajectories because they rate limit acceleration in addition to rate limiting velocity.  These are called "S curve" trajectories.  These trajectories do not have any of the other constraints that are available with the FRC LabVIEW or WPILIB Trajectory libraries.
 
-Everything else is the same as robot sample 1 
-
 Pathfinder is a shared library that needs to be copied to the RoboRIO.  Nothing needs to be done on the PC.  On the roboRIO, there is a build specification to copy the library (so file) to the roboRIO.
+
+Everything else is the same as robot sample 1 
 
 ---
 ## FRC_Traj_Robot_Sample_5 Project
