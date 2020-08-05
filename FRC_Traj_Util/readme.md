@@ -13,7 +13,7 @@ of the programming language used on the robot.  The utilities are:
 	1. Defining robot properties
 	1. Defining drive system constraints
 	1. Defining the trajectory "waypoints".
-	1. Creating and reviewing the trajectory.  If changes need to be made to back to steps *a*,*b*,*c* as needed.
+	1. Creating and reviewing the trajectory.  If changes need to be made to back to steps *i*,*ii*,*iii* as needed.
 	1. Write the trajectory to a file.
 
 	**Sample screen shot**
@@ -47,6 +47,7 @@ of the programming language used on the robot.  The utilities are:
 	trapezoids.
 
 	**Sample trajectory file**
+
 	![Trajectory File Sample!](images/trajectory_pathfinder_sample.PNG)
 
 
