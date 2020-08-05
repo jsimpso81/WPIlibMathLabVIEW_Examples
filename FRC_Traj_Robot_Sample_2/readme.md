@@ -42,7 +42,7 @@ The teleop controls were assigned to an game (xbox) type controller.
 
 Bookmarks in the LabVIEW project describe some items that may need to be customed on the simulated and physical robots to maximize performance.  
 
-![Samp1Notes](images/sample2_bookmarks.PNG)
+![Samp1Notes](images/sample_2_bookmarks.PNG)
 
 The trajectory file may need to be rebuilt if contraints of the physical robot are different than the simulated robot.
 
@@ -62,11 +62,11 @@ This sample robot publishes a number of Network Table variables that can be used
 
 Drive System variables
 
-![Samp1Notes](images/sample_2_dash_drive.PNG)
+![Samp1Notes](images/sample_2_drive_dash.PNG)
 
 Trajectory variables
 
-![Samp1Notes](images/sample_2_dash_traj.PNG)
+![Samp1Notes](images/sample_2_traj_dash.PNG)
 
 ### Custom Code
 
