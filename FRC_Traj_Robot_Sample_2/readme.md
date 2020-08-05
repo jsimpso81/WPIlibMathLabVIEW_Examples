@@ -1,34 +1,86 @@
-## FRC LabVIEW Trajectory Library Robot Sample 2
+## FRC LabVIEW Trajectory Robot Sample 2 Project
 
-This is a modified sample tank/arcade drive test robot program for using the 
-FRC LabVIEW trajectory Library.
+This sample robot based on the standard LabVIEW robot project, contains both a simulated and real robot that reads and executes a trajectory.  This sample robot demonstrate the FRC LabVIEW Trajectory Library.  This library is an UNOFFICIAL port of the Java/C++ 
+WPILIB routines that don't already exist in LabVIEW.  Before using these projects, install the library.  Here is a link to the github repository for the library.  https://github.com/jsimpso81/FRC_LV_TrajLib
 
-This sample reads a trajectory file.
+The simulated robot runs on a PC.  The real robot, after modifying the code to match the robot's hardware, can be run on an FRC robot.  
 
-This robot can be run on a windows PC using the LabVIEW simulation.
+The robot code reads a trajectory file as part of the `BEGIN.VI` routine. This trajectory file was created using one of the utility programs.  The trajectory can then be executed in TELEOP by pressing the “A” button on an xbox style controller, or equivalent button on any controller.  The trajectory can be executed in reverse by pressing the "B" button.  The trajectory will stop executing as soon as the button is released.
 
-Run the trajectory by pressing the "A" button (on an xbox 360 controller), or it's
-equivalent on another controller when in teleop enabled mode.  
+This robot code does not have an autonomous routine to execute a trajectory, but you could easily add that.
 
-There are network table variables that can be watched during execution to view the
-current trajectory error and the drive system variables.  
+To run the simulated robot:
+1. Copy 'Sample-Robot-2-Trajectory-TrajLibrary.CSV` file to the `Documents\LabVIEW Data` directory before running the simulated robot.
+1. Start the FRC Driverstation and optionally start the dashboard.
+1. In the LabVIEW project under the "Computer" target, open "Robot Main.vi" and press the run arrow.
+1. A simulated field should be displayed.  Communications with the driver station should be established.
+1. Use the driver station to change the mode to "teleop enabled", then use the joystick to drive the robot.
 
-There are several custom subVI for the Trajectory.
-- TRAJECTORY_READFILE_BEGIN
-- TRAJECTORY_EXECUTE
-- TRAJECTORY_EXECUTE_REVERSE
-- TRAJECTORY_FGV
-- ROBOT_DRIVE_PARAMS
+![simulation!](images/sim_robot.PNG)
 
-Hopefully they are documented enough to figure out what they do and how they work.
+To run on a physical robot:
+1. Update BEGIN.VI and PERIODIC TASKS.VI, and others, as needed to match the hardware on your robot.
+1. Build and deploy the trajectory file to the roboRIO using the `CopyTrajectoryDataFileToRobot` build specification
+![Samp2 Build!](images/Sample2_BuildSpec.PNG)
+1. Build and deploy the robot code the same as would be done for any robot.
+1. Drive the robot...
 
-NOTE: The Trajectory library is an implementation of the FRC java/c++ trajectory/ramsete 
-code from the FRC java / c++ WPILIB.  
+The Driver Station log shows the status of the trajectory file read.  "Prints" may need to be enabled to see these messages.
 
-NOTE: Consider the trajectory library implementation to be beta code.  It hasn't been fully tested.
-It has never been tested on a real robot.  If you find errors or make fixes, please let me know.
+### Joystick control map
+
+The teleop controls were assigned to an game (xbox) type controller.
+
+![joystick!](images/xbox-360_controller.png)
+
+- **Left Stick X** -- Turn robot left and right
+- **Left Stick Y** -- Drive robot forward and backwards
+- **A** -- Execute trajectory
+- **B** -- Execute trajectory in reverse
+
+### Items that may need to be customized
+
+Bookmarks in the LabVIEW project describe some items that may need to be customed on the simulated and real robots to maximize performance.  
+
+![Samp1Notes](images/sample2_bookmarks.PNG)
+
+The trajectory file may need to be rebuilt if contraints of the physical robot are different than the simulated robot.
+
+### Using a Custom Trajectory
+
+Use the utility programs to create your own trajectory.  If you don't want to modify the BEGIN.INI to read a different file, use the same file name for your trajectory.  Copy the new trajectory to the correct directory or the PC or the robot, then execute the robot program.  Any errors reading the directory will display on the Driver Station event log.
+
+Note that the Linux operating system on the roboRIO uses case sensetive file name.
+
+### Custom Dashboard
+
+This repository contains a custom Dashboard project that contains additional tabs to help track trajectory progress.
+
+### Network Table Variables
+
+This sample robot publishes a number of Network Table variables that can be used to observe drive and trajectory progress and performance.
+
+Drive System variables
+
+![Samp1Notes](images/sample_2_dash_drive.PNG)
+
+Trajectory variables
+
+![Samp1Notes](images/sample_2_dash_traj.PNG)
+
+### Custom Code
+
+All the code customizations are compartmentalized into separate routines that are then called by the standard 
+routines in the **Team Code** project directory.
+
+These are the trajectory related custom subVI
+
+![Samp1code](images/sample_2_traj_code.PNG)
+
+These are utility custom subVI
+
+![Samp1code](images/sample_2_misc_code.PNG)
 
 
-Updated 8/1/2020 J.Simpson
-
-
+---
+File last updated: 8/4/2020
