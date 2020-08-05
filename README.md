@@ -3,7 +3,7 @@
 This repository contains several LabVIEW projects containing utilities,library sample and test programs,
 several sample robots, and a sample robot dashboard for the FRC LabVIEW Trajectory.  This library is an UNOFFICIAL port of the Java/C++ WPILIB routines that don't already exist in LabVIEW.  Before using these projects, install the library.  Here is a link to the github repository for the library.
 
-https://github.com/jsimpso81/FRC_IV_TrajLib
+(https://github.com/jsimpso81/FRC_LV_TrajLib)
 
 Each project has a more detailed readme.md file.  Here is a summary of the projects.
 
