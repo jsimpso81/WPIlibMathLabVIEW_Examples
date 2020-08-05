@@ -23,7 +23,6 @@
 			<Item Name="SWERVE_MODULE_MOTOR_CO.ctl" Type="VI" URL="../SWERVE_MODULE_MOTOR_CO.ctl"/>
 			<Item Name="SWERVE_MODULE_MOTOR_PV.ctl" Type="VI" URL="../SWERVE_MODULE_MOTOR_PV.ctl"/>
 			<Item Name="SWERVE_MODULE_OPEN.vi" Type="VI" URL="../SWERVE_MODULE_OPEN.vi"/>
-			<Item Name="SWERVE_MODULE_SIM.vi" Type="VI" URL="../SWERVE_MODULE_SIM.vi"/>
 			<Item Name="SWERVE_MODULE_SIM_CO_FGV.vi" Type="VI" URL="../SWERVE_MODULE_SIM_CO_FGV.vi"/>
 			<Item Name="SWERVE_MODULE_SIM_PV_FGV.vi" Type="VI" URL="../SWERVE_MODULE_SIM_PV_FGV.vi"/>
 			<Item Name="SWERVE_MODULE_STATES_FGV.vi" Type="VI" URL="../SWERVE_MODULE_STATES_FGV.vi"/>
@@ -824,7 +823,6 @@ DirectoryIndex index.htm
 			<Item Name="SWERVE_MODULE_MOTOR_CO.ctl" Type="VI" URL="../SWERVE_MODULE_MOTOR_CO.ctl"/>
 			<Item Name="SWERVE_MODULE_MOTOR_PV.ctl" Type="VI" URL="../SWERVE_MODULE_MOTOR_PV.ctl"/>
 			<Item Name="SWERVE_MODULE_OPEN.vi" Type="VI" URL="../SWERVE_MODULE_OPEN.vi"/>
-			<Item Name="SWERVE_MODULE_SIM.vi" Type="VI" URL="../SWERVE_MODULE_SIM.vi"/>
 			<Item Name="SWERVE_MODULE_SIM_CO_FGV.vi" Type="VI" URL="../SWERVE_MODULE_SIM_CO_FGV.vi"/>
 			<Item Name="SWERVE_MODULE_SIM_PV_FGV.vi" Type="VI" URL="../SWERVE_MODULE_SIM_PV_FGV.vi"/>
 			<Item Name="SWERVE_MODULE_STATES_FGV.vi" Type="VI" URL="../SWERVE_MODULE_STATES_FGV.vi"/>
@@ -1350,6 +1348,8 @@ DirectoryIndex index.htm
 				<Item Name="Flatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Flatten Pixmap.vi"/>
 				<Item Name="Create Mask.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Create Mask.vi"/>
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1364,7 +1364,6 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="TRAJECTORY_EXECUTE_SWERVE_REVERSE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE_SWERVE_REVERSE.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
