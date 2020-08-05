@@ -1,9 +1,9 @@
 ## FRC LabVIEW Trajectory Robot Sample 2 Project
 
-This sample robot based on the standard LabVIEW robot project, contains both a simulated and real robot that reads and executes a trajectory.  This sample robot demonstrate the FRC LabVIEW Trajectory Library.  This library is an UNOFFICIAL port of the Java/C++ 
+This sample robot based on the standard LabVIEW robot project, contains both a simulated and physical robot that reads and executes a trajectory.  This sample robot demonstrate the FRC LabVIEW Trajectory Library.  This library is an UNOFFICIAL port of the Java/C++ 
 WPILIB routines that don't already exist in LabVIEW.  Before using these projects, install the library.  Here is a link to the github repository for the library.  https://github.com/jsimpso81/FRC_LV_TrajLib
 
-The simulated robot runs on a PC.  The real robot, after modifying the code to match the robot's hardware, can be run on an FRC robot.  
+The simulated robot target code runs on a PC.  The physical robot target code, after modification to match the robot's hardware, can be run on an FRC robot.  
 
 The robot code reads a trajectory file as part of the `BEGIN.VI` routine. This trajectory file was created using one of the utility programs.  The trajectory can then be executed in TELEOP by pressing the “A” button on an xbox style controller, or equivalent button on any controller.  The trajectory can be executed in reverse by pressing the "B" button.  The trajectory will stop executing as soon as the button is released.
 
@@ -40,7 +40,7 @@ The teleop controls were assigned to an game (xbox) type controller.
 
 ### Items that may need to be customized
 
-Bookmarks in the LabVIEW project describe some items that may need to be customed on the simulated and real robots to maximize performance.  
+Bookmarks in the LabVIEW project describe some items that may need to be customed on the simulated and physical robots to maximize performance.  
 
 ![Samp1Notes](images/sample2_bookmarks.PNG)
 
