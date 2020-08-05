@@ -1,25 +1,60 @@
-This project contains utility programs for use with the FRC LabVIEW Trajectory Libraryand Jaci's Pathfinder version 1.x  THe utility programs are:
+## FRC_Traj_Util Project
 
-	-- Create Trajectory Using Trajectory Library
+This LabVIEW project contains the source and build specifications for the 4 utilties
+installed with the FRC LabVIEW Trajectory Library.  These utilities create trajectory files
+and convert trajectory files from one type to another.  They can be used regardless 
+of the programming language used on the robot.  The utilities are:
 
-	-- Convert PathWeaver JSON file to Trajectory Library CSV file.
+- **Create Trajectory Using Trajectory Library**
 
-	-- Create Trajectory Using Pathfinder (Display differential drive)
+	Create a trajectory using the trajectory library routines and write it to a CSV (comma separated value) file that can be
+	copied to a RoboRIO and read by the robot code.  The trajectory is created by:
 
-	-- Create Trajectory Using Pathfinder (Display swerve drive)
+	a. Defining robot properties
+	b. Defining drive system constraints
+	c. Defining the trajectory "waypoints".
+	d. Creating and reviewing the trajectory.  If changes need to be made to back to steps 1,2,3 as needed.
+	e. Write the trajectory to a file.
+
+	Sample screen shot
+	![Create Trajectory Field!](images/Util_create_traj.PNG)
+
+	Sample trajectory file
+	![Trajectory File Sample!](images/trajectory_sample.PNG)
+
+- **Create_Trajectory_Using_PathfinderDifferential**
+
+	Create a trajectory using Jaci Brunning's Pathfinder library for a robot using a "differential drive" and write it to a 
+	CSV (comma separated value) file that can be
+	copied to a RoboRIO and read by the robot code.
+
+	More information on Pathfinder can be found here https://github.com/JaciBrunning/Pathfinder  
+	One of the biggest differences between this Trajectory Library and Pathfinder is that Pathfinder uses S curves instead of
+	trapezoids.
+
+	Sample trajectory file
+	![Trajectory File Sample!](images/trajectory_pathfinder_sample.PNG)
 
 
-The end result of all of these utilities is the creation of a Trajectory Library CSV file.  These files can be stored on the RoboRIO and read by the robot program.  
+- **Create_Trajectory_Using_PathfinderSwerve**
 
-These programs can be compiled into x86 executables.  The executables can be run without LabVIEW installed.
+	Create a trajectory using Jaci Brunning's Pathfinder library for a robot using a "swerve drive" and write it to a 
+	CSV (comma separated value) file that can be
+	copied to a RoboRIO and read by the robot code.    
+
+	More information on Pathfinder can be found here https://github.com/JaciBrunning/Pathfinder  
+	One of the biggest differences between this Trajectory Library and Pathfinder is that Pathfinder uses S curves instead of
+	trapezoids.
 
 
-More information about pathfinder can be found here
-  https://github.com/JacisNonsense/Pathfinder
+- **Convert PathWeaver JSON File To Trajectory File**
 
-More information about the WPI trajectory library can be found here.
-  https://docs.wpilib.org/en/latest/docs/software/examples-tutorials/trajectory-tutorial/trajectory-tutorial-overview.html
+	Read a JSON file created by the PathWeaver utility.  Write this trajectory as a CSV file for use with this library.
 
 
-Consider this software BETA quality.  Please report all issues and suggestions to @JSIMPSO on Chief Delphi.  
+
+---
+File last updated: 8/4/2020
+
+
 
