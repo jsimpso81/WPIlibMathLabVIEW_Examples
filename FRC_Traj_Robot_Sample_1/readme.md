@@ -53,11 +53,11 @@ This sample robot publishes a number of Network Table variables that can be used
 
 Drive System variables
 
-![Samp1Notes](images/sample_1_drive_dash.PNG)
+![Samp1Notes](images/sample_1_dash_drive.PNG)
 
 Trajectory variables
 
-![Samp1Notes](images/sample_1_traj_dash.PNG)
+![Samp1Notes](images/sample_1_dash_traj.PNG)
 
 ### Custom Code
 
