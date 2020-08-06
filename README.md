@@ -236,7 +236,4 @@ the exercies in the book.
 
 
 ---
-File last updated: 8/4/2020
-
-
-
+File last updated: 8/5/2020
