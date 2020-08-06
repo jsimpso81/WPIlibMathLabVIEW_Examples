@@ -9,7 +9,7 @@ https://github.com/jsimpso81/FRC_LV_TrajLib
 
 To install this repository can be cloned using GIT or one of its GUIs, or download the zipped copy of this repository and unzip in an empty directory.
 
-Saved snapshots of this library that correspond with releases of the Trajectory Library are kept here https://github.com/jsimpso81/FRC_LV_TrajLib_Util_and_Samp/releases
+Saved snapshots of this library that correspond with releases of the Trajectory Library are kept here https://github.com/jsimpso81/FRC_LV_TrajLib_Util_and_Samp/releases/latest
 
 ## Project Summaries
 
