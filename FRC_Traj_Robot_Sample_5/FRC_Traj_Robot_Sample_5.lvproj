@@ -1404,7 +1404,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/Target/Dependencies/vi.lib/Pathfinder.lvlib/Libs/libpathfinder.so</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
