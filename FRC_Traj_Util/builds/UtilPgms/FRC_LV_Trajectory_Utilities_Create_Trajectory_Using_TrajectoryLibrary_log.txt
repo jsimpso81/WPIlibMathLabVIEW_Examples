@@ -1,4 +1,4 @@
-8/17/2020 12:04:44 PM
+8/17/2020 9:57:21 PM
 [General]
 Project: C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\FRC_TrajLib_Util.lvproj
 Target: My Computer
@@ -6,7 +6,7 @@ Build Specification: Create_Trajectory_Using_TrajectoryLibrary
 OS: Windows NT 10.0
 
 [Open Top Level VIs]
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Using_TrajectoryLibrary.vi	8/17/2020 12:00:53 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Using_TrajectoryLibrary.vi	8/17/2020 8:37:56 PM
 
 
 [Source Files]
@@ -14,7 +14,7 @@ C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\Thir
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\Matrix\NI_Matrix.lvlib	3/17/2019 1:33:52 PM	1.0.0.0
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\NI_AALPro.lvlib	3/17/2019 1:33:32 PM	14.0.0.0
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\NI_AALBase.lvlib	3/17/2019 12:06:36 PM	14.0.0.0
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\LICENSE.txt	3/16/2020 3:12:30 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\LICENSE.txt	8/1/2020 11:31:38 AM
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Sample-Robot-2-Trajectory-TrajLibrary.csv	3/26/2020 10:07:05 PM
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\_oldvers\_oldvers.llb\compatCalcOffset.vi	3/17/2019 12:29:26 PM	11
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\_oldvers\_oldvers.llb\compatOpenFileOperation.vi	3/17/2019 12:29:26 PM	92
@@ -203,16 +203,16 @@ C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\Thir
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\TrajectoryConfig_setReversed.vi	8/6/2020 2:18:29 AM	33
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\TrajectoryConfig_Create.vi	8/6/2020 2:18:29 AM	28
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\TrajCreateConfig.ctl	8/17/2020 8:48:55 AM	1
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Using_TrajectoryLibrary.vi	8/17/2020 12:00:53 PM	405
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Using_TrajectoryLibrary.vi	8/17/2020 8:37:56 PM	406
 
 [Output File Version]
-Create_Trajectory_Using_TrajectoryLibrary.exe	1.0.3.15
+Create_Trajectory_Using_TrajectoryLibrary.exe	1.0.3.16
 
 [Output Files]
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.exe	8/17/2020 12:05:05 PM
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.aliases	8/17/2020 12:05:04 PM
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.ini	8/17/2020 12:05:04 PM
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\LICENSE.txt	3/16/2020 3:12:30 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.exe	8/17/2020 9:57:43 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.aliases	8/17/2020 9:57:42 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.ini	8/17/2020 9:57:42 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\LICENSE.txt	8/1/2020 11:31:38 AM
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Samples\Sample-Robot-2-Trajectory-TrajLibrary.csv	3/26/2020 10:07:05 PM
 
-8/17/2020 12:05:05 PM
+8/17/2020 9:57:43 PM
