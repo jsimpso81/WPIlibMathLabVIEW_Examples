@@ -38,6 +38,8 @@ The teleop controls were assigned to an game (xbox) type controller.
 - **Left Stick Y** -- Drive robot forward and backwards
 - **A** -- Execute trajectory
 - **B** -- Execute trajectory in reverse
+- **Start** -- Enable ramsete closed loop trajectory control
+- **Back** -- Disable ramsete. Execute trajectory open loop.
 
 ### Items that may need to be customized
 
