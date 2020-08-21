@@ -55,6 +55,7 @@
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
 		<Item Name="Sample-Robot-2-Trajectory-Pathfinder.csv" Type="Document" URL="../Sample-Robot-2-Trajectory-Pathfinder.csv"/>
 		<Item Name="Sample-Robot-2-Trajectory-TrajLibrary.csv" Type="Document" URL="../Sample-Robot-2-Trajectory-TrajLibrary.csv"/>
+		<Item Name="Sample-Robot-2-Trajectory-TrajLibrary.xml" Type="Document" URL="../Sample-Robot-2-Trajectory-TrajLibrary.xml"/>
 		<Item Name="Secret_Control_Library_Protected.lvlib" Type="Library" URL="../../Secret_Control_Library_Protected/Secret_Control_Library_Protected.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -818,6 +819,7 @@ DirectoryIndex index.htm
 		<Item Name="Sample-Robot-2-Trajectory-Pathfinder.csv" Type="Document" URL="../Sample-Robot-2-Trajectory-Pathfinder.csv"/>
 		<Item Name="Sample-Robot-2-Trajectory-TrajLibrary.csv" Type="Document" URL="../Sample-Robot-2-Trajectory-TrajLibrary.csv"/>
 		<Item Name="readme.md" Type="Document" URL="../../FRC_LV_Trajectory_Dashboard/readme.md"/>
+		<Item Name="Sample-Robot-2-Trajectory-TrajLibrary.xml" Type="Document" URL="../Sample-Robot-2-Trajectory-TrajLibrary.xml"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="WPI_JoystickRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Get.vi"/>

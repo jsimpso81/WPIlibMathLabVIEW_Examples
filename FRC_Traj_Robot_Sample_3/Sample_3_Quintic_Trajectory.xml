@@ -6,11 +6,11 @@
 <NumElts>5</NumElts>
 <Path>
 <Name>Write Config File Name</Name>
-<Val>C:\Users\Jim\Desktop\trajectory\Sample-Robot-2-Trajectory-TrajLibrary.xml</Val>
+<Val>C:\Users\Jim\Desktop\Sample_3_Quintic_Trajectory.xml</Val>
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
-<Val>Sample 2 - Trajectory using TrajectoryLibrary</Val>
+<Val>Sample3 - Quintic Trajectory</Val>
 </String>
 <Array>
 <Name>WayPoints</Name>
@@ -56,7 +56,7 @@
 </DBL>
 <DBL>
 <Name>Y</Name>
-<Val>2.69240000000000</Val>
+<Val>2.66700000000000</Val>
 </DBL>
 <DBL>
 <Name>ANGLE</Name>
@@ -69,11 +69,11 @@
 <NumElts>15</NumElts>
 <DBL>
 <Name>MaxVelocity</Name>
-<Val>1.27000000000000</Val>
+<Val>1.11760000000000</Val>
 </DBL>
 <DBL>
 <Name>Max Acceleration</Name>
-<Val>1.01600000000000</Val>
+<Val>0.76200000000000</Val>
 </DBL>
 <DBL>
 <Name>StartVelocity</Name>
@@ -104,7 +104,7 @@
 <NumElts>2</NumElts>
 <DBL>
 <Name>Max Speed (M/S)</Name>
-<Val>1.27000000000000</Val>
+<Val>1.11760000000000</Val>
 </DBL>
 <Cluster>
 <Name>DIFF_DRIVE_KINEMATICS</Name>
@@ -120,7 +120,7 @@
 <NumElts>1</NumElts>
 <DBL>
 <Name>Max Cent Accel</Name>
-<Val>0.50800000000000</Val>
+<Val>0.38100000000000</Val>
 </DBL>
 </Cluster>
 <Boolean>
@@ -438,7 +438,7 @@
 </Cluster>
 <Boolean>
 <Name>IsCubic</Name>
-<Val>1</Val>
+<Val>0</Val>
 </Boolean>
 </Cluster>
 </LVData>

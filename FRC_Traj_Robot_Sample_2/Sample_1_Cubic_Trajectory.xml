@@ -6,11 +6,11 @@
 <NumElts>5</NumElts>
 <Path>
 <Name>Write Config File Name</Name>
-<Val>C:\Users\Jim\Desktop\trajectory\Sample-Robot-2-Trajectory-TrajLibrary.xml</Val>
+<Val>C:\Users\Jim\Desktop\Sample_1_Cubic_Trajectory.xml</Val>
 </Path>
 <String>
 <Name>Write Config File Comment</Name>
-<Val>Sample 2 - Trajectory using TrajectoryLibrary</Val>
+<Val>Sample1 - Cubic Trajectory</Val>
 </String>
 <Array>
 <Name>WayPoints</Name>
@@ -69,11 +69,11 @@
 <NumElts>15</NumElts>
 <DBL>
 <Name>MaxVelocity</Name>
-<Val>1.27000000000000</Val>
+<Val>1.11760000000000</Val>
 </DBL>
 <DBL>
 <Name>Max Acceleration</Name>
-<Val>1.01600000000000</Val>
+<Val>0.88900000000000</Val>
 </DBL>
 <DBL>
 <Name>StartVelocity</Name>
@@ -104,7 +104,7 @@
 <NumElts>2</NumElts>
 <DBL>
 <Name>Max Speed (M/S)</Name>
-<Val>1.27000000000000</Val>
+<Val>1.11760000000000</Val>
 </DBL>
 <Cluster>
 <Name>DIFF_DRIVE_KINEMATICS</Name>
@@ -120,7 +120,7 @@
 <NumElts>1</NumElts>
 <DBL>
 <Name>Max Cent Accel</Name>
-<Val>0.50800000000000</Val>
+<Val>0.17780000000000</Val>
 </DBL>
 </Cluster>
 <Boolean>
