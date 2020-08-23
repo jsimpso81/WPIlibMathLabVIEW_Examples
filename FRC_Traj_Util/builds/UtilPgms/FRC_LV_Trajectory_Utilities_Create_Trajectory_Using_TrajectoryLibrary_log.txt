@@ -1,4 +1,4 @@
-8/17/2020 9:57:21 PM
+8/22/2020 3:00:00 PM
 [General]
 Project: C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\FRC_TrajLib_Util.lvproj
 Target: My Computer
@@ -6,7 +6,7 @@ Build Specification: Create_Trajectory_Using_TrajectoryLibrary
 OS: Windows NT 10.0
 
 [Open Top Level VIs]
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Using_TrajectoryLibrary.vi	8/17/2020 8:37:56 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Using_TrajectoryLibrary.vi	8/22/2020 2:59:45 PM
 
 
 [Source Files]
@@ -16,6 +16,12 @@ C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\NI_AALPro.lvl
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\NI_AALBase.lvlib	3/17/2019 12:06:36 PM	14.0.0.0
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\LICENSE.txt	8/1/2020 11:31:38 AM
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Sample-Robot-2-Trajectory-TrajLibrary.csv	3/26/2020 10:07:05 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\TrajCreateUnitsENUM.ctl	8/21/2020 11:49:31 PM	1
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\SIMPLE_MOTOR_FF.ctl	8/6/2020 2:18:15 AM	15
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\SimpleMotorFF_New.vi	8/6/2020 2:18:26 AM	47
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Conv_Inches_Meters.vi	8/6/2020 2:18:16 AM	8
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Conv_Feet_Meters.vi	8/6/2020 2:18:16 AM	8
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Units_To_Meters.vi	8/22/2020 12:06:25 AM	2
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\_oldvers\_oldvers.llb\compatCalcOffset.vi	3/17/2019 12:29:26 PM	11
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\_oldvers\_oldvers.llb\compatOpenFileOperation.vi	3/17/2019 12:29:26 PM	92
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\_oldvers\_oldvers.llb\compatFileDialog.vi	3/17/2019 12:29:26 PM	14
@@ -32,7 +38,6 @@ C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\Thir
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\Matrix\Datatypes\RealMatrix.ctl	3/17/2019 1:33:54 PM	21
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\MECA_DRIVE_KINEMATICS.ctl	8/6/2020 2:18:15 AM	23
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\TRAJ_CONSTRAINT_MECA_DRIVE_KINEMATICS.ctl	8/6/2020 2:18:15 AM	16
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\SIMPLE_MOTOR_FF.ctl	8/6/2020 2:18:15 AM	15
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\DIFF_DRIVE_KINEMATICS.ctl	8/6/2020 2:18:15 AM	15
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\TRAJ_CONSTRAINT_DIIF_DRIVE_VOLTAGE.ctl	8/6/2020 2:18:15 AM	17
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\SWERVE_DRIVE_KINEMATICS.ctl	8/6/2020 2:18:15 AM	16
@@ -186,9 +191,6 @@ C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\xml.llb\FindEm
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\xml.llb\FindFirstTag.vi	3/17/2019 12:29:27 PM	23
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\xml.llb\ParseXMLFragments.vi	3/17/2019 12:29:27 PM	116
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\xml.llb\Read From XML File(string).vi	3/17/2019 12:29:27 PM	144
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Conv_Deg_Radians.vi	8/6/2020 2:18:16 AM	10
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Conv_Inches_Meters.vi	8/6/2020 2:18:16 AM	8
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Util_Waypoint_Eng_To_SI.vi	8/6/2020 2:18:20 AM	12
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\MecaDriveKinematicsConstraint_New.vi	8/6/2020 2:18:29 AM	75
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\SwerveDriveKinematicsConstraint_New.vi	8/6/2020 2:18:29 AM	72
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\DiffDriveVoltageConstraint_New.vi	8/6/2020 2:18:29 AM	72
@@ -202,17 +204,21 @@ C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\Thir
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\DiffKinematics_New.vi	8/6/2020 2:18:25 AM	23
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\TrajectoryConfig_setReversed.vi	8/6/2020 2:18:29 AM	33
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\TrajectoryConfig_Create.vi	8/6/2020 2:18:29 AM	28
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Conv_Deg_Radians.vi	8/6/2020 2:18:16 AM	10
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Translation_GetXY.vi	8/6/2020 2:18:26 AM	24
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\TrajCreateConfig.ctl	8/17/2020 8:48:55 AM	1
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Using_TrajectoryLibrary.vi	8/17/2020 8:37:56 PM	406
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Conv_Meters_Feet.vi	8/6/2020 2:18:16 AM	9
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Meters_To_Units.vi	8/22/2020 2:22:18 PM	4
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Using_TrajectoryLibrary.vi	8/22/2020 2:59:45 PM	417
 
 [Output File Version]
-Create_Trajectory_Using_TrajectoryLibrary.exe	1.0.3.16
+Create_Trajectory_Using_TrajectoryLibrary.exe	1.0.3.17
 
 [Output Files]
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.exe	8/17/2020 9:57:43 PM
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.aliases	8/17/2020 9:57:42 PM
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.ini	8/17/2020 9:57:42 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.exe	8/22/2020 3:00:36 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.aliases	8/22/2020 3:00:35 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.ini	8/22/2020 3:00:35 PM
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\LICENSE.txt	8/1/2020 11:31:38 AM
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Samples\Sample-Robot-2-Trajectory-TrajLibrary.csv	3/26/2020 10:07:05 PM
 
-8/17/2020 9:57:43 PM
+8/22/2020 3:00:36 PM

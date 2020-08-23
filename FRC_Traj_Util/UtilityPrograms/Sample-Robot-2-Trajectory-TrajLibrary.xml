@@ -3,7 +3,7 @@
 <Version>19.0</Version>
 <Cluster>
 <Name></Name>
-<NumElts>5</NumElts>
+<NumElts>6</NumElts>
 <Path>
 <Name>Write Config File Name</Name>
 <Val>C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Sample-Robot-2-Trajectory-TrajLibrary.xml</Val>
@@ -213,11 +213,11 @@
 </DBL>
 <DBL>
 <Name>Kv</Name>
-<Val>6.66000000000000</Val>
+<Val>0.16929133858268</Val>
 </DBL>
 <DBL>
 <Name>Ka</Name>
-<Val>3.00000000000000</Val>
+<Val>7.67716535433071E-2</Val>
 </DBL>
 </Cluster>
 </Cluster>
@@ -440,5 +440,13 @@
 <Name>IsCubic</Name>
 <Val>1</Val>
 </Boolean>
+<EW>
+<Name>Units Selector</Name>
+<Choice>Inches</Choice>
+<Choice>Feet</Choice>
+<Choice>Centimeters</Choice>
+<Choice>Meters</Choice>
+<Val>0</Val>
+</EW>
 </Cluster>
 </LVData>
