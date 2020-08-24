@@ -28,6 +28,7 @@
 #========Trajectory Creation 
 #--------Spline type:            Cubic
 #--------Trajectory orientation: Absolute
+#--------Use Waypoint Weights:   No
 #----------------------------------------------------------------------------------------------
 #-- Time,       Velocity,   Accel,      X pos,      Y pos,      Heading, Curvature, Comment
 #-- Seconds,    m/s,        m/s^2,      m,          m,          radians,    radians/meter,
