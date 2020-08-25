@@ -2,8 +2,8 @@
 <LVData xmlns="http://www.ni.com/LVData">
 <Version>19.0</Version>
 <Cluster>
-<Name></Name>
-<NumElts>5</NumElts>
+<Name>TrajCreateConfig</Name>
+<NumElts>7</NumElts>
 <Path>
 <Name>Write Config File Name</Name>
 <Val>C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\Test-00-way.xml</Val>
@@ -16,8 +16,8 @@
 <Name>WayPoints</Name>
 <Dimsize>2</Dimsize>
 <Cluster>
-<Name>UTIL_WAYPOINT</Name>
-<NumElts>3</NumElts>
+<Name>UTIL_WEIGHTED_WAYPOINT</Name>
+<NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
 <Val>1.99999600000000</Val>
@@ -30,10 +30,14 @@
 <Name>ANGLE</Name>
 <Val>0.00000000000000</Val>
 </DBL>
+<DBL>
+<Name>WEIGHT</Name>
+<Val>0.00000000000000</Val>
+</DBL>
 </Cluster>
 <Cluster>
-<Name>UTIL_WAYPOINT</Name>
-<NumElts>3</NumElts>
+<Name>UTIL_WEIGHTED_WAYPOINT</Name>
+<NumElts>4</NumElts>
 <DBL>
 <Name>X</Name>
 <Val>4.00000000100000</Val>
@@ -46,10 +50,14 @@
 <Name>ANGLE</Name>
 <Val>1.57079632679490</Val>
 </DBL>
+<DBL>
+<Name>WEIGHT</Name>
+<Val>0.00000000000000</Val>
+</DBL>
 </Cluster>
 </Array>
 <Cluster>
-<Name>outTRAJECTORY_CONFIG</Name>
+<Name>TRAJECTORY_CONFIG</Name>
 <NumElts>15</NumElts>
 <DBL>
 <Name>MaxVelocity</Name>
@@ -423,6 +431,18 @@
 <Boolean>
 <Name>IsCubic</Name>
 <Val>1</Val>
+</Boolean>
+<EW>
+<Name>Units Selector</Name>
+<Choice>Inches</Choice>
+<Choice>Feet</Choice>
+<Choice>Centimeters</Choice>
+<Choice>Meters</Choice>
+<Val>0</Val>
+</EW>
+<Boolean>
+<Name>UseWeights</Name>
+<Val>0</Val>
 </Boolean>
 </Cluster>
 </LVData>
