@@ -48,6 +48,8 @@
 				<Item Name="Read From XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Trajectory_Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Trajectory_Library.lvlib"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="WPI_UtilitiesFRC SendMessageToConsole.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC SendMessageToConsole.vi"/>
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
@@ -71,7 +73,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{138188AF-1F8C-424F-8B5A-7D9CB1230D1E}</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">Convert_PathWeaver_JSON_To_Trajectory_File.exe</Property>
@@ -114,6 +116,67 @@
 				<Property Name="TgtF_targetfileName" Type="Str">Convert_PathWeaver_JSON_To_Trajectory_File.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Convert Trajectory CSV File to PathWeaver JSON File" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{7BBAC496-0A2E-4414-B717-89B7D55D088E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{E260C4C0-2618-4D9B-8374-D3A54C3DB44D}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{D441143F-6811-409C-A5F5-60F53890F5F6}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Convert Trajectory CSV File to PathWeaver JSON File</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../bin</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{55737952-589B-4137-845C-FAF41B20F6C3}</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">3</Property>
+				<Property Name="Destination[0].destName" Type="Str">Convert_Trajectory_CSV_To_PathWeaver_JSON_File.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../bin/Convert Trajectory CSV File to PathWeaver JSON File.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../bin/data</Property>
+				<Property Name="Destination[2].destName" Type="Str">EXE Directory</Property>
+				<Property Name="Destination[2].path" Type="Path">../bin</Property>
+				<Property Name="Destination[3].destName" Type="Str">Samples</Property>
+				<Property Name="Destination[3].path" Type="Path">../bin/Samples</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UtilityPrograms/Convert_TrajectoryCSVFile_To_PathWeaverJSONFile.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{332BF872-16A5-466C-8A4C-C52BCE298204}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_PathfinderDifferential.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/UtilityPrograms/Convert_PathWeaverJSON_To_TrajectoryFile.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LICENSE.txt</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/UtilityPrograms/PathWeaverTestPathOne.wpilib.json</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/UtilityPrograms/Sample-JSON-to-Trajectory-Conversion.csv</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/UtilityPrograms/Convert_TrajectoryFile_To_PathWeaverJSON.vi</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="TgtF_companyName" Type="Str">FRC Team Frobotics 4150</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Convert Trajectory CSV File to PathWeaver JSON File</Property>
+				<Property Name="TgtF_internalName" Type="Str">Convert Trajectory CSV File to PathWeaver JSON File</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 James A. Simpson</Property>
+				<Property Name="TgtF_productName" Type="Str">Convert Trajectory CSV File to PathWeaver JSON File</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{81A10EA1-E0E9-44E8-A7B7-1910068B7729}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Convert_Trajectory_CSV_To_PathWeaver_JSON_File.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Create_Trajectory_Using_Pathfinder_Differential" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{0ADB9A6A-8211-45A1-85D2-A7BF5ED5A068}</Property>
@@ -131,7 +194,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0891982F-6A4F-44AF-99CF-525B24677004}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">Create_Trajectory_Using_Pathfinder_Differential.exe</Property>
@@ -189,7 +252,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5AA0748A-2CA0-4C77-8742-DF0A511406A0}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">Create_Trajectory_Using_Pathfinder_Swerve.exe</Property>
@@ -247,7 +310,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{CC9A0E3F-FA0F-4328-9FD4-0BFF72BF1DF6}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/UtilPgms/FRC_LV_Trajectory_Utilities_Create_Trajectory_Using_TrajectoryLibrary_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">28</Property>
+				<Property Name="Bld_version.build" Type="Int">30</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">Create_Trajectory_Using_TrajectoryLibrary.exe</Property>

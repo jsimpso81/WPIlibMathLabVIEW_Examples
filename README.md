@@ -25,8 +25,8 @@ of the programming language used on the robot.  The utilities are:
 
 - **Create Trajectory Using Trajectory Library**
 
-	Create a trajectory using the trajectory library routines and write it to a CSV (comma separated value) file that can be
-	copied to a RoboRIO and read by the robot code.  The trajectory is created by:
+	Create a trajectory using the trajectory library routines and write it to a CSV (comma separated value) file and/or
+	a JSON file that can be copied to a RoboRIO and read by the robot code.  The trajectory is created by:
 
 	1. Defining robot properties
 	1. Defining drive system constraints
@@ -71,6 +71,11 @@ of the programming language used on the robot.  The utilities are:
 - **Convert PathWeaver JSON File To Trajectory File**
 
 	Read a JSON file created by the PathWeaver utility.  Write this trajectory as a CSV file for use with this library.
+
+
+- **Convert Trajectory CSV file to PathWeaver JSON file**
+
+	Read a Trajectory CSV file created by the Create Trajectory utility.  Write this trajectory as a JSON file for use by Java/C++ WPILIB programs.
 
 
 ---
@@ -238,4 +243,4 @@ the exercies in the book.
 
 
 ---
-File last updated: 8/18/2020
+File last updated: 1/19/2021
