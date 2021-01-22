@@ -9,7 +9,8 @@
 
 </Property>
 	<Item Name="Gyro_Continuous.vi" Type="VI" URL="../Gyro_Continuous.vi"/>
+	<Item Name="Gyro_Continuous_RAD.vi" Type="VI" URL="../Gyro_Continuous_RAD.vi"/>
 	<Item Name="JOY_NORM.vi" Type="VI" URL="../JOY_NORM.vi"/>
 	<Item Name="Position_Control.vi" Type="VI" URL="../Position_Control.vi"/>
 </Library>
-<?sig E90CCBA793260178BC11D2EE1AFB5CB3?>
+<?sig 73423DBDDD2B209EEE44D89437CF9DC1?>
