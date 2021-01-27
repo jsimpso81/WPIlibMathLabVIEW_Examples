@@ -48,6 +48,8 @@ The teleop controls were assigned to an game (xbox) type controller.
 - **B** -- Execute trajectory (robot orientation points in direction of travel)
 - **X** -- Execute trajectory in reverse (robot orientation stays the same)
 - **Y** -- Execute trajectory in reverse (robot orientation points in direction of travel)
+- **Start** -- Enable closed loop trajectory control (default)
+- **Back** -- Disable closed loop trajectory control.
 
 **NOTE:** The **X** and **Y** functions are still a work in progress.
 
