@@ -211,9 +211,6 @@ The teleop controls were assigned to an game (xbox) type controller.
 - **Start** -- Enable closed loop trajectory control (default)
 - **Back** -- Disable closed loop trajectory control.
 
-
-**NOTE:** The **X** and **Y** functions are still a work in progress.
-
 When not executing a trajectory, combinations of the other controls can be used to drive the robot.  
 For example, **Left Stick Y** and **Right Trigger** pressed at the same time will cause the robot to travel in a circle. 
 

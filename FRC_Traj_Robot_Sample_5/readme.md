@@ -1,3 +1,4 @@
+X
 ## FRC LabVIEW Trajectory Robot Sample 5 Project
 
 This sample robot based on the standard LabVIEW robot project, contains both a simulated and physical robot that reads and executes a trajectory using a simple **swerve** robot.  (No swerve drive is really simple...)  This sample robot demonstrate the FRC LabVIEW Trajectory Library.  This library is an UNOFFICIAL port of the Java/C++ 
@@ -50,8 +51,6 @@ The teleop controls were assigned to an game (xbox) type controller.
 - **Y** -- Execute trajectory in reverse (robot orientation points in direction of travel)
 - **Start** -- Enable closed loop trajectory control (default)
 - **Back** -- Disable closed loop trajectory control.
-
-**NOTE:** The **X** and **Y** functions are still a work in progress.
 
 When not executing a trajectory, combinations of the other controls can be used to drive the robot.  
 For example, **Left Stick Y** and **Right Trigger** pressed at the same time will cause the robot to travel in a circle. 
