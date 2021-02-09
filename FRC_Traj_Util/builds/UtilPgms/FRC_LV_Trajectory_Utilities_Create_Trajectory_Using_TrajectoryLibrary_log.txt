@@ -1,4 +1,4 @@
-1/31/2021 1:33:53 PM
+2/8/2021 6:57:47 PM
 [General]
 Project: C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\FRC_TrajLib_Util.lvproj
 Target: My Computer
@@ -6,16 +6,29 @@ Build Specification: Create_Trajectory_Using_TrajectoryLibrary
 OS: Windows NT 10.0
 
 [Open Top Level VIs]
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Using_TrajectoryLibrary.vi	1/25/2021 3:53:53 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Using_TrajectoryLibrary.vi	2/8/2021 6:14:46 PM
 
 
 [Source Files]
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Trajectory_Library.lvlib	1/31/2021 1:03:25 PM	1.0.0.0
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\Matrix\NI_Matrix.lvlib	3/17/2019 1:33:52 PM	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\NI_LVConfig.lvlib	3/17/2019 3:01:04 PM	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\lvfile.llb\NI_FileType.lvlib	3/17/2019 3:00:50 PM	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\LVLibp\NI_PackedLibraryUtility.lvlib	3/17/2019 3:00:22 PM	1.0.0.0
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\vision\NI_Vision_Development_Module.lvlib	1/13/2020 2:35:58 PM	19.0.0.0
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\NI_AALPro.lvlib	3/17/2019 1:33:32 PM	14.0.0.0
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\NI_AALBase.lvlib	3/17/2019 12:06:36 PM	14.0.0.0
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\LICENSE.txt	8/1/2020 11:31:38 AM
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Sample-Robot-2-Trajectory-TrajLibrary.csv	3/26/2020 10:07:05 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Fields\2018-field.jpg	2/7/2021 7:57:22 AM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Fields\2019-field.jpg	2/7/2021 7:57:22 AM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Fields\2020-Field.png	2/7/2021 7:57:22 AM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Fields\2021-barrel.png	2/7/2021 7:57:22 AM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Fields\2021-bounce.png	2/7/2021 7:57:22 AM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Fields\2021-galacticsearcha.png	2/7/2021 7:57:22 AM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Fields\2021-galacticsearchb.png	2/7/2021 7:57:22 AM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Fields\2021-slalom.png	2/7/2021 7:57:22 AM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Samples\Sample-Robot-2-Trajectory-TrajLibrary.xml	8/22/2020 5:31:07 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Fields\field_info.ini	2/7/2021 10:31:03 PM
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\UTIL_WEIGHTED_WAYPOINT.ctl	1/31/2021 1:03:27 PM	12
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\TrajCreateUnitsENUM.ctl	8/23/2020 3:02:13 PM	2
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\ROTATION2D.ctl	1/31/2021 1:03:25 PM	18
@@ -23,6 +36,74 @@ C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\Thir
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\POSE2D.ctl	1/31/2021 1:03:25 PM	16
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\TRAJ_STATE.ctl	1/31/2021 1:03:26 PM	17
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\SIMPLE_MOTOR_FF.ctl	1/31/2021 1:03:26 PM	15
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\vision\Image Controls.llb\IMAQ Image.ctl	3/22/2019 7:30:49 PM	18
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\vision\Management.llb\IMAQ ImageToImage 2	3/22/2019 7:35:56 PM	44
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\vision\Image Manipulation.llb\IMAQ Resample	3/22/2019 7:35:55 PM	73
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\colorconv.llb\Color to RGB.vi	3/17/2019 12:29:13 PM	39
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\vision\Image Controls.llb\Color (U64)	3/22/2019 7:30:49 PM	7
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\vision\Pixel Manipulation.llb\IMAQ FillImage	3/22/2019 7:36:02 PM	61
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\vision\Basics.llb\IMAQ SetImageSize	3/22/2019 7:34:04 PM	43
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\vision\Image Manipulation.llb\IMAQ Extract	3/22/2019 7:35:55 PM	36
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\TrajectoryUtils_Field_Info.ctl	2/8/2021 3:27:48 PM	4
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Field_Crop_and_Scale.vi	2/8/2021 6:13:27 PM	2
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\vision\Image Controls.llb\Image Type	3/22/2019 7:30:49 PM	14
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\vision\Basics.llb\IMAQ Create	3/22/2019 7:34:03 PM	80
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\8.6CompatibleGlobalVar.vi	3/17/2019 12:28:52 PM	2
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Section.ctl	3/17/2019 12:28:52 PM	10
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Config Data.ctl	3/17/2019 12:28:52 PM	10
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Config Queue.ctl	3/17/2019 12:28:52 PM	12
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Config to String.vi	3/17/2019 12:28:52 PM	140
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Save Config File.vi	1/6/2021 7:27:50 AM	58
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\LVLibp\Get Exported File List.vi	3/17/2019 12:38:00 PM	30
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi	3/17/2019 12:37:21 PM	99
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\lvfile.llb\LVFileType.ctl	3/17/2019 12:28:52 PM	18
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\lvfile.llb\FT_FileTypes.ctl	3/17/2019 12:28:51 PM	10
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\lvfile.llb\Get File Type.vi	3/17/2019 12:28:51 PM	102
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\libraryn.llb\Check if File or Folder Exists.vi	3/17/2019 12:37:44 PM	19
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Get File Path.vi	3/17/2019 12:28:52 PM	62
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Config Data RefNum.ctl	3/17/2019 12:28:54 PM	27
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Typecast Refnum to Queue.vi	3/17/2019 12:28:52 PM	18
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Clear Errors.vi	3/17/2019 12:37:23 PM	24
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Close Config Data.vi	3/17/2019 12:28:52 PM	87
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Remove Quotes.vi	3/17/2019 12:28:52 PM	19
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\whitespace.ctl	3/17/2019 12:06:33 PM	15
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Trim Whitespace.vi	3/17/2019 12:06:35 PM	33
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Get Key.vi	3/17/2019 12:28:52 PM	110
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Get Section.vi	3/17/2019 12:28:52 PM	22
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Read Value Without Comment.vi	3/17/2019 12:28:54 PM	92
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Read Key (Double).vi	3/17/2019 12:28:52 PM	60
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Read Key (I32).vi	3/17/2019 12:28:52 PM	58
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Unescape String.vi	3/17/2019 12:28:52 PM	92
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Read Key (String).vi	3/17/2019 12:28:52 PM	92
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Typecast Queue to Refnum.vi	3/17/2019 12:28:52 PM	21
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\New Config to Queue.vi	3/17/2019 12:28:52 PM	18
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Parse Key Value Pair.vi	3/17/2019 12:28:52 PM	27
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\String to Config.vi	3/17/2019 12:28:52 PM	237
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Parse Config to Queue.vi	3/17/2019 12:28:54 PM	25
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Load.vi	3/17/2019 12:28:52 PM	144
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Open Config Data.vi	3/17/2019 12:28:54 PM	65
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\lvfile.llb\Is File an LLB.vi	3/17/2019 12:28:53 PM	74
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\file.llb\Application Directory.vi	3/17/2019 12:28:51 PM	19
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Open_Field_Info_File.vi	2/8/2021 6:14:05 PM	1
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Get_Field_Info.vi	2/8/2021 6:14:09 PM	3
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\vision\Files.llb\IMAQ ReadFile	3/22/2019 7:34:19 PM	85
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\picture\bmp.llb\Flip and Pad for Picture Control.vi	3/17/2019 12:29:14 PM	16
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\picture\bmp.llb\Calc Long Word Padded Width.vi	3/17/2019 12:29:19 PM	3
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\picture\bmp.llb\Read BMP Header Info.vi	3/17/2019 12:29:02 PM	12
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\picture\bmp.llb\Read BMP File Data.vi	3/17/2019 12:29:09 PM	12
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\picture\picture.llb\imagedata.ctl	3/17/2019 12:29:09 PM	5
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\picture\bmp.llb\Read BMP File.vi	3/17/2019 12:29:09 PM	62
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\picture\jpeg.llb\Directory of Top Level VI.vi	3/17/2019 12:29:16 PM	8
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\picture\jpeg.llb\Check Path.vi	3/17/2019 12:29:13 PM	15
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\picture\jpeg.llb\Read JPEG File.vi	3/17/2019 12:48:28 PM	120
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\picture\pictutil.llb\Bit-array To Byte-array.vi	3/17/2019 12:29:17 PM	2
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\picture\picture.llb\Create Mask By Alpha.vi	3/17/2019 12:29:18 PM	8
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\picture\png.llb\Read PNG File.vi	3/17/2019 12:29:17 PM	100
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\libraryn.llb\Get File Extension.vi	3/17/2019 12:37:44 PM	20
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Read_Image_File.vi	2/8/2021 6:15:01 PM	4
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Read_Field_Pic.vi	2/8/2021 6:15:04 PM	2
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Get Section Names.vi	3/17/2019 2:23:36 PM	39
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Read_Field_List.vi	2/8/2021 6:14:26 PM	3
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\SystemInterfaces\NetworkCommunication\NetComm_SendMessage.vi	1/6/2021 7:34:18 AM	9
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\Utilities\WPI_UtilitiesFRC SendMessageToConsole.vi	1/6/2021 7:34:18 AM	18
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\SystemInterfaces\NetworkCommunication\NetComm_SendError.vi	1/6/2021 7:34:30 AM	8
@@ -53,7 +134,6 @@ C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\Thir
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\SplineHelp_GetCubicCtrlVectorsFromWayPts.vi	1/31/2021 1:03:42 PM	39
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Pose_New_TRRO.vi	1/31/2021 1:03:27 PM	30
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\SplineHelp_GetCubicCtrlVectorsFromWeightedWayPts.vi	1/31/2021 1:03:42 PM	43
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi	3/17/2019 12:37:21 PM	99
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\POSEwCURVATURE.ctl	1/31/2021 1:03:25 PM	18
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\CONSTRAINED_STATE.ctl	1/31/2021 1:03:25 PM	19
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\ConstrainedState_SetMinAccel.vi	1/31/2021 1:03:43 PM	66
@@ -217,16 +297,25 @@ C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\Thir
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\TrajectoryConfig_setCentripetalAccel.vi	1/31/2021 1:03:43 PM	31
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\DiffDriveKinematicsConstraint_New.vi	1/31/2021 1:03:43 PM	69
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\TrajectoryConfig_setKinematicsDiffDrive.vi	1/31/2021 1:03:43 PM	32
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Using_TrajectoryLibrary.vi	1/25/2021 3:53:53 PM	439
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Using_TrajectoryLibrary.vi	2/8/2021 6:14:46 PM	451
 
 [Output File Version]
-Create_Trajectory_Using_TrajectoryLibrary.exe	1.0.3.32
+Create_Trajectory_Using_TrajectoryLibrary.exe	1.0.3.39
 
 [Output Files]
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.exe	1/31/2021 1:34:36 PM
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.aliases	1/31/2021 1:34:34 PM
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.ini	1/31/2021 1:34:34 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.exe	2/8/2021 6:58:47 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.aliases	2/8/2021 6:58:46 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.ini	2/8/2021 6:58:46 PM
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\LICENSE.txt	8/1/2020 11:31:38 AM
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Samples\Sample-Robot-2-Trajectory-TrajLibrary.csv	3/26/2020 10:07:05 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\FieldInfo\2018-field.jpg	2/7/2021 7:57:22 AM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\FieldInfo\2019-field.jpg	2/7/2021 7:57:22 AM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\FieldInfo\2020-Field.png	2/7/2021 7:57:22 AM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\FieldInfo\2021-barrel.png	2/7/2021 7:57:22 AM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\FieldInfo\2021-bounce.png	2/7/2021 7:57:22 AM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\FieldInfo\2021-galacticsearcha.png	2/7/2021 7:57:22 AM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\FieldInfo\2021-galacticsearchb.png	2/7/2021 7:57:22 AM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\FieldInfo\2021-slalom.png	2/7/2021 7:57:22 AM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Samples\Sample-Robot-2-Trajectory-TrajLibrary.xml	8/22/2020 5:31:07 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\FieldInfo\field_info.ini	2/7/2021 10:31:03 PM
 
-1/31/2021 1:34:36 PM
+2/8/2021 6:58:47 PM
