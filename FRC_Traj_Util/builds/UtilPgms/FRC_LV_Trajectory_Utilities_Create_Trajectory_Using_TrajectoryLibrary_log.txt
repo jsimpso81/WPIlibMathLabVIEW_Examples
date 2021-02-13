@@ -1,4 +1,4 @@
-2/12/2021 7:12:11 PM
+2/12/2021 8:49:02 PM
 [General]
 Project: C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\FRC_TrajLib_Util.lvproj
 Target: My Computer
@@ -6,7 +6,7 @@ Build Specification: Create_Trajectory_Using_TrajectoryLibrary
 OS: Windows NT 10.0
 
 [Open Top Level VIs]
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Using_TrajectoryLibrary.vi	2/12/2021 7:10:13 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Using_TrajectoryLibrary.vi	2/12/2021 8:47:30 PM
 
 
 [Source Files]
@@ -237,13 +237,13 @@ C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\picture\picture.llb\Cr
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\picture\png.llb\Read PNG File.vi	3/17/2019 12:29:17 PM	100
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\libraryn.llb\Get File Extension.vi	3/17/2019 12:37:44 PM	20
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Clear Errors.vi	3/17/2019 12:37:23 PM	24
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Read_Image_File.vi	2/12/2021 6:54:40 PM	6
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Read_Image_File.vi	2/12/2021 8:40:57 PM	7
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\lvfile.llb\LVFileType.ctl	3/17/2019 12:28:52 PM	18
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\lvfile.llb\FT_FileTypes.ctl	3/17/2019 12:28:51 PM	10
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\lvfile.llb\Get File Type.vi	3/17/2019 12:28:51 PM	102
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\lvfile.llb\Is File an LLB.vi	3/17/2019 12:28:53 PM	74
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\file.llb\Application Directory.vi	3/17/2019 12:28:51 PM	19
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Read_Field_Pic.vi	2/12/2021 6:54:48 PM	5
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Read_Field_Pic.vi	2/12/2021 8:41:53 PM	6
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\8.6CompatibleGlobalVar.vi	3/17/2019 12:28:52 PM	2
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Section.ctl	3/17/2019 12:28:52 PM	10
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Config Data.ctl	3/17/2019 12:28:52 PM	10
@@ -275,7 +275,7 @@ C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Ope
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Open_Field_Info_File.vi	2/8/2021 6:14:05 PM	1
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Get_Field_Info.vi	2/12/2021 6:45:38 PM	4
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\config.llb\Get Section Names.vi	3/17/2019 2:23:36 PM	39
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Read_Field_List.vi	2/12/2021 6:48:27 PM	4
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Read_Field_List.vi	2/12/2021 8:32:32 PM	5
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\MecaDriveKinematicsConstraint_New.vi	2/11/2021 9:18:51 PM	75
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\SwerveDriveKinematicsConstraint_New.vi	2/11/2021 9:18:51 PM	72
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\DiffDriveVoltageConstraint_New.vi	2/11/2021 9:18:51 PM	72
@@ -297,15 +297,15 @@ C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\Thir
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Translation_GetXY.vi	2/11/2021 9:18:47 PM	24
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\SimpleMotorFF_New.vi	2/11/2021 9:18:47 PM	47
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Units_To_Meters.vi	8/22/2020 12:06:25 AM	2
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Using_TrajectoryLibrary.vi	2/12/2021 7:10:13 PM	457
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Util\UtilityPrograms\Create_Trajectory_Using_TrajectoryLibrary.vi	2/12/2021 8:47:30 PM	458
 
 [Output File Version]
-Create_Trajectory_Using_TrajectoryLibrary.exe	1.0.3.43
+Create_Trajectory_Using_TrajectoryLibrary.exe	1.0.3.44
 
 [Output Files]
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.exe	2/12/2021 7:13:10 PM
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.aliases	2/12/2021 7:13:08 PM
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.ini	2/12/2021 7:13:08 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.exe	2/12/2021 8:49:36 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.aliases	2/12/2021 8:49:35 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Create_Trajectory_Using_TrajectoryLibrary.ini	2/12/2021 8:49:35 PM
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\LICENSE.txt	8/1/2020 11:31:38 AM
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\FieldInfo\2018-field.jpg	2/7/2021 7:57:22 AM
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\FieldInfo\2019-field.jpg	2/7/2021 7:57:22 AM
@@ -318,4 +318,4 @@ C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\FieldInfo\2021-slalom.png	2/7/
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\Samples\Sample-Robot-2-Trajectory-TrajLibrary.xml	8/22/2020 5:31:07 PM
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\bin\FieldInfo\field_info.ini	2/7/2021 10:31:03 PM
 
-2/12/2021 7:13:10 PM
+2/12/2021 8:49:36 PM
