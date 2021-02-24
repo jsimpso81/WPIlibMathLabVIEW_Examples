@@ -382,6 +382,99 @@
 				<Property Name="TgtF_targetfileName" Type="Str">FRC-Traj-Lib-timer-test-2.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
+			<Item Name="stateSpace-ElevatorSim-Sample" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{BDC62255-A455-42AC-BCF9-292CFFBDD745}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{011180E0-3B78-4802-89FC-64AC1CE888AD}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{1A1256A1-365C-4810-8BC3-16E9441BB7F0}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">stateSpace-ElevatorSim-Sample</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Exe</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{A7629194-B420-44FE-ABA2-6856B9F2A238}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">4</Property>
+				<Property Name="Destination[0].destName" Type="Str">stateSpace-ElevatorSim-Sample.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Exe/stateSpace-ElevatorSim-Sample.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Exe/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{424AA993-9505-457F-A777-8A74B9615FA1}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/controller-PID/FRC-Traj-Lib-analog-adv-pid-complex-test.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/State-Space-Control-and-Simulation/ElevatorSim_example.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">FRC-Traj-Lib-analog-adv-pid-complex-test</Property>
+				<Property Name="TgtF_internalName" Type="Str">FRC-Traj-Lib-analog-adv-pid-complex-test</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Jim Simpson</Property>
+				<Property Name="TgtF_productName" Type="Str">FRC-Traj-Lib-analog-adv-pid-complex-test</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{E5EF7E17-AF37-4552-91E8-D03A8F26C1D0}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">stateSpace-ElevatorSim-Sample.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="StateSpace-SingleJointArmSim-Sample" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{66D4935F-D0DA-4262-9B8D-EA14C7C10659}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{EE82F2BE-99C5-44E3-8D33-2E43D5B21E62}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{5167A1FE-DA6E-416D-B9E9-DD820A5E7BCF}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">StateSpace-SingleJointArmSim-Sample</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Exe</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{C304CF12-0082-47A8-B634-3D52BB67EDE2}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">4</Property>
+				<Property Name="Destination[0].destName" Type="Str">StateSpace-SingleJointArmSim-Sample.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Exe/StateSpace-SingleJointArmSim-Sample.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Exe/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{424AA993-9505-457F-A777-8A74B9615FA1}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/controller-PID/FRC-Traj-Lib-analog-adv-pid-complex-test.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/State-Space-Control-and-Simulation/ElevatorSim_example.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/State-Space-Control-and-Simulation/SingleJointedArmSim_example.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">FRC-Traj-Lib-analog-adv-pid-complex-test</Property>
+				<Property Name="TgtF_internalName" Type="Str">FRC-Traj-Lib-analog-adv-pid-complex-test</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Jim Simpson</Property>
+				<Property Name="TgtF_productName" Type="Str">FRC-Traj-Lib-analog-adv-pid-complex-test</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{1AF14EB9-8317-4B5A-A6CF-F1C4B7B55900}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">StateSpace-SingleJointArmSim-Sample.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 			<Item Name="test-filter-exec" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{C0E60EFF-EA92-4E00-97D4-1D3FE71135F6}</Property>
