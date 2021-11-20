@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="DataFinder" familyname="DataFinder">
+</nifamily>
+</nicomment>
+<nierror code="-305999">
+DataFinder: Ran out of memory.
+</nierror>
+<nierror code="-305998">
+DataFinder: The DataFinder environment has not been initialized correctly.
+</nierror>
+<nierror code="-305997">
+DataFinder: The DataFinder is not installed or must be updated.
+</nierror>
+<nierror code="-305990">
+DataFinder: Unspecified error.
+</nierror>
+<nierror code="-305982">
+DataFinder: The SearchResult reference is not valid.
+</nierror>
+<nierror code="-305981">
+DataFinder: The Query reference is not valid.
+</nierror>
+<nierror code="-305980">
+DataFinder: The DataFinder reference is not valid.
+</nierror>
+<nierror code="-305604">
+DataFinder: The connected DataFinder is not supported.
+</nierror>
+<nierror code="-305603">
+DataFinder: The connected DataFinder does not support this method.
+</nierror>
+<nierror code="-305602">
+DataFinder: The connected DataFinder does not support this property.
+</nierror>
+<nierror code="-305601">
+DataFinder: The connected DataFinder is not the correct version for this method.
+</nierror>
+<nierror code="-305600">
+DataFinder: Access denied.
+</nierror>
+<nierror code="-305586">
+DataFinder: The DataFinder does not have an active DataPlugin to index the specified file.
+</nierror>
+<nierror code="-305585">
+DataFinder: There are too may indexing tasks in the queue. Try again later.
+</nierror>
+<nierror code="-305579">
+DataFinder: The specified path is not valid.
+</nierror>
+<nierror code="-305577">
+DataFinder: To optimize a custom property that has not been indexed, you must specify a data type.
+</nierror>
+<nierror code="-305576">
+DataFinder: It is not possible to optimize base properties.
+</nierror>
+<nierror code="-305575">
+DataFinder: A search area with the specified client path already exists.
+</nierror>
+<nierror code="-305574">
+DataFinder: The specified path is not valid.
+</nierror>
+<nierror code="-305569">
+DataFinder: A search area with the specified name already exists.
+</nierror>
+<nierror code="-305568">
+DataFinder: A search area with the specified path already exists.
+</nierror>
+<nierror code="-305567">
+DataFinder: The specified client path is invalid.
+</nierror>
+<nierror code="-305566">
+DataFinder: The specified path is invalid.
+</nierror>
+<nierror code="-305565">
+DataFinder: The specified name is invalid.
+</nierror>
+<nierror code="-305564">
+DataFinder: The specified search area is invalid.
+</nierror>
+<nierror code="-305563">
+DataFinder: The DataFinder-API cannot configure DataFinder Version 2.0.
+</nierror>
+<nierror code="-305562">
+DataFinder: Cannot write the DataFinder configuration. A timeout has occured.
+</nierror>
+<nierror code="-305561">
+DataFinder: Cannot read the DataFinder configuration. A timeout has occured.
+</nierror>
+<nierror code="-305560">
+DataFinder: Access denied.
+</nierror>
+<nierror code="-305559">
+DataFinder: The property is read-only.
+</nierror>
+<nierror code="-305550">
+DataFinder: Invalid argument.
+</nierror>
+<nierror code="-305544">
+DataFinder: At least one value exceeds the maximum allowed length of %d characters.
+</nierror>
+<nierror code="-305543">
+DataFinder: Cannot determine the search result path. The DataFinder index might be corrupted.
+</nierror>
+<nierror code="-305542">
+DataFinder: The value of this property is not clear.
+</nierror>
+<nierror code="-305541">
+DataFinder: The specified property does not exist.
+</nierror>
+<nierror code="-305540">
+DataFinder: The specified data type is not the same as the data type of the property.
+</nierror>
+<nierror code="-305539">
+DataFinder: The specified property is not valid.
+</nierror>
+<nierror code="-305534">
+DataFinder: The query contains at least one invalid operator.
+</nierror>
+<nierror code="-305533">
+DataFinder: An error occurred during the search. The query may contain at least one invalid property.
+</nierror>
+<nierror code="-305532">
+DataFinder: The query contains at least one invalid property.
+</nierror>
+<nierror code="-305531">
+DataFinder: Max value count must be greater than zero.
+</nierror>
+<nierror code="-305530">
+DataFinder: You cannot execute a query which only contains "order by only" search conditions.
+</nierror>
+<nierror code="-305529">
+DataFinder: Sorting search results according to the specified property is not possible. Its values are ambiguous for the given return type.
+</nierror>
+<nierror code="-305528">
+DataFinder: Max results count must be greater than zero.
+</nierror>
+<nierror code="-305527">
+DataFinder: You can connect single values with "OR" only if you use the "=" operator.
+</nierror>
+<nierror code="-305526">
+DataFinder: This value is not valid.
+</nierror>
+<nierror code="-305525">
+DataFinder: This operator is not valid.
+</nierror>
+<nierror code="-305524">
+DataFinder: The specified object type is not valid.
+</nierror>
+<nierror code="-305523">
+DataFinder: The specified return type is not valid.
+</nierror>
+<nierror code="-305522">
+DataFinder: An internal error has occured. Cannot create the query.
+</nierror>
+<nierror code="-305521">
+DataFinder: The specified query is invalid.
+</nierror>
+<nierror code="-305520">
+DataFinder: Cannot execute this search. A timeout has occured.
+</nierror>
+<nierror code="-305509">
+DataFinder: Cannot execute this DataFinder request. A timeout has occured.
+</nierror>
+<nierror code="-305508">
+DataFinder: No DataFinder is connected.
+</nierror>
+<nierror code="-305507">
+DataFinder: The DataFinder is no longer available.
+</nierror>
+<nierror code="-305506">
+DataFinder: Cannot connect to this DataFinder. You do not have the required rights.
+</nierror>
+<nierror code="-305505">
+DataFinder: You do not have a license for the DataFinder.
+</nierror>
+<nierror code="-305504">
+DataFinder: Cannot connect to this DataFinder. A timeout has occured.
+</nierror>
+<nierror code="-305503">
+DataFinder: Cannot connect to this DataFinder. One or more connection parameters are invalid.
+</nierror>
+<nierror code="-305502">
+DataFinder: Cannot connect to this DataFinder.
+</nierror>
+<nierror code="-305501">
+DataFinder: This DataFinder version is too old to connect to.
+</nierror>
+<nierror code="305501">
+DataFinder: The DataFinder-API cannot configure DataFinder Version 2.0.
+</nierror>
+<nierror code="305502">
+DataFinder: Cannot convert the data to the specified data type.
+</nierror>
+<nierror code="305503">
+DataFinder: Cannot load the file. The DataFinder does not support this file format.
+</nierror>
+<nierror code="305504">
+DataFinder: Cannot open the file.
+</nierror>
+<nierror code="305505">
+DataFinder: Cannot load this search result. Maybe the DataFinder index needs to be updated.
+</nierror>
+<nierror code="305506">
+DataFinder: Waveform attribute incomplete.
+</nierror>
+<nierror code="305520">
+DataFinder: Max results count is too high. The DataFinder cannot return more than 32000 results.
+</nierror>
+<nierror code="305521">
+DataFinder: The connected DataFinder is not the correct version to support "order by". All order by settings are ignored.
+</nierror>
+<nierror code="305522">
+DataFinder: Order by statements for at least one property have been ignored because order by is not possible for non optimized custom properties.
+</nierror>
+<nierror code="305523">
+DataFinder: Order by statements for at least one property have been ignored because the property values are ambiguous for the given return type.
+</nierror>
+<nierror code="305524">
+DataFinder: The order by setting is ignored if you are connected to a federation.
+</nierror>
+<nierror code="305525">
+DataFinder: The DataPlugin name is ignored if you are connected to a federation.
+</nierror>
+<nierror code="305530">
+DataFinder: The DataPlugin name cannot be returned. The DataFinder does not support this file format.
+</nierror>
+<nierror code="305531">
+DataFinder: The search result reference does not contain the specified property.
+</nierror>
+<nierror code="305532">
+DataFinder: The property is not set.
+</nierror>
+<nierror code="305550">
+DataFinder: The specified property is not optimized.
+</nierror>
+<nierror code="305551">
+DataFinder: The specified property is already optimized.
+</nierror>
+<nierror code="305552">
+DataFinder: The specified search area already exists.
+</nierror>
+<nierror code="305553">
+DataFinder: The specified folder is already excluded from the search.
+</nierror>
+<nierror code="305554">
+DataFinder: The specified path has not been added to the search areas because it is a subfolder of an existing search area.
+</nierror>
+<nierror code="305555">
+DataFinder: The specified path contains existing search areas. These search areas has been integrated into the new search area.
+</nierror>
+<nierror code="305556">
+DataFinder: The specified path is as a subfolder already excluded from the search.
+</nierror>
+<nierror code="305557">
+DataFinder: The specified path contains folders which are already excluded from the search. These subfolders have been removed from the list of excluded folders.
+</nierror>
+<nierror code="305570">
+DataFinder: The property <parent> is not available for any files.
+</nierror>
+<nierror code="305571">
+DataFinder: The property <children> is not available for any channels.
+</nierror>
+<nierror code="305580">
+DataFinder: The "prefix" is ignored if you are connected to a federation.
+</nierror>
+<nierror code="305600">
+DataFinder: The specified buffer is too small, The returned character sequence may be incomplete.
+</nierror>
+</nidocument>
