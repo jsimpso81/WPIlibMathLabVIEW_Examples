@@ -214,6 +214,81 @@ The teleop controls were assigned to an game (xbox) type controller.
 When not executing a trajectory, combinations of the other controls can be used to drive the robot.  
 For example, **Left Stick Y** and **Right Trigger** pressed at the same time will cause the robot to travel in a circle. 
 
+---
+## FRC LabVIEW Trajectory Robot Sample 6 Project
+
+**This sample is a copy of Sample 1 with Diff Drive Pose Estimator added for comparison and testing.**
+
+This LabVIEW project contains both a simulated and real robot. The simulated robot runs on a PC.  The real robot, after modifying the code to match the robot's hardware, can be run on an FRC robot.  
+
+The robot code creates a trajectory using cubic splines as part of the BEGIN routine. The trajectory can then be executed in TELEOP by pressing the “A” button on an xbox style controller, or equivalent button on any controller.  The trajectory can be executed in reverse by pressing the "B" button.  A number of Network Table variables are written showing the status of an executing trajectory.
+
+This robot code does not have an autonomous routine to execute a trajectory, but you could easily add that.
+
+To run the simulated robot:
+1. Start the FRC Driverstation and optionally start the dashboard.
+2. In the LabVIEW project under the "Computer" target, open "Robot Main.vi" and press the run arrow.
+3. A simulated field should be displayed.  Communications with the driver station should be established.
+4. Use the driver station to change the mode to "teleop enabled", then use the joystick to drive the robot.
+
+![simulation!](images/sim_robot.PNG)
+
+To run on a real robot:
+1. Update BEGIN.VI and PERIODIC TASKS.VI, and others, as needed to match the hardware on your robot.
+3. Build and deploy the robot code the same as would be done for any robot.
+4. Drive the robot...
+
+### Joystick control map
+
+The teleop controls were assigned to an game (xbox) type controller.
+
+![joystick!](images/xbox-360_controller.png)
+
+- **Left Stick X** -- Turn robot left and right
+- **Left Stick Y** -- Drive robot forward and backwards
+- **A** -- Execute trajectory
+- **B** -- Execute trajectory in reverse
+- **Start** -- Enable ramsete closed loop trajectory control
+- **Back** -- Disable ramsete. Execute trajectory open loop.
+
+### Items that may need to be customized
+
+Here are some items that may need to be customed on the simulated and real robots to maximize performance.
+
+![Samp1Notes](images/sample1_bookmarks.PNG)
+
+---
+## FRC_DiffSimRobot_Sample_7 Project
+
+This LabVIEW project is similar to FRC_Traj_Robot_Sample_7 except that it uses the state space **Differential Drive Simulator** to simulate the robot behaviour.  It can be driven with a joystick.  It also contains a trajectory read from a file that can be executed in TELEOP by pressing the “A” button on an xbox style controller, or equivalent button on any controller.   A number of Network Table variables are written showing the status of an executing trajectory.  Also, the Driver Station log shows the status of the trajectory file read.  ("Prints" may need to be enabled to see these messages.)
+
+### Running in Simulation
+
+This robot runs somewhat differently in simulation.  The other simulation screen will appear, but it should be ignored.
+
+![sample 5 simulation!](images/sample_5_simulation.PNG)
+
+To run  the trajectory for the simulated robot, the .CSV file needs to be copied to the “\Documents\LabVIEW Data” directory before running the simulated robot. Then follow the steps for "Robot Sample 1" to run the robot.
+
+The joystick controls are the same as Sample 1
+
+Special build/deploy step to copy the trajectory CSV file.
+
+![Samp2 Build!](images/Sample2_BuildSpec.PNG)
+
+### Running on a real robot
+This sample can not be used on a real robot.
+
+### Items that may need to be customized
+
+Here are some items that may need to be customed on the simulated to maximize performance.
+
+![Samp1Notes](images/sample1_bookmarks.PNG)
+
+
+### Using a Custom Trajectory File
+Use the utility programs to create your own trajectory.  If you don't want to modify the BEGIN.INI to read a different file, use the same file name for your trajectory.  Copy the new trajectory to the correct directory or the PC or the robot, then execute the robot program.  Any errors reading the directory will display on the Driver Station event log.
+
 
 ---
 ## FRC_LV_Trajectory_Dashboard Project
