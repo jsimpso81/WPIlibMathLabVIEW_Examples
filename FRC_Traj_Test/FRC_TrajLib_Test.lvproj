@@ -172,6 +172,7 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Util_ApproxEquals.vi" Type="VI" URL="../test-programs/Util_ApproxEquals.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC-Traj-Lib-analog-adv-pid-complex-test" Type="EXE">
@@ -852,6 +853,7 @@ DirectoryIndex index.htm
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Util_ApproxEquals.vi" Type="VI" URL="../test-programs/Util_ApproxEquals.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RUN_ALL_TESTS" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
