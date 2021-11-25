@@ -15,7 +15,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SAMPLE_TRAJECTORY_ROBOT_CODE" Type="Folder">
-			<Item Name="ROBOT_DRIVE_PARAMS.vi" Type="VI" URL="../../FRC_Traj_Robot_Sample_2/ROBOT_DRIVE_PARAMS.vi"/>
+			<Item Name="ROBOT_DRIVE_PARAMS.vi" Type="VI" URL="../ROBOT_DRIVE_PARAMS.vi"/>
 			<Item Name="TRAJECTORY_CREATE_QUINTIC_BEGIN.vi" Type="VI" URL="../TRAJECTORY_CREATE_QUINTIC_BEGIN.vi"/>
 			<Item Name="TRAJECTORY_EXECUTE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE.vi"/>
 			<Item Name="TRAJECTORY_EXECUTE_REVERSE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE_REVERSE.vi"/>
@@ -1167,7 +1167,6 @@ DirectoryIndex index.htm
 			<Item Name="TRAJECTORY_FGV.vi" Type="VI" URL="../TRAJECTORY_FGV.vi"/>
 			<Item Name="TRAJECTORY_EXECUTE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE.vi"/>
 			<Item Name="TRAJECTORY_EXECUTE_REVERSE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE_REVERSE.vi"/>
-			<Item Name="ROBOT_DRIVE_PARAMS.vi" Type="VI" URL="../../FRC_Traj_Robot_Sample_2/ROBOT_DRIVE_PARAMS.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Secret_Control_Library_Protected.lvlib" Type="Library" URL="../../Secret_Control_Library_Protected/Secret_Control_Library_Protected.lvlib"/>
@@ -1727,6 +1726,7 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ROBOT_DRIVE_PARAMS.vi" Type="VI" URL="../ROBOT_DRIVE_PARAMS.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
