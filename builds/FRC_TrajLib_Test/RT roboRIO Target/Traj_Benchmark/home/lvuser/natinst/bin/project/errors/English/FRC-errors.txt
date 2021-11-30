@@ -1,0 +1,289 @@
+<?XML Version="1.0">
+<nidocument>
+<nicomment>
+<nifamily familyname="FRC" displayname="FRC">
+</nifamily>
+</nicomment>
+<nierror code="-44001">
+FRC:  The Axis camera username or password is invalid.
+</nierror>
+<nierror code="-44002">
+FRC:  The host computer received an unknown version of image data from the CompactRIO device.
+</nierror>
+<nierror code="-44003">
+FRC:  Operation failed due to a communication failure with the camera.
+</nierror>
+<nierror code="-44004">
+FRC:  That camera address is already open. Try closing the address first.
+</nierror>
+<nierror code="-44005">
+FRC:  Camera Get Image is being called
+</nierror>
+<nierror code="-44006">
+FRC:  Custom I/O is not enabled or is not connected to the driver station.
+</nierror>
+<nierror code="-44007">
+FRC:  The RefNum you are trying to Get does not exist in this RefNum Registry.
+</nierror>
+<nierror code="-44008">
+FRC:  A Compressor VI is being called
+</nierror>
+<nierror code="-44009">
+FRC:  A joystick was disconnected while the robot was enabled.
+</nierror>
+<nierror code="-44010">
+FRC:  Use this VI on a host PC.
+</nierror>
+<nierror code="-44011">
+FRC:  The analog channel is invalid.
+</nierror>
+<nierror code="-44012">
+FRC:  The analog channel has already been allocated.
+</nierror>
+<nierror code="-44013">
+FRC:  An invalid set operation occurred
+</nierror>
+<nierror code="-44014">
+FRC:  The <b>scanList</b> array input is invalid.
+</nierror>
+<nierror code="-44015">
+FRC:  Invalid analog trigger index.
+</nierror>
+<nierror code="-44016">
+FRC:  No analog trigger is available for use.
+</nierror>
+<nierror code="-44017">
+FRC:  The camera type does not support this functionality.
+</nierror>
+<nierror code="-44018">
+FRC:  No Driver Station has connected to the Robot Controller.
+</nierror>
+<nierror code="-44019">
+FRC:  The mDNS service is slow to respond. Check firewall settings.
+</nierror>
+<nierror code="-44020">
+FRC:  The counter is not set to a compatible mode.
+</nierror>
+<nierror code="-44021">
+FRC:  The size of the LED Color Array does not match the String Length.
+</nierror>
+<nierror code="-44022">
+FRC:  No counter is available for use. Release an allocated counter before opening a new counter.
+</nierror>
+<nierror code="-44023">
+FRC:  Invalid Counter Index Error.
+</nierror>
+<nierror code="-44024">
+FRC:  Invalid Encoder Index Error.
+</nierror>
+<nierror code="-44025">
+FRC:  An invalid set operation occurred
+</nierror>
+<nierror code="-44026">
+FRC:  The DIO channel index is invalid.
+</nierror>
+<nierror code="-44027">
+FRC:  The DIO channel has already been allocated.
+</nierror>
+<nierror code="-44028">
+FRC:  The SPI bus index is invalid.
+</nierror>
+<nierror code="-44029">
+FRC:  The SPI bus has already been allocated.
+</nierror>
+<nierror code="-44030">
+FRC:  The value of the <b>DistancePerCount</b> input is invalid. This input cannot have a value of 0.
+</nierror>
+<nierror code="-44031">
+FRC:  The Duty Cycle Index is invalid.
+</nierror>
+<nierror code="-44032">
+FRC:  No encoder is available for use. Release an allocated encoder before opening a new encoder.
+</nierror>
+<nierror code="-44033">
+FRC:  The encoder index is invalid.
+</nierror>
+<nierror code="-44034">
+FRC:  No encoder is available for use.
+</nierror>
+<nierror code="-44035">
+FRC:  The PWM channel index is invalid.
+</nierror>
+<nierror code="-44036">
+FRC:  An invalid set operation occurred
+</nierror>
+<nierror code="-44037">
+FRC:  The PWM channel has already been allocated.
+</nierror>
+<nierror code="-44038">
+FRC:  The loop that contains PWM SetValue is not running fast enough. This error can occur if the loop contains too much code
+</nierror>
+<nierror code="-44039">
+FRC:  The PWM channel is invalid. Only onboard PWM channels 0-9 are supported by addressable LEDs.
+</nierror>
+<nierror code="-44040">
+FRC:  The relay index is invalid.
+</nierror>
+<nierror code="-44041">
+FRC:  The relay has already been allocated. Release the relay resource before allocating it again.
+</nierror>
+<nierror code="-44042">
+FRC:  An invalid set operation occurred
+</nierror>
+<nierror code="-44043">
+FRC:  The loop that contains Relay Set is not running fast enough. This error can occur if the loop contains too much code
+</nierror>
+<nierror code="-44044">
+FRC:  The roboRIO <b>Controller</b> is invalid or not found.  Make sure to set <b>Controller</b> to <b>Controller 1</b>.
+</nierror>
+<nierror code="-44045">
+FRC:  The solenoid index is invalid.
+</nierror>
+<nierror code="-44046">
+FRC:  The solenoid resource has already been allocated. Release the solenoid resource before allocating it again.
+</nierror>
+<nierror code="-44047">
+FRC:  An invalid set operation occurred
+</nierror>
+<nierror code="-44048">
+FRC:  The loop that contains Solenoid Set is not running fast enough. This error can occur if the loop contains too much code
+</nierror>
+<nierror code="-44049">
+FRC:  The FRC Network Communications service is not responding.
+</nierror>
+<nierror code="-44055">
+FRC:  No interrupt is available for use. Release an allocated interrupt before opening a new interrupt.
+</nierror>
+<nierror code="-44056">
+FRC:  The interrupt index is invalid.
+</nierror>
+<nierror code="-44060">
+FRC:  The HolonomicDrive VI works only with four-motor robots.
+</nierror>
+<nierror code="-44061">
+FRC:  The loop that contains RobotDrive is not running fast enough. This error can occur if the loop contains too much code
+</nierror>
+<nierror code="-44063">
+FRC:  The I2C bus index is invalid.
+</nierror>
+<nierror code="-44064">
+FRC:  The I2C bus has already been allocated.
+</nierror>
+<nierror code="-44065">
+FRC:  The I2C sensor identification strings do not match.
+</nierror>
+<nierror code="-44070">
+FRC:  The <b>Analog Channel</b> for the accumulator is invalid.
+</nierror>
+<nierror code="-44071">
+FRC:  The analog channel is invalid.
+</nierror>
+<nierror code="-44072">
+FRC:  The analog trigger channel is invalid.
+</nierror>
+<nierror code="-44073">
+FRC:  The <b>Analog Module</b> for the accumulator is invalid.
+</nierror>
+<nierror code="-44075">
+FRC:  The loop that contains MotorControl SetOutput is not running fast enough. This error can occur if the loop contains too much code
+</nierror>
+<nierror code="-44078">
+FRC:  A parameter passed to a CANJaguar VI is invalid or too large.
+</nierror>
+<nierror code="-44079">
+FRC:  The CAN Jaguar firmware is not installed.
+</nierror>
+<nierror code="-44080">
+FRC:  The DIO channel is invalid.
+</nierror>
+<nierror code="-44081">
+FRC:  The PWM channel is invalid.
+</nierror>
+<nierror code="-44082">
+FRC:  Invalid DIO Channel range.
+</nierror>
+<nierror code="-44083">
+FRC:  The CAN Jaguar firmware is out of date.
+</nierror>
+<nierror code="-44084">
+FRC:  The CAN Jaguar device number is out of range.
+</nierror>
+<nierror code="-44085">
+FRC:  The FPGA bit file has an incorrect version or revision.
+</nierror>
+<nierror code="-44086">
+FRC:  CANSessionMux detected insufficient buffer size.
+</nierror>
+<nierror code="-44087">
+FRC:  CANSessionMux was unable to find a message matching the arbitration ID specified.
+</nierror>
+<nierror code="-44088">
+FRC:  CANSessionMux prevented you from sending a message.  The Message ID was identified as a restricted system message.
+</nierror>
+<nierror code="-44089">
+FRC:  CANSessionMux has not been initialized.  Please configure your controller to load a CAN Driver Plugin.
+</nierror>
+<nierror code="-44090">
+FRC:  The <b>Analog Module</b> is invalid or not found. Make sure to set <b>Analog Module</b> to either <b>Analog Module 1</b> or <b>Analog Module 2</b> and ensure the module is plugged into the slot you specified.
+</nierror>
+<nierror code="-44091">
+FRC:  The <b>Digital Module</b> is invalid or not found. Make sure to set <b>Digital Module</b> to either <b>Digital Module 1</b> or <b>Digital Module 2</b> and ensure the module is plugged into the slot you specified.
+</nierror>
+<nierror code="-44092">
+FRC:  The <b>Solenoid Module</b> is invalid or not found. Make sure to set <b>Solenoid Module</b> to either <b>Solenoid Module 1</b> or <b>Solenoid Module 2</b> and ensure the module is plugged into the slot you specified.
+</nierror>
+<nierror code="-44095">
+FRC:  Invalid I2C sensor ID.
+</nierror>
+<nierror code="-44097">
+FRC:  DMA Engine is already started.
+</nierror>
+<nierror code="-44098">
+FRC:  DMA Engine is not started.
+</nierror>
+<nierror code="-44099">
+FRC:  DMA Engine is already in use.
+</nierror>
+<nierror code="44001">
+FRC:  Driver Station network configuration status.
+</nierror>
+<nierror code="44002">
+FRC:  Driver Station ping status has changed.
+</nierror>
+<nierror code="44003">
+FRC:  No robot code is currently running.
+</nierror>
+<nierror code="44004">
+FRC:  The Driver Station has lost communication with the robot.
+</nierror>
+<nierror code="44006">
+FRC:  Custom I/O is not enabled or is not connected to the driver station.
+</nierror>
+<nierror code="44007">
+FRC:  Time since robot boot.
+</nierror>
+<nierror code="44008">
+FRC:  Robot radio detection times.
+</nierror>
+<nierror code="44009">
+FRC:  Watchdog notification
+</nierror>
+<nierror code="44010">
+FRC:  The specified sample rate is too fast.
+</nierror>
+<nierror code="44023">
+FRC:  The edge type is disabled for the specified counter.
+</nierror>
+<nierror code="44050">
+FRC:  The configured Stream Session received too much data before being read from.  An overrun was detected.
+</nierror>
+<nierror code="44055">
+FRC:  The watchdog is disabled.
+</nierror>
+<nierror code="44080">
+FRC:  Inconsistent settings detected on the Jaguar.  Attempting to recover.  Encoder position may be lost.
+</nierror>
+<nierror code="44087">
+FRC:  The message sent requires a token but the system was unable to create one.  The operation may not have succeeded.
+</nierror>
+</nidocument>
