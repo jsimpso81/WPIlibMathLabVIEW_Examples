@@ -169,6 +169,7 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="RATE_CALC.vi" Type="VI" URL="../../FRC_Traj_Robot_Sample_1/TestPrograms/RATE_CALC.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="benchmark-mat-transpose" Type="EXE">
@@ -846,6 +847,7 @@ DirectoryIndex index.htm
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="RATE_CALC.vi" Type="VI" URL="../../FRC_Traj_Robot_Sample_1/TestPrograms/RATE_CALC.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RUN_ALL_TESTS" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
