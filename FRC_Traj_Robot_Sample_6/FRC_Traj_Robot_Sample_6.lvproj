@@ -16,7 +16,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SAMPLE_TRAJECTORY_ROBOT_CODE" Type="Folder">
 			<Item Name="DRIVE_PID_TUNING.ctl" Type="VI" URL="../DRIVE_PID_TUNING.ctl"/>
-			<Item Name="DRIVE_SPEED_CONTROL.vi" Type="VI" URL="../../FRC_Traj_Robot_Sample_4/DRIVE_SPEED_CONTROL.vi"/>
+			<Item Name="DRIVE_SPEED_CONTROL.vi" Type="VI" URL="../DRIVE_SPEED_CONTROL.vi"/>
 			<Item Name="ROBOT_DRIVE_PARAMS.vi" Type="VI" URL="../ROBOT_DRIVE_PARAMS.vi"/>
 			<Item Name="TRAJ_EXEC_INPUT_SENSORS.ctl" Type="VI" URL="../TRAJ_EXEC_INPUT_SENSORS.ctl"/>
 			<Item Name="TRAJECTORY_CREATE_CUBIC_BEGIN.vi" Type="VI" URL="../TRAJECTORY_CREATE_CUBIC_BEGIN.vi"/>
@@ -1175,8 +1175,8 @@ DirectoryIndex index.htm
 			<Item Name="TRAJECTORY_CREATE_DIFF_POSE_EST.vi" Type="VI" URL="../TRAJECTORY_CREATE_DIFF_POSE_EST.vi"/>
 			<Item Name="TRAJECTORY_DIFF_POSE_EST_FGV.vi" Type="VI" URL="../TRAJECTORY_DIFF_POSE_EST_FGV.vi"/>
 			<Item Name="TRAJECTORY_INPUT_SENSORS.vi" Type="VI" URL="../TRAJECTORY_INPUT_SENSORS.vi"/>
-			<Item Name="DRIVE_PID_TUNING.ctl" Type="VI" URL="../../FRC_Traj_Robot_Sample_4/DRIVE_PID_TUNING.ctl"/>
-			<Item Name="DRIVE_SPEED_CONTROL.vi" Type="VI" URL="../../FRC_Traj_Robot_Sample_4/DRIVE_SPEED_CONTROL.vi"/>
+			<Item Name="DRIVE_PID_TUNING.ctl" Type="VI" URL="../DRIVE_PID_TUNING.ctl"/>
+			<Item Name="DRIVE_SPEED_CONTROL.vi" Type="VI" URL="../DRIVE_SPEED_CONTROL.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Secret_Control_Library_Protected.lvlib" Type="Library" URL="../../Secret_Control_Library_Protected/Secret_Control_Library_Protected.lvlib"/>
@@ -1734,7 +1734,6 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="DRIVE_PID_TUNING.ctl" Type="VI" URL="../DRIVE_PID_TUNING.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">

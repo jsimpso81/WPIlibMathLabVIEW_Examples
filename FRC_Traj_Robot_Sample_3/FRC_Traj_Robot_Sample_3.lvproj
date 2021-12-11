@@ -1168,6 +1168,7 @@ DirectoryIndex index.htm
 			<Item Name="TRAJECTORY_EXECUTE_REVERSE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE_REVERSE.vi"/>
 			<Item Name="DRIVE_PID_TUNING.ctl" Type="VI" URL="../DRIVE_PID_TUNING.ctl"/>
 			<Item Name="DRIVE_SPEED_CONTROL.vi" Type="VI" URL="../DRIVE_SPEED_CONTROL.vi"/>
+			<Item Name="ROBOT_DRIVE_PARAMS.vi" Type="VI" URL="../ROBOT_DRIVE_PARAMS.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Secret_Control_Library_Protected.lvlib" Type="Library" URL="../../Secret_Control_Library_Protected/Secret_Control_Library_Protected.lvlib"/>
@@ -1724,7 +1725,6 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ROBOT_DRIVE_PARAMS.vi" Type="VI" URL="../ROBOT_DRIVE_PARAMS.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">

@@ -16,7 +16,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SAMPLE_TRAJECTORY_ROBOT_CODE" Type="Folder">
 			<Item Name="DRIVE_PID_TUNING.ctl" Type="VI" URL="../DRIVE_PID_TUNING.ctl"/>
-			<Item Name="DRIVE_SPEED_CONTROL.vi" Type="VI" URL="../../FRC_Traj_Robot_Sample_3/DRIVE_SPEED_CONTROL.vi"/>
+			<Item Name="DRIVE_SPEED_CONTROL.vi" Type="VI" URL="../DRIVE_SPEED_CONTROL.vi"/>
 			<Item Name="ROBOT_DRIVE_PARAMS.vi" Type="VI" URL="../ROBOT_DRIVE_PARAMS.vi"/>
 			<Item Name="TRAJECTORY_CREATE_PATHFINDER_BEGIN.vi" Type="VI" URL="../TRAJECTORY_CREATE_PATHFINDER_BEGIN.vi"/>
 			<Item Name="TRAJECTORY_EXECUTE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE.vi"/>
@@ -1053,7 +1053,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="provcom_GenerateGUID.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GenerateGUID.vi"/>
-			<Item Name="RATE_CALC.vi" Type="VI" URL="../../FRC_Traj_Robot_Sample_3/TestPrograms/RATE_CALC.vi"/>
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1169,8 +1168,8 @@ DirectoryIndex index.htm
 			<Item Name="TRAJECTORY_EXECUTE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE.vi"/>
 			<Item Name="ROBOT_DRIVE_PARAMS.vi" Type="VI" URL="../ROBOT_DRIVE_PARAMS.vi"/>
 			<Item Name="TRAJECTORY_EXECUTE_REVERSE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE_REVERSE.vi"/>
-			<Item Name="DRIVE_PID_TUNING.ctl" Type="VI" URL="../../FRC_Traj_Robot_Sample_3/DRIVE_PID_TUNING.ctl"/>
-			<Item Name="DRIVE_SPEED_CONTROL.vi" Type="VI" URL="../../FRC_Traj_Robot_Sample_3/DRIVE_SPEED_CONTROL.vi"/>
+			<Item Name="DRIVE_PID_TUNING.ctl" Type="VI" URL="../DRIVE_PID_TUNING.ctl"/>
+			<Item Name="DRIVE_SPEED_CONTROL.vi" Type="VI" URL="../DRIVE_SPEED_CONTROL.vi"/>
 		</Item>
 		<Item Name="Pathfinder_Library_File" Type="Folder"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
@@ -1651,9 +1650,6 @@ DirectoryIndex index.htm
 				<Item Name="FPGA_AnalogTriggerDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AnalogTrigger/FPGA_AnalogTriggerDevRef.ctl"/>
 				<Item Name="WPI_CounterDigitalInputToDigitalSource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterDigitalInputToDigitalSource.vi"/>
 				<Item Name="WPI_CounterDigitalOutputToDigitalSource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterDigitalOutputToDigitalSource.vi"/>
-				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
-				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
-				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="WPI_UtilitiesFRC SendMessageToConsole.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC SendMessageToConsole.vi"/>
 				<Item Name="NetComm_SendMessage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_SendMessage.vi"/>
 				<Item Name="roboRIO_FPGA_2020_20.1.2.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/roboRIO_FPGA_2020_20.1.2.lvbitx"/>
@@ -1731,7 +1727,6 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="RATE_CALC.vi" Type="VI" URL="../../FRC_Traj_Robot_Sample_3/TestPrograms/RATE_CALC.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">

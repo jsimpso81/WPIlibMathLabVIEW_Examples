@@ -1182,22 +1182,12 @@ DirectoryIndex index.htm
 		<Item Name="SAMPLE_TRAJECTORY_ROBOT_CODES" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="DIFF_SIM_POSE.vi" Type="VI" URL="../DIFF_SIM_POSE.vi"/>
+			<Item Name="DRIVE_PID_TUNING.ctl" Type="VI" URL="../DRIVE_PID_TUNING.ctl"/>
+			<Item Name="DRIVE_SPEED_CONTROL.vi" Type="VI" URL="../DRIVE_SPEED_CONTROL.vi"/>
 			<Item Name="FIELD_ODOM_CLAMP.vi" Type="VI" URL="../FIELD_ODOM_CLAMP.vi"/>
-			<Item Name="SWERVE_CALC_CONT_ERROR.vi" Type="VI" URL="../SWERVE_CALC_CONT_ERROR.vi"/>
-			<Item Name="SWERVE_GET_MAX.vi" Type="VI" URL="../SWERVE_GET_MAX.vi"/>
-			<Item Name="SWERVE_KINEMATIC_FGV.vi" Type="VI" URL="../SWERVE_KINEMATIC_FGV.vi"/>
-			<Item Name="SWERVE_MODULE_ACQUIRE.vi" Type="VI" URL="../SWERVE_MODULE_ACQUIRE.vi"/>
-			<Item Name="SWERVE_MODULE_ACT.vi" Type="VI" URL="../SWERVE_MODULE_ACT.vi"/>
-			<Item Name="SWERVE_MODULE_GETREG.vi" Type="VI" URL="../SWERVE_MODULE_GETREG.vi"/>
-			<Item Name="SWERVE_MODULE_MOTOR_CO.ctl" Type="VI" URL="../SWERVE_MODULE_MOTOR_CO.ctl"/>
-			<Item Name="SWERVE_MODULE_MOTOR_PV.ctl" Type="VI" URL="../SWERVE_MODULE_MOTOR_PV.ctl"/>
-			<Item Name="SWERVE_MODULE_OPEN.vi" Type="VI" URL="../SWERVE_MODULE_OPEN.vi"/>
-			<Item Name="SWERVE_MODULE_SIM_CO_FGV.vi" Type="VI" URL="../SWERVE_MODULE_SIM_CO_FGV.vi"/>
-			<Item Name="SWERVE_MODULE_SIM_PV_FGV.vi" Type="VI" URL="../SWERVE_MODULE_SIM_PV_FGV.vi"/>
-			<Item Name="SWERVE_MODULE_STATES_FGV.vi" Type="VI" URL="../SWERVE_MODULE_STATES_FGV.vi"/>
-			<Item Name="SWERVE_MODULE_TYPDEF.ctl" Type="VI" URL="../SWERVE_MODULE_TYPDEF.ctl"/>
-			<Item Name="SWERVE_ODOM_REL_FGV.vi" Type="VI" URL="../SWERVE_ODOM_REL_FGV.vi"/>
-			<Item Name="TRAJECTORY_EXECUTE_SWERVE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE_SWERVE.vi"/>
+			<Item Name="ROBOT_DRIVE_PARAMS.vi" Type="VI" URL="../ROBOT_DRIVE_PARAMS.vi"/>
+			<Item Name="TRAJECTORY_EXECUTE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE.vi"/>
+			<Item Name="TRAJECTORY_EXECUTE_REVERSE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE_REVERSE.vi"/>
 			<Item Name="TRAJECTORY_FGV.vi" Type="VI" URL="../TRAJECTORY_FGV.vi"/>
 			<Item Name="TRAJECTORY_READFILE_BEGIN.vi" Type="VI" URL="../TRAJECTORY_READFILE_BEGIN.vi"/>
 		</Item>
@@ -1765,11 +1755,6 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ROBOT_DRIVE_PARAMS.vi" Type="VI" URL="../ROBOT_DRIVE_PARAMS.vi"/>
-			<Item Name="TRAJECTORY_EXECUTE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE.vi"/>
-			<Item Name="TRAJECTORY_EXECUTE_REVERSE.vi" Type="VI" URL="../TRAJECTORY_EXECUTE_REVERSE.vi"/>
-			<Item Name="DRIVE_PID_TUNING.ctl" Type="VI" URL="../DRIVE_PID_TUNING.ctl"/>
-			<Item Name="DRIVE_SPEED_CONTROL.vi" Type="VI" URL="../DRIVE_SPEED_CONTROL.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
