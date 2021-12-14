@@ -60,6 +60,9 @@
 		<Item Name="trajectory" Type="Folder" URL="../trajectory">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="trapezoid-profile" Type="Folder" URL="../trapezoid-profile">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="utility" Type="Folder" URL="../utility">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -732,6 +735,9 @@ DirectoryIndex index.htm
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="trajectory" Type="Folder" URL="../trajectory">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="trapezoid-profile" Type="Folder" URL="../trapezoid-profile">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="utility" Type="Folder" URL="../utility">
