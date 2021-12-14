@@ -27,6 +27,9 @@
 		<Item Name="controller-ArmFeedforward" Type="Folder" URL="../controller-ArmFeedforward">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="controller-bang-bang" Type="Folder" URL="../controller-bang-bang">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="controller-ElevatorFeedforward" Type="Folder" URL="../controller-ElevatorFeedforward">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
