@@ -45,6 +45,9 @@
 		<Item Name="controller-SimpleMotorFeedforward" Type="Folder" URL="../controller-SimpleMotorFeedforward">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="DigDebounce" Type="Folder" URL="../DigDebounce">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="DigSeqLogic" Type="Folder" URL="../DigSeqLogic">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -727,6 +730,9 @@ DirectoryIndex index.htm
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="controller-SimpleMotorFeedforward" Type="Folder" URL="../controller-SimpleMotorFeedforward">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="DigDebounce" Type="Folder" URL="../DigDebounce">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="DigSeqLogic" Type="Folder" URL="../DigSeqLogic">
