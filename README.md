@@ -15,6 +15,59 @@ Saved snapshots of this library that correspond with releases of the Trajectory 
 
 Each project has a more detailed readme.md file.  Here is a summary of the projects.
 
+- **Empty2021RobotWIthSim**  --  This is an empty 2021 robot project with added features to deploy 
+trajectory files to the robot and a PC execution target for using the ODE simulation on a PC.
+
+- **FRC_LV_Sample5_Dashboard**  --  This dashboard project is intended to be used with the Swerve Drive 
+sample robot project 5.
+
+- **FRC_LV_Trajectory_Dashboard**  --  This dashboard project can be used with any of the sample robot 
+projects.  It contains tabs to track and trend trajectory execution.
+
+- **FRC_Traj_Robot_Sample_1**  --  This sample LabVIEW robot project includes code to create and execute 
+a trajectory using cubic splines. 
+
+- **FRC_Traj_Robot_Sample_2**  --  This sample LabVIEW robot project includes code to read a trajectoy 
+CSV file and execute it. 
+
+- **FRC_Traj_Robot_Sample_3**  --  This sample LabVIEW robot project includes code to create and execute 
+a trajectory using quintic splines. 
+
+- **FRC_Traj_Robot_Sample_4**  --  This sample LabVIEW robot project includes code to create and execute 
+a trajectory using Jaci's Pathfinder.
+
+- **FRC_Traj_Robot_Sample_5**  --  This LabVIEW robot project is a simple swerve drive robot. (No swerve 
+drive is really simple...)  It also contains trajectory file read and execute similar to Sample Robot 2.
+
+- **FRC_Traj_Robot_Sample_6**  --  This LabVIEW robot project uses Differential Drive Pose Estimator instead
+of odometry to determine the field location of the robot while following a trajectory.  Otherwise it is 
+similar to robot sample 1.
+
+- **FRC_DiffSImRobot_Sample_7**  --  This PC robot simulation project uses the state space Differential 
+Drive Simulator to simulate the robot behaviour on a PC.
+
+- **FRC_Traj_Samples**  --  This LabVIEW project contains samples of how to use various portions of the 
+Trajectory / Control library.
+
+- **FRC_Traj_Sandbox**  --  This LabVIEW project contains programs that have been used to test various 
+portions of the Trajectory / Control library.
+
+- **FRC_Traj_Test**  --  This LabVIEW project contains the "formal" testing programs for the Trajectory / 
+Control library.
+
+- **FRC_Traj_Util**  -  This LabVIEW project contains the source and executable build specifications for 
+the 4 trajectory creation utilties installed with the FRC LabVIEW Trajectory / Control Library. They 
+can be used regardless of the programming language used on the robot. 
+
+- **Diff_Odom_Pose_Est_Test**  --  This LabVIEW robot project uses the Differential Drive Pose Estimator 
+along with Differential Drive Odometry to allow comparison of the two.  It also contains benchmarking 
+of the two.   
+
+- **Swerve_Odom_Pose_Est_Test**  --  This LabVIEW robot project uses the Swerve Drive Pose Estimator along 
+with Swerve Drive Odometry to allow comparison of the two.  It also contains benchmarking of the two.
+
+
+
 ---
 ## FRC_Traj_Util Project
 
