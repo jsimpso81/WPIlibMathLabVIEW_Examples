@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="DataFinder" familyname="DataFinder">
+</nifamily>
+</nicomment>
+<nierror code="-305999">
+DataFinder: Mémoire insuffisante.
+</nierror>
+<nierror code="-305998">
+DataFinder: L'environnement de DataFinder n'a pas été initialisé correctement.
+</nierror>
+<nierror code="-305997">
+DataFinder: DataFinder n'est pas installé ou doit être mis à jour.
+</nierror>
+<nierror code="-305990">
+DataFinder: Erreur non spécifiée.
+</nierror>
+<nierror code="-305982">
+DataFinder: La référence SearchResult n'est pas valide.
+</nierror>
+<nierror code="-305981">
+DataFinder: La référence Query n'est pas valide.
+</nierror>
+<nierror code="-305980">
+DataFinder: La référence DataFinder n'est pas valide.
+</nierror>
+<nierror code="-305604">
+DataFinder: Le DataFinder connecté n'est pas supporté.
+</nierror>
+<nierror code="-305603">
+DataFinder: Le DataFinder connecté ne supporte pas cette méthode.
+</nierror>
+<nierror code="-305602">
+DataFinder: Le DataFinder connecté ne supporte pas cette propriété.
+</nierror>
+<nierror code="-305601">
+DataFinder: Le DataFinder connecté n'a pas la bonne version pour cette méthode.
+</nierror>
+<nierror code="-305600">
+DataFinder: Accès refusé.
+</nierror>
+<nierror code="-305586">
+DataFinder: DataFinder n'a pas de DataPlugin actif pour indexer le fichier spécifié.
+</nierror>
+<nierror code="-305585">
+DataFinder: Il y a trop de tâches d'indexation dans la file d'attente. Réessayez plus tard.
+</nierror>
+<nierror code="-305579">
+DataFinder: Le chemin spécifié n'est pas valide.
+</nierror>
+<nierror code="-305577">
+DataFinder: Pour optimiser une propriété personnalisée qui n'a pas été indexée, vous devez spécifier un type de données.
+</nierror>
+<nierror code="-305576">
+DataFinder: Les propriétés de base ne peuvent pas être optimisées.
+</nierror>
+<nierror code="-305575">
+DataFinder: Il y a déjà une zone de recherche pour le chemin de client spécifié.
+</nierror>
+<nierror code="-305574">
+DataFinder: Le chemin spécifié n'est pas valide.
+</nierror>
+<nierror code="-305569">
+DataFinder: Il y a déjà une zone de recherche pour le nom spécifié.
+</nierror>
+<nierror code="-305568">
+DataFinder: Il y a déjà une zone de recherche pour le chemin spécifié.
+</nierror>
+<nierror code="-305567">
+DataFinder: Le chemin de client spécifié n'est pas valide.
+</nierror>
+<nierror code="-305566">
+DataFinder: Le chemin spécifié n'est pas valide.
+</nierror>
+<nierror code="-305565">
+DataFinder: Le nom spécifié n'est pas valide.
+</nierror>
+<nierror code="-305564">
+DataFinder: La zone de recherche spécifiée n'est pas valide.
+</nierror>
+<nierror code="-305563">
+DataFinder: L'API de DataFinder ne peut pas configurer la version 2.0 de DataFinder.
+</nierror>
+<nierror code="-305562">
+DataFinder: Impossible d'écrire la configuration DataFinder. Un timeout a eu lieu.
+</nierror>
+<nierror code="-305561">
+DataFinder: Impossible de lire la configuration DataFinder. Un timeout a eu lieu.
+</nierror>
+<nierror code="-305560">
+DataFinder: Accès refusé.
+</nierror>
+<nierror code="-305559">
+DataFinder: La propriété est en lecture seule.
+</nierror>
+<nierror code="-305550">
+DataFinder: Argument non valide.
+</nierror>
+<nierror code="-305544">
+DataFinder: Au moins une des valeurs dépasse la longueur maximale permise, %d caractères.
+</nierror>
+<nierror code="-305543">
+DataFinder: Impossible de déterminer le chemin du résultat de la recherche. L'indice de DataFinder est peut-être corrompu.
+</nierror>
+<nierror code="-305542">
+DataFinder: La valeur de cette propriété est ambiguë.
+</nierror>
+<nierror code="-305541">
+DataFinder: La propriété spécifiée n'existe pas.
+</nierror>
+<nierror code="-305540">
+DataFinder: Le type de données spécifié n'est pas le même que celui de la propriété.
+</nierror>
+<nierror code="-305539">
+DataFinder: La propriété spécifiée n'est pas valide.
+</nierror>
+<nierror code="-305534">
+DataFinder: La requête contient au moins un opérateur non valide.
+</nierror>
+<nierror code="-305533">
+DataFinder: Une erreur est survenue pendant la recherche. Il se peut que la requête contienne au moins une propriété non valide.
+</nierror>
+<nierror code="-305532">
+DataFinder: La requête contient au moins une propriété non valide.
+</nierror>
+<nierror code="-305531">
+DataFinder: Le nombre maximum de valeurs doit être supérieur à zéro.
+</nierror>
+<nierror code="-305530">
+DataFinder: Vous ne pouvez pas exécuter une requête qui ne contient que des conditions de recherche "order by only".
+</nierror>
+<nierror code="-305529">
+DataFinder: Il n'est pas possible de classer les résultats de la recherche avec la propriété spécifiée. Ses valeurs sont ambiguës pour le type renvoyé spécifié.
+</nierror>
+<nierror code="-305528">
+DataFinder: Le nombre maximum de résultats doit être supérieur à zéro.
+</nierror>
+<nierror code="-305527">
+DataFinder: Vous ne pouvez connecter des valeurs simple précision avec "OR" que si vous utilisez l'opérateur "=".
+</nierror>
+<nierror code="-305526">
+DataFinder: Cette valeur n'est pas valide.
+</nierror>
+<nierror code="-305525">
+DataFinder: Cet opérateur n'est pas valide.
+</nierror>
+<nierror code="-305524">
+DataFinder: Le type d'objet spécifié n'est pas valide.
+</nierror>
+<nierror code="-305523">
+DataFinder: Le type de sortie spécifié n'est pas valide.
+</nierror>
+<nierror code="-305522">
+DataFinder: Une erreur interne s'est produite. Impossible de créer la requête.
+</nierror>
+<nierror code="-305521">
+DataFinder: La requête spécifiée n'est pas valide.
+</nierror>
+<nierror code="-305520">
+DataFinder: Impossible d'effectuer cette recherche. Un timeout a eu lieu.
+</nierror>
+<nierror code="-305509">
+DataFinder: Impossible d'exécuter cette requête DataFinder. Un timeout a eu lieu.
+</nierror>
+<nierror code="-305508">
+DataFinder: Aucun DataFinder n'est connecté.
+</nierror>
+<nierror code="-305507">
+DataFinder: DataFinder n'est plus disponible.
+</nierror>
+<nierror code="-305506">
+DataFinder: Impossible de se connecter à cette version de DataFinder. Vous n'avez pas les permissions nécessaires.
+</nierror>
+<nierror code="-305505">
+DataFinder: Vous n'avez pas de licence pour DataFinder.
+</nierror>
+<nierror code="-305504">
+DataFinder: Impossible de se connecter à cette version de DataFinder. Un timeout a eu lieu.
+</nierror>
+<nierror code="-305503">
+DataFinder: Impossible de se connecter à cette version de DataFinder. Un ou plusieurs paramètres de connexion ne sont pas valides.
+</nierror>
+<nierror code="-305502">
+DataFinder: Impossible de se connecter à cette version de DataFinder.
+</nierror>
+<nierror code="-305501">
+DataFinder: Cette version de DataFinder est trop ancienne pour s'y connecter.
+</nierror>
+<nierror code="305501">
+DataFinder: L'API de DataFinder ne peut pas configurer la version 2.0 de DataFinder.
+</nierror>
+<nierror code="305502">
+DataFinder: Impossible de convertir les données dans le type de données spécifié.
+</nierror>
+<nierror code="305503">
+DataFinder: Impossible de charger le fichier. DataFinder ne supporte pas ce format de fichier.
+</nierror>
+<nierror code="305504">
+DataFinder: Impossible d'ouvrir le fichier.
+</nierror>
+<nierror code="305505">
+DataFinder: Impossible de charger ce résultat de recherche. L'indice DataFinder doit peut-être être mis à jour.
+</nierror>
+<nierror code="305506">
+DataFinder: Attribut de waveform incomplet.
+</nierror>
+<nierror code="305520">
+DataFinder: Le nombre maximum de résultats est trop élevé. DataFinder ne peut pas renvoyer plus de 32000 résultats.
+</nierror>
+<nierror code="305521">
+DataFinder: Le DataFinder connecté n'a pas la bonne version pour supporter "order by". Tous les paramètres order by sont ignorés.
+</nierror>
+<nierror code="305522">
+DataFinder: Les instructions "order by" ont été ignorées pour une ou plusieurs propriété car "order by" n'est pas possible pour les propriétés personnalisées optimisées.
+</nierror>
+<nierror code="305523">
+DataFinder: Les instructions "order by" ont été ignorées pour une ou plusieurs propriété car les valeurs de propriété sont ambiguës pour le type de sortie donné.
+</nierror>
+<nierror code="305524">
+DataFinder: Le paramètre "order by" est ignoré si vous êtes connecté à une fédération.
+</nierror>
+<nierror code="305525">
+DataFinder: Le nom du DataPlugin est ignoré si vous êtes connecté à une fédération.
+</nierror>
+<nierror code="305530">
+DataFinder: Le nom de DataPlugin ne peut pas être renvoyé. DataFinder ne supporte pas ce format de fichier.
+</nierror>
+<nierror code="305531">
+DataFinder: La référence aux résultats de la recherche ne contient pas la propriété spécifiée.
+</nierror>
+<nierror code="305532">
+DataFinder: La propriété n'est pas définie.
+</nierror>
+<nierror code="305550">
+DataFinder: La propriété spécifiée n'est pas optimisée.
+</nierror>
+<nierror code="305551">
+DataFinder: La propriété spécifiée est déjà optimisée.
+</nierror>
+<nierror code="305552">
+DataFinder: La zone de recherche spécifiée n'existe pas.
+</nierror>
+<nierror code="305553">
+DataFinder: Le dossier spécifié est déjà exclus de la recherche.
+</nierror>
+<nierror code="305554">
+DataFinder: Le chemin spécifié n'a pas été ajouté aux zones de recherche car c'est un sous-dossier d'une zone de recherche existante.
+</nierror>
+<nierror code="305555">
+DataFinder: Le chemin spécifié contient des zones de recherche existantes. Ces zones de recherche ont été intégrées à la nouvelle zone de recherche.
+</nierror>
+<nierror code="305556">
+DataFinder: Le chemin spécifié est un sous-dossier déjà exclu de la recherche.
+</nierror>
+<nierror code="305557">
+DataFinder: Le chemin spécifié contient des sous-dossiers qui sont déjà exclus de la recherche. Ces sous-dossiers ont été supprimés de la liste de dossiers exclus.
+</nierror>
+<nierror code="305570">
+DataFinder: La propriété <paent> n'est disponible pour aucun des fichiers.
+</nierror>
+<nierror code="305571">
+DataFinder: La propriété <children> n'est disponible pour aucune des voies.
+</nierror>
+<nierror code="305580">
+DataFinder: Le préfixe est ignoré si vous êtes connecté à une fédération.
+</nierror>
+<nierror code="305600">
+DataFinder: Le buffer spécifié est trop petit. La séquence de caractères renvoyée risque de ne pas être complète.
+</nierror>
+</nidocument>

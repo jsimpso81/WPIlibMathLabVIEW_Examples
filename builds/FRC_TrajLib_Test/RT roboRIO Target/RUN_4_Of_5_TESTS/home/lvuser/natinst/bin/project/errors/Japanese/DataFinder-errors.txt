@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="DataFinder" familyname="DataFinder">
+</nifamily>
+</nicomment>
+<nierror code="-305999">
+DataFinder: メモリが不足しています。
+</nierror>
+<nierror code="-305998">
+DataFinder: DataFinder環境が正しく初期化されていません。
+</nierror>
+<nierror code="-305997">
+DataFinder: DataFinderがインストールされていないか、アップデートが必要です。
+</nierror>
+<nierror code="-305990">
+DataFinder: 不明なエラーが発生しました。
+</nierror>
+<nierror code="-305982">
+DataFinder: SearchResultリファレンスが有効ではありません。
+</nierror>
+<nierror code="-305981">
+DataFinder: Queryリファレンスが有効ではありません。
+</nierror>
+<nierror code="-305980">
+DataFinder: DataFinderリファレンスが有効ではありません。
+</nierror>
+<nierror code="-305604">
+DataFinder: 接続されたDataFinderはサポートされていません。
+</nierror>
+<nierror code="-305603">
+DataFinder: 接続されたDataFinderはこのメソッドをサポートしていません。
+</nierror>
+<nierror code="-305602">
+DataFinder: 接続されたDataFinderはこのプロパティをサポートしていません。
+</nierror>
+<nierror code="-305601">
+DataFinder: 接続されたDataFinderは、このメソッドに対応するバージョンではありません。
+</nierror>
+<nierror code="-305600">
+DataFinder: アクセスが拒否されました。
+</nierror>
+<nierror code="-305586">
+DataFinder: DataFinderには、指定されたファイルを指標付けするアクティブDataPluginがありません。
+</nierror>
+<nierror code="-305585">
+DataFinder: 指標付けタスクでキューが一杯です。後で再実行してください。
+</nierror>
+<nierror code="-305579">
+DataFinder: 指定されたパスが有効ではありません。
+</nierror>
+<nierror code="-305577">
+DataFinder: 指標付けされていないカスタムプロパティを最適化するには、データタイプを指定する必要があります。
+</nierror>
+<nierror code="-305576">
+DataFinder: ベースプロパティを最適化できません。
+</nierror>
+<nierror code="-305575">
+DataFinder: 指定されたクライアントパスの検索領域はすでに存在します。
+</nierror>
+<nierror code="-305574">
+DataFinder: 指定されたパスが有効ではありません。
+</nierror>
+<nierror code="-305569">
+DataFinder: 指定された名前の検索領域はすでに存在します。
+</nierror>
+<nierror code="-305568">
+DataFinder: 指定されたパスの検索領域はすでに存在します。
+</nierror>
+<nierror code="-305567">
+DataFinder: 指定されたクライアントパスが無効です。
+</nierror>
+<nierror code="-305566">
+DataFinder: 指定されたパスが無効です。
+</nierror>
+<nierror code="-305565">
+DataFinder: 指定された名前が無効です。
+</nierror>
+<nierror code="-305564">
+DataFinder: 指定された検索領域が無効です。
+</nierror>
+<nierror code="-305563">
+DataFinder: DataFinder APIは、DataFinder バージョン 2.0を構成できません。
+</nierror>
+<nierror code="-305562">
+DataFinder: DataFinder構成を書き込めません。タイムアウトが発生しました。
+</nierror>
+<nierror code="-305561">
+DataFinder: DataFinder構成を読み取れません。タイムアウトが発生しました。
+</nierror>
+<nierror code="-305560">
+DataFinder: アクセスが拒否されました。
+</nierror>
+<nierror code="-305559">
+DataFinder: プロパティは読み取り専用です。
+</nierror>
+<nierror code="-305550">
+DataFinder: 引数が無効です。
+</nierror>
+<nierror code="-305544">
+DataFinder: 1つ以上の値は、%d文字の最大許容長を上回っています。
+</nierror>
+<nierror code="-305543">
+DataFinder: 検索結果のパスを特定できません。DataFinder指標が破損している可能性があります。
+</nierror>
+<nierror code="-305542">
+DataFinder: このプロパティの値が明白ではありません。
+</nierror>
+<nierror code="-305541">
+DataFinder: 指定されたプロパティは存在しません。
+</nierror>
+<nierror code="-305540">
+DataFinder: 指定されたデータタイプは、プロパティのデータタイプと同じではありません。
+</nierror>
+<nierror code="-305539">
+DataFinder: 指定されたプロパティが有効ではありません。
+</nierror>
+<nierror code="-305534">
+DataFinder: クエリには、少なくても1つの無効な演算子が含まれています。
+</nierror>
+<nierror code="-305533">
+DataFinder: 検索中にエラーが発生しました。クエリには、少なくても1つの無効なプロパティが含まれている可能性があります。
+</nierror>
+<nierror code="-305532">
+DataFinder: クエリには、少なくても1つの無効なプロパティが含まれています。
+</nierror>
+<nierror code="-305531">
+DataFinder: 最大値カウントは0以上である必要があります。
+</nierror>
+<nierror code="-305530">
+DataFinder: 「order by only」検索条件を持つクエリを実行できません。
+</nierror>
+<nierror code="-305529">
+DataFinder: 検索結果を指定されたプロパティでソートすることはできません。返り値タイプに対して不明瞭な値です。
+</nierror>
+<nierror code="-305528">
+DataFinder: 最大結果カウントは0以上である必要があります。
+</nierror>
+<nierror code="-305527">
+DataFinder: "="演算子を使用する場合にのみ、単一の値を "OR"で接続できます。
+</nierror>
+<nierror code="-305526">
+DataFinder: この値は有効ではありません。
+</nierror>
+<nierror code="-305525">
+DataFinder: この演算子は有効ではありません。
+</nierror>
+<nierror code="-305524">
+DataFinder: 指定されたオブジェクトタイプが有効ではありません。
+</nierror>
+<nierror code="-305523">
+DataFinder: 指定された戻り値タイプが有効ではありません。
+</nierror>
+<nierror code="-305522">
+DataFinder: 内部エラーが発生しました。クエリを作成できません。
+</nierror>
+<nierror code="-305521">
+DataFinder: 指定されたクエリが無効です。
+</nierror>
+<nierror code="-305520">
+DataFinder: この検索を実行できません。タイムアウトが発生しました。
+</nierror>
+<nierror code="-305509">
+DataFinder: このDataFinder要求を実行できません。タイムアウトが発生しました。
+</nierror>
+<nierror code="-305508">
+DataFinder: DataFinderは接続されていません。
+</nierror>
+<nierror code="-305507">
+DataFinder: DataFinderは使用できません。
+</nierror>
+<nierror code="-305506">
+DataFinder: このDataFinderに接続できません。必要な権限がありません。
+</nierror>
+<nierror code="-305505">
+DataFinder: DataFinderのライセンスがありません。
+</nierror>
+<nierror code="-305504">
+DataFinder: このDataFinderに接続できません。タイムアウトが発生しました。
+</nierror>
+<nierror code="-305503">
+DataFinder: このDataFinderに接続できません。1つ以上の接続パラメータが無効です。
+</nierror>
+<nierror code="-305502">
+DataFinder: このDataFinderに接続できません。
+</nierror>
+<nierror code="-305501">
+DataFinder: このDataFinderのバージョンは古すぎて接続できません。
+</nierror>
+<nierror code="305501">
+DataFinder: DataFinder APIは、DataFinder バージョン 2.0を構成できません。
+</nierror>
+<nierror code="305502">
+DataFinder: データを指定されたデータタイプに変換できません。
+</nierror>
+<nierror code="305503">
+DataFinder: ファイルをロードできません。DataFinderはこのファイル形式をサポートしていません。
+</nierror>
+<nierror code="305504">
+DataFinder: ファイルを開けません。
+</nierror>
+<nierror code="305505">
+DataFinder: この検索結果をロードできません。DataFinder指標を更新する必要があるかもしれません。
+</nierror>
+<nierror code="305506">
+DataFinder: 波形属性が不完全です。
+</nierror>
+<nierror code="305520">
+DataFinder: 最大結果カウントが多すぎます。DataFinderは32000以上の結果を返すことができません。
+</nierror>
+<nierror code="305521">
+DataFinder: 接続されたDataFinderは、「order by」をサポートするバージョンではありません。すべての「order by」設定は無視されます。
+</nierror>
+<nierror code="305522">
+DataFinder: 最適化されていないカスタムプロパティには「order by」を使用できないため、一つ以上のプロパティ用の「order by」ステートメントが無視されました。
+</nierror>
+<nierror code="305523">
+DataFinder: 返り値タイプには不明瞭なプロパティ値のため、一つ以上のプロパティ用の「order by」ステートメントが無視されました。
+</nierror>
+<nierror code="305524">
+DataFinder: フェデレーションに接続している場合は、「order by」設定は無視されます。
+</nierror>
+<nierror code="305525">
+DataFinder: フェデレーションに接続している場合は、データプラグイン名は無視されます。
+</nierror>
+<nierror code="305530">
+DataFinder: データプラグイン名を返すことができません。DataFinderはこのファイル形式をサポートしていません。
+</nierror>
+<nierror code="305531">
+DataFinder: 検索結果のリファレンスには、指定されたプロパティが含まれていません。
+</nierror>
+<nierror code="305532">
+DataFinder: このプロパティは設定されていません。
+</nierror>
+<nierror code="305550">
+DataFinder: 指定されたプロパティは最適化されていません。
+</nierror>
+<nierror code="305551">
+DataFinder: 指定されたプロパティはすでに最適化されています。
+</nierror>
+<nierror code="305552">
+DataFinder: 指定された検索領域はすでに存在します。
+</nierror>
+<nierror code="305553">
+DataFinder: 指定されたフォルダはすでに検索から除外されました。
+</nierror>
+<nierror code="305554">
+DataFinder: 指定されたパスは、既存の検索領域のサブフォルダであるため、検索領域に追加されませんでした。
+</nierror>
+<nierror code="305555">
+DataFinder: 指定されたパスには、既存の検索領域が含まれています。これらの検索領域は、新しい検索領域に統合されました。
+</nierror>
+<nierror code="305556">
+DataFinder: サブフォルダとして指定されたパスは、すでに検索から除外されています。
+</nierror>
+<nierror code="305557">
+DataFinder: 指定されたパスには、すでに検索から除外されたフォルダが含まれています。これらのサブフォルダは、除外されたフォルダのリストから削除されました。
+</nierror>
+<nierror code="305570">
+DataFinder: プロパティ<parent>はどのファイルにも利用できません。
+</nierror>
+<nierror code="305571">
+DataFinder: プロパティ<children>はどのチャンネルにも利用できません。
+</nierror>
+<nierror code="305580">
+DataFinder: フェデレーションに接続している場合は、「プレフィックス」は無視されます。
+</nierror>
+<nierror code="305600">
+DataFinder: 指定されたバッファが小さすぎます。返された文字シーケンスが不完全な場合があります。
+</nierror>
+</nidocument>
