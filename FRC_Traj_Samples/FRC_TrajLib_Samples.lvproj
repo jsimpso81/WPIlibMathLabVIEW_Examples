@@ -63,7 +63,28 @@
 		<Item Name="spline" Type="Folder" URL="../spline">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="State-Space-Control-and-Simulation" Type="Folder" URL="../State-Space-Control-and-Simulation">
+		<Item Name="StateSpace-DiffDrive-Sim" Type="Folder" URL="../StateSpace-DiffDrive-Sim">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="StateSpace-Elevator-Sim" Type="Folder" URL="../StateSpace-Elevator-Sim">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="StateSpace-KalmanFilter" Type="Folder" URL="../StateSpace-KalmanFilter">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="StateSpace-LinearQuadraticRegulator" Type="Folder" URL="../StateSpace-LinearQuadraticRegulator">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="StateSpace-LinearSystemLoop" Type="Folder" URL="../StateSpace-LinearSystemLoop">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="StateSpace-Shooter-Sim" Type="Folder" URL="../StateSpace-Shooter-Sim">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="StateSpace-SingleJointedArm-Sim" Type="Folder" URL="../StateSpace-SingleJointedArm-Sim">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="StateSpace-WalkThroughExample" Type="Folder" URL="../StateSpace-WalkThroughExample">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="trajectory" Type="Folder" URL="../trajectory">
@@ -425,7 +446,7 @@
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/controller-PID/FRC-Traj-Lib-analog-adv-pid-complex-test.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/State-Space-Control-and-Simulation/ElevatorSim_example.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
@@ -470,10 +491,10 @@
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/controller-PID/FRC-Traj-Lib-analog-adv-pid-complex-test.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/State-Space-Control-and-Simulation/ElevatorSim_example.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/State-Space-Control-and-Simulation/SingleJointedArmSim_example.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
@@ -717,6 +738,9 @@ DirectoryIndex index.htm
 		<Item Name="controller-ArmFeedforward" Type="Folder" URL="../controller-ArmFeedforward">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="controller-bang-bang" Type="Folder" URL="../controller-bang-bang">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="controller-ElevatorFeedforward" Type="Folder" URL="../controller-ElevatorFeedforward">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -748,6 +772,30 @@ DirectoryIndex index.htm
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="spline" Type="Folder" URL="../spline">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="StateSpace-DiffDrive-Sim" Type="Folder" URL="../StateSpace-DiffDrive-Sim">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="StateSpace-Elevator-Sim" Type="Folder" URL="../StateSpace-Elevator-Sim">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="StateSpace-KalmanFilter" Type="Folder" URL="../StateSpace-KalmanFilter">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="StateSpace-LinearQuadraticRegulator" Type="Folder" URL="../StateSpace-LinearQuadraticRegulator">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="StateSpace-LinearSystemLoop" Type="Folder" URL="../StateSpace-LinearSystemLoop">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="StateSpace-Shooter-Sim" Type="Folder" URL="../StateSpace-Shooter-Sim">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="StateSpace-SingleJointedArm-Sim" Type="Folder" URL="../StateSpace-SingleJointedArm-Sim">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="StateSpace-WalkThroughExample" Type="Folder" URL="../StateSpace-WalkThroughExample">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="trajectory" Type="Folder" URL="../trajectory">
@@ -802,7 +850,9 @@ DirectoryIndex index.htm
 				<Item Name="NetComm_UsageReport_report.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UsageReport_report.vi"/>
 				<Item Name="NetComm_UsageReport_ResourceType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UsageReport_ResourceType.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
