@@ -362,7 +362,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{CC9A0E3F-FA0F-4328-9FD4-0BFF72BF1DF6}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/UtilPgms/FRC_LV_Trajectory_Utilities_Create_Trajectory_Using_TrajectoryLibrary_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">58</Property>
+				<Property Name="Bld_version.build" Type="Int">59</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">Create_Trajectory_Using_TrajectoryLibrary.exe</Property>
@@ -379,7 +379,7 @@
 				<Property Name="Destination[4].path" Type="Path">../bin/FieldInfo</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_TrajectoryLibrary.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{414567AF-CC17-40D8-982F-9271D146EFC4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{98328398-B371-43D1-A3B1-B65E0A977E04}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_PathfinderDifferential.vi</Property>
@@ -422,6 +422,9 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_TrajectoryLibrary.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/2022-field.png</Property>
+				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LICENSE.txt</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
@@ -443,7 +446,7 @@
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/2021-galacticsearcha.png</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">20</Property>
+				<Property Name="SourceCount" Type="Int">21</Property>
 				<Property Name="TgtF_companyName" Type="Str">FRC Team Frobotics 4150</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Utility to create Trajectories  FRC 2020</Property>
 				<Property Name="TgtF_internalName" Type="Str">Create_Trajectory_Using_TrajectoryLibrary</Property>
