@@ -112,9 +112,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{138188AF-1F8C-424F-8B5A-7D9CB1230D1E}</Property>
-				<Property Name="Bld_version.build" Type="Int">36</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">38</Property>
+				<Property Name="Bld_version.major" Type="Int">2</Property>
+				<Property Name="Bld_version.patch" Type="Int">8</Property>
 				<Property Name="Destination[0].destName" Type="Str">Convert_PathWeaver_JSON_To_Trajectory_File.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../bin/Convert PathWeaver JSON to Trajectory File.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -127,7 +127,7 @@
 				<Property Name="Destination[3].path" Type="Path">../bin/Samples</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UtilityPrograms/Convert_PathWeaverJSON_To_TrajectoryFile.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3CFEDCBB-0D0C-4CEF-8A1A-F2E54F913AAE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CDEDCC52-F9B7-488F-9D94-82E8C28498A8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_PathfinderDifferential.vi</Property>
@@ -175,9 +175,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{55737952-589B-4137-845C-FAF41B20F6C3}</Property>
-				<Property Name="Bld_version.build" Type="Int">38</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">40</Property>
+				<Property Name="Bld_version.major" Type="Int">2</Property>
+				<Property Name="Bld_version.patch" Type="Int">8</Property>
 				<Property Name="Destination[0].destName" Type="Str">Convert_Trajectory_CSV_To_PathWeaver_JSON_File.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../bin/Convert Trajectory CSV File to PathWeaver JSON File.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -190,7 +190,7 @@
 				<Property Name="Destination[3].path" Type="Path">../bin/Samples</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UtilityPrograms/Convert_TrajectoryCSVFile_To_PathWeaverJSONFile.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3CFEDCBB-0D0C-4CEF-8A1A-F2E54F913AAE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CDEDCC52-F9B7-488F-9D94-82E8C28498A8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_PathfinderDifferential.vi</Property>
@@ -246,9 +246,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0891982F-6A4F-44AF-99CF-525B24677004}</Property>
-				<Property Name="Bld_version.build" Type="Int">37</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">38</Property>
+				<Property Name="Bld_version.major" Type="Int">2</Property>
+				<Property Name="Bld_version.patch" Type="Int">8</Property>
 				<Property Name="Destination[0].destName" Type="Str">Create_Trajectory_Using_Pathfinder_Differential.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../bin/Create_Trajectory_Using_Pathfinder_Differential.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -262,7 +262,7 @@
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_PathfinderDifferential.ico</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{524F8B96-1274-481E-B000-D4C01BA85C78}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CDEDCC52-F9B7-488F-9D94-82E8C28498A8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_PathfinderDifferential.vi</Property>
@@ -271,13 +271,7 @@
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LICENSE.txt</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[4].itemID" Type="Ref"></Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">FRC Team Frobotics 4150</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Create_Trajectory Using Pathfinder_Differential   FRC 2020</Property>
 				<Property Name="TgtF_internalName" Type="Str">Create_Trajectory Using Pathfinder_Differential</Property>
@@ -304,9 +298,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5AA0748A-2CA0-4C77-8742-DF0A511406A0}</Property>
-				<Property Name="Bld_version.build" Type="Int">37</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">38</Property>
+				<Property Name="Bld_version.major" Type="Int">2</Property>
+				<Property Name="Bld_version.patch" Type="Int">8</Property>
 				<Property Name="Destination[0].destName" Type="Str">Create_Trajectory_Using_Pathfinder_Swerve.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../bin/Create_Trajectory_Using_Pathfinder_Swerve.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -318,7 +312,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_PathfinderSwerve.ico</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{524F8B96-1274-481E-B000-D4C01BA85C78}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CDEDCC52-F9B7-488F-9D94-82E8C28498A8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_PathfinderDifferential.vi</Property>
@@ -330,10 +324,7 @@
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LICENSE.txt</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[4].itemID" Type="Ref"></Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">FRC Team Frobotics 4150</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Create_Trajectory_Using_Pathfinder_Swerve FRC 2020</Property>
 				<Property Name="TgtF_internalName" Type="Str">Create_Trajectory_Using_Pathfinder_Swerve</Property>
@@ -362,9 +353,9 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{CC9A0E3F-FA0F-4328-9FD4-0BFF72BF1DF6}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/UtilPgms/FRC_LV_Trajectory_Utilities_Create_Trajectory_Using_TrajectoryLibrary_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">59</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">60</Property>
+				<Property Name="Bld_version.major" Type="Int">2</Property>
+				<Property Name="Bld_version.patch" Type="Int">8</Property>
 				<Property Name="Destination[0].destName" Type="Str">Create_Trajectory_Using_TrajectoryLibrary.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../bin/Create_Trajectory_Using_TrajectoryLibrary.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -379,7 +370,7 @@
 				<Property Name="Destination[4].path" Type="Path">../bin/FieldInfo</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_TrajectoryLibrary.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{98328398-B371-43D1-A3B1-B65E0A977E04}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CDEDCC52-F9B7-488F-9D94-82E8C28498A8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_PathfinderDifferential.vi</Property>
