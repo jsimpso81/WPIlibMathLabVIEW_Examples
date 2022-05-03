@@ -1,4 +1,4 @@
-5/2/2022 12:11:17 PM
+5/3/2022 3:31:50 PM
 [General]
 Project: C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\FRC_TrajLib_Test.lvproj
 Target: RT roboRIO Target
@@ -6,11 +6,11 @@ Build Specification: RUN_6_Of_6_TESTS
 OS: Windows NT 10.0
 
 [Open Top Level VIs]
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\_RunAllTests\Run_6_of_6_Tests.vi	5/2/2022 11:48:09 AM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\_RunAllTests\Run_6_of_6_Tests.vi	5/3/2022 2:31:09 PM
 
 
 [Source Files]
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Trajectory_Library.lvlib	5/2/2022 10:39:26 AM	2.0.5.0
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Trajectory_Library.lvlib	5/3/2022 2:54:46 PM	2.0.5.0
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\Matrix\NI_Matrix.lvlib	3/17/2019 1:33:52 PM	1.0.0.0
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\NI_AALBase.lvlib	3/17/2019 12:06:36 PM	14.0.0.0
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\NI_AALPro.lvlib	3/17/2019 1:33:32 PM	14.0.0.0
@@ -19,16 +19,56 @@ C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\rvi\interface\common\n
 C:\Program Files\National Instruments\LabVIEW 2019\Targets\NI\RT\vi.lib\Rock Robotics\SystemInterfaces\NetworkCommunication\NetComm_SendMessage.vi	12/29/2021 10:55:28 PM	10
 C:\Program Files\National Instruments\LabVIEW 2019\Targets\NI\RT\vi.lib\Rock Robotics\WPI\Utilities\WPI_UtilitiesFRC SendMessageToConsole.vi	12/29/2021 10:55:28 PM	19
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\_RunAllTests\report-test-completed.vi	1/6/2022 7:21:45 PM	12
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\Matrix\Datatypes\RealMatrix.ctl	3/17/2019 1:33:54 PM	21
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\Matrix\Numeric\Conversions\Array To Matrix - RA2.vi	3/17/2019 1:49:24 PM	22
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\Matrix\Numeric\Conversions\Matrix To Array - RM.vi	3/17/2019 1:49:24 PM	23
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\Matrix\Numeric\Add\Add - RM,RM.vi	3/17/2019 1:49:24 PM	24
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\Matrix\Numeric\Multiply\Multiply - RM,R.vi	3/17/2019 1:49:24 PM	30
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\baseanly.llb\Real A x B.vi	3/17/2019 1:33:52 PM	32
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\baseanly.llb\A x Vector.vi	3/17/2019 1:33:54 PM	34
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\IMPLICIT_MODEL_FOLLOWER.ctl	5/3/2022 2:54:49 PM	26
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\ImplModelFollow_Calculate.vi	5/3/2022 2:55:26 PM	92
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\MatrixHelper_Zero.vi	5/3/2022 2:55:05 PM	76
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\ImplModelFollow_Reset.vi	5/3/2022 2:55:26 PM	92
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\baseanly.llb\Matrix Type of Inverse Matrix.ctl	3/17/2019 1:33:54 PM	2
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\7linalg.llb\Merge Error Code.vi	3/17/2019 1:50:30 PM	4
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\7linalg.llb\Inverse A x Y using SVD (DBL).vi	3/17/2019 1:50:32 PM	10
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\7linalg.llb\Real Transpose Matrix.vi	3/17/2019 1:50:30 PM	44
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\7linalg.llb\SVD Option.ctl	3/17/2019 1:50:30 PM	2
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\7linalg.llb\Real SVD Decomposition.vi	3/17/2019 12:40:20 PM	103
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\7linalg.llb\Solve General Linear Equations with SVD (DBL, multi hand).vi	3/17/2019 1:50:32 PM	36
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\7linalg.llb\Solve Linear Eqs (Gen, multi right hand).vi	3/17/2019 1:50:30 PM	6
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\7linalg.llb\Solve Linear Equations (multiple right hand).vi	3/17/2019 1:50:32 PM	94
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\Matrix\Numeric\Subtract\Subtract - RM,RM.vi	3/17/2019 1:50:32 PM	24
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\MatBuilder_Create.vi	5/3/2022 2:54:51 PM	77
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\ImplModelFollow_New.vi	5/3/2022 2:55:26 PM	91
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\LINEAR_SYSTEM.ctl	5/3/2022 2:54:48 PM	25
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\LinearSystem_GetA.vi	5/3/2022 2:55:26 PM	62
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\LinearSystem_GetB.vi	5/3/2022 2:55:26 PM	64
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\ImplModelFollow_New_Plant.vi	5/3/2022 2:55:26 PM	92
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\7linalg.llb\Real Matrix Exp.vi	3/17/2019 1:53:08 PM	68
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Matrix_ExtractFrom.vi	5/3/2022 2:55:05 PM	86
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\MatrixHelper_CoerceSize.vi	5/3/2022 2:54:52 PM	82
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Matrix_AssignBlock.vi	5/3/2022 2:55:05 PM	84
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Matrix_Exp.vi	5/3/2022 2:55:06 PM	84
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Discretization_DiscretizeAB.vi	5/3/2022 2:55:06 PM	77
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\LinearSystem_New.vi	5/3/2022 2:55:06 PM	68
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Util_ApproxEquals.vi	5/3/2022 2:55:15 PM	5
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\LinearSystem_CalculateX.vi	5/3/2022 2:55:27 PM	71
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\MatBuilder_Fill.vi	5/3/2022 2:55:02 PM	81
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\LinearSystemId_IdentifyDriveTrainSystem.vi	5/3/2022 2:55:26 PM	78
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\implicit-model-follow\test-Implicit-Model-Follower-Test2.vi	5/2/2022 11:39:53 AM	30
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\implicit-model-follow\test-Implicit-Model-Follower-Test1.vi	5/2/2022 11:32:11 AM	28
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\implicit-model-follow\test-implicit-model-follower-ALL-TESTS.vi	5/2/2022 10:58:07 AM	111
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\gmath\interp.llb\Search Ordered Table.vi	3/17/2019 1:33:38 PM	94
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\FUNCTION_GENERATOR.ctl	5/2/2022 10:39:29 AM	34
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\FunctionGenerator_Calculate.vi	5/2/2022 10:39:43 AM	11
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\FunctionGenerator_Add_Value.vi	5/2/2022 10:40:01 AM	14
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Util_ApproxEquals.vi	5/2/2022 10:39:59 AM	5
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\X_Y_PAIR.ctl	5/2/2022 10:39:31 AM	14
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\FunctionGenerator_Add_XY.vi	5/2/2022 10:40:01 AM	15
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\FunctionGenerator_New.vi	5/2/2022 10:39:43 AM	15
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\FUNCTION_GENERATOR.ctl	5/3/2022 2:54:49 PM	34
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\FunctionGenerator_Calculate.vi	5/3/2022 2:54:58 PM	11
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\FunctionGenerator_Add_Value.vi	5/3/2022 2:55:16 PM	14
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\X_Y_PAIR.ctl	5/3/2022 2:54:51 PM	14
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\FunctionGenerator_Add_XY.vi	5/3/2022 2:55:16 PM	15
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\FunctionGenerator_New.vi	5/3/2022 2:54:58 PM	15
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\function-generator\test-Function-Generator-Test3.vi	5/1/2022 8:54:49 PM	31
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\FunctionGenerator_Clear.vi	5/2/2022 10:40:01 AM	15
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\FunctionGenerator_Clear.vi	5/3/2022 2:55:16 PM	15
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\function-generator\test-Function-Generator-Test2.vi	5/1/2022 8:49:55 PM	33
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\function-generator\test-Function-Generator-Test1.vi	5/1/2022 8:03:31 PM	30
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\function-generator\test-Function-Generator-ALL-TESTS.vi	5/1/2022 8:55:11 PM	112
@@ -64,55 +104,57 @@ C:\Program Files\National Instruments\LabVIEW 2019\Targets\NI\RT\vi.lib\Rock Rob
 C:\Program Files\National Instruments\LabVIEW 2019\Targets\NI\RT\vi.lib\Rock Robotics\Network Tables\NT Write Name Cache.vi	1/6/2021 7:27:08 AM	22
 C:\Program Files\National Instruments\LabVIEW 2019\Targets\NI\RT\vi.lib\Rock Robotics\Network Tables\NT Write String.vi	1/6/2021 7:27:08 AM	47
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\_RunAllTests\report-test-results.vi	1/6/2022 7:23:06 PM	13
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\Matrix\Datatypes\RealMatrix.ctl	3/17/2019 1:33:54 PM	21
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\Matrix\Numeric\Conversions\Array To Matrix - RA2.vi	3/17/2019 1:49:24 PM	22
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\Matrix\Numeric\Conversions\Matrix To Array - RM.vi	3/17/2019 1:49:24 PM	23
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\Matrix\Numeric\Add\Add - RM,RM.vi	3/17/2019 1:49:24 PM	24
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\Matrix\Numeric\Multiply\Multiply - RM,R.vi	3/17/2019 1:49:24 PM	30
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\baseanly.llb\Real A x B.vi	3/17/2019 1:33:52 PM	32
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\baseanly.llb\A x Vector.vi	3/17/2019 1:33:54 PM	34
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\Matrix\Numeric\Subtract\Subtract - RM,RM.vi	3/17/2019 1:50:32 PM	24
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\baseanly.llb\Matrix Type of Inverse Matrix.ctl	3/17/2019 1:33:54 PM	2
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\7linalg.llb\Merge Error Code.vi	3/17/2019 1:50:30 PM	4
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\7linalg.llb\Inverse A x Y using SVD (DBL).vi	3/17/2019 1:50:32 PM	10
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\7linalg.llb\Real Transpose Matrix.vi	3/17/2019 1:50:30 PM	44
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\7linalg.llb\SVD Option.ctl	3/17/2019 1:50:30 PM	2
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\7linalg.llb\Real SVD Decomposition.vi	3/17/2019 12:40:20 PM	103
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\7linalg.llb\Solve General Linear Equations with SVD (DBL, multi hand).vi	3/17/2019 1:50:32 PM	36
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\7linalg.llb\Solve Linear Eqs (Gen, multi right hand).vi	3/17/2019 1:50:30 PM	6
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\7linalg.llb\Solve Linear Equations (multiple right hand).vi	3/17/2019 1:50:32 PM	94
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\MatBuilder_Create.vi	5/2/2022 10:39:31 AM	77
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\MatBuilder_Fill.vi	5/2/2022 10:39:47 AM	81
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\VecBuilder_2x1Fill.vi	5/2/2022 10:39:57 AM	75
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\LINEAR_SYSTEM.ctl	5/2/2022 10:39:28 AM	25
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\DIFF_DRIVE_ACCEL_LIMIT.ctl	5/2/2022 10:39:28 AM	32
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\DiffDrvAccelLimit_Calculate.vi	5/2/2022 10:40:16 AM	87
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\DiffDrvAccelLimit_New.vi	5/2/2022 10:40:16 AM	86
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Analysis\7linalg.llb\Real Matrix Exp.vi	3/17/2019 1:53:08 PM	68
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Matrix_ExtractFrom.vi	5/2/2022 10:39:51 AM	86
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\MatrixHelper_CoerceSize.vi	5/2/2022 10:39:33 AM	82
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Matrix_AssignBlock.vi	5/2/2022 10:39:51 AM	84
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Matrix_Exp.vi	5/2/2022 10:39:51 AM	84
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Discretization_DiscretizeAB.vi	5/2/2022 10:39:51 AM	77
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\MatrixHelper_Zero.vi	5/2/2022 10:39:51 AM	76
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\LinearSystem_New.vi	5/2/2022 10:39:51 AM	68
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\LinearSystem_CalculateX.vi	5/2/2022 10:40:12 AM	71
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\LinearSystemId_IdentifyDriveTrainSystem.vi	5/2/2022 10:40:10 AM	78
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\VecBuilder_2x1Fill.vi	5/3/2022 2:55:12 PM	75
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\DIFF_DRIVE_ACCEL_LIMIT.ctl	5/3/2022 2:54:48 PM	32
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\DiffDrvAccelLimit_Calculate.vi	5/3/2022 2:55:32 PM	87
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\DiffDrvAccelLimit_New.vi	5/3/2022 2:55:32 PM	86
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\differential-drive-acceleration-limiter\test-Diff-Drive-Accel-Limiter-Test2.vi	4/30/2022 10:00:38 PM	32
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\LinearSystem_GetA.vi	5/2/2022 10:40:11 AM	62
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\LinearSystem_GetB.vi	5/2/2022 10:40:11 AM	64
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\differential-drive-acceleration-limiter\test-Diff-Drive-Accel-Limiter-Test1.vi	4/30/2022 8:50:58 PM	25
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\differential-drive-acceleration-limiter\test-Diff-Drive-Accel-Limiter-ALL-TESTS.vi	4/30/2022 8:53:07 PM	110
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Util_GetLibraryVersion.vi	5/2/2022 10:39:59 AM	30
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Util_GetLibraryVersion.vi	5/3/2022 2:55:15 PM	30
 C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\_RunAllTests\report-test-started.vi	4/29/2022 10:01:00 PM	13
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\IMPLICIT_MODEL_FOLLOWER.ctl	5/2/2022 10:39:27 AM	26
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\ImplModelFollow_Calculate.vi	5/2/2022 10:39:27 AM	92
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\ImplModelFollow_Reset.vi	5/2/2022 10:40:11 AM	92
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\ImplModelFollow_New.vi	5/2/2022 10:40:11 AM	91
-C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\ImplModelFollow_New_Plant.vi	5/2/2022 10:40:11 AM	92
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\implicit-model-follow\test-Implicit-Model-Follower-Test2.vi	5/2/2022 11:39:53 AM	30
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\implicit-model-follow\test-Implicit-Model-Follower-Test1.vi	5/2/2022 11:32:11 AM	28
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\implicit-model-follow\test-implicit-model-follower-ALL-TESTS.vi	5/2/2022 10:58:07 AM	111
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Util_CalcDist.vi	5/3/2022 2:54:59 PM	12
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\ROTATION2D.ctl	5/3/2022 2:54:47 PM	19
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Rotation_CreateXY.vi	5/3/2022 2:54:59 PM	22
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Rotation_RotateBy.vi	5/3/2022 2:54:59 PM	20
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\TRANSLATION2D.ctl	5/3/2022 2:54:47 PM	17
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\POSE2D.ctl	5/3/2022 2:54:47 PM	17
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Pose_New_TRRO.vi	5/3/2022 2:54:59 PM	30
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Rotation_Plus.vi	5/3/2022 2:55:04 PM	18
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Translation_Create.vi	5/3/2022 2:54:59 PM	13
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Translation_Plus.vi	5/3/2022 2:55:04 PM	18
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Translation_RotateBy.vi	5/3/2022 2:54:59 PM	18
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\TRANSFORM2D.ctl	5/3/2022 2:54:50 PM	19
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Pose_TransformBy.vi	5/3/2022 2:55:04 PM	28
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Pose_Plus.vi	5/3/2022 2:55:04 PM	29
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Transform_Create_TransRot.vi	5/3/2022 2:55:04 PM	18
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\TWIST2D.ctl	5/3/2022 2:54:50 PM	12
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Pose_Exp.vi	5/3/2022 2:55:04 PM	33
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Rotation_CreateAngle.vi	5/3/2022 2:54:59 PM	19
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Rotation_UnaryMinus.vi	5/3/2022 2:54:59 PM	18
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Rotation_Minus.vi	5/3/2022 2:54:59 PM	20
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Translation_Minus.vi	5/3/2022 2:54:59 PM	19
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Transform_Create_PosePose.vi	5/3/2022 2:54:59 PM	22
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Twist_Create.vi	5/3/2022 2:55:04 PM	14
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Translation_Times.vi	5/3/2022 2:55:09 PM	20
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Pose_RelativeTo.vi	5/3/2022 2:55:00 PM	32
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Pose_Log.vi	5/3/2022 2:55:09 PM	31
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Twist_GetAll.vi	5/3/2022 2:55:20 PM	17
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Pose_Interpolate.vi	5/3/2022 2:55:20 PM	32
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\TIME_INTERPOLATABLE_POSE.ctl	5/3/2022 2:54:50 PM	36
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\TimeInterpPose_GetSample.vi	5/3/2022 2:55:38 PM	15
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\TimeInterpPose_CleanUp.vi	5/3/2022 2:55:38 PM	21
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Rotation_Equals.vi	5/3/2022 2:55:20 PM	22
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Translation_Equals.vi	5/3/2022 2:55:08 PM	20
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Conv_Radians_Deg.vi	5/3/2022 2:55:05 PM	11
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Pose_getXYAngle.vi	5/3/2022 2:55:00 PM	33
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\TimeInterpPose_AddSample.vi	5/3/2022 2:55:38 PM	25
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Pose_Equals.vi	5/3/2022 2:55:20 PM	32
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\TimeInterpPose_New.vi	5/3/2022 2:55:38 PM	17
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Pose_New.vi	5/3/2022 2:55:01 PM	25
+C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Rock Robotics\WPI\ThirdParty\JAS_Junk\TrajLib\Conv_Deg_Radians.vi	5/3/2022 2:55:01 PM	10
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\time-interpolatable-buffer-pose\test-TimeInterpPose-Test1.vi	5/3/2022 2:20:59 PM	40
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\time-interpolatable-buffer-pose\test-TimeInterpPose-ALL-TESTS.vi	5/3/2022 2:21:25 PM	114
 C:\Program Files\National Instruments\LabVIEW 2019\Targets\NI\RT\vi.lib\Rock Robotics\Network Tables\NT Server Prototype.vi	1/6/2021 7:27:08 AM	133
 C:\Program Files\National Instruments\LabVIEW 2019\Targets\NI\RT\vi.lib\Rock Robotics\Network Tables\NT Server.vi	1/6/2021 7:27:08 AM	148
 C:\Program Files\National Instruments\LabVIEW 2019\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi	3/17/2019 12:37:21 PM	99
@@ -150,14 +192,14 @@ C:\Program Files\National Instruments\LabVIEW 2019\Targets\NI\RT\vi.lib\Rock Rob
 C:\Program Files\National Instruments\LabVIEW 2019\Targets\NI\RT\vi.lib\Rock Robotics\SystemInterfaces\NetworkCommunication\NetComm_UsageReport_ResourceType.ctl	12/29/2021 10:55:04 PM	11
 C:\Program Files\National Instruments\LabVIEW 2019\Targets\NI\RT\vi.lib\Rock Robotics\SystemInterfaces\NetworkCommunication\NetComm_UsageReport_report.vi	12/29/2021 10:55:04 PM	11
 C:\Program Files\National Instruments\LabVIEW 2019\Targets\NI\RT\vi.lib\Rock Robotics\WPI\DriverStation\WPI_DriverStationStart Communication.vi	12/24/2021 6:07:59 AM	342
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\_RunAllTests\Run_6_of_6_Tests.vi	5/2/2022 11:48:09 AM	131
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\FRC_Traj_Test\test-programs\_RunAllTests\Run_6_of_6_Tests.vi	5/3/2022 2:31:09 PM	132
 
 [Output File Version]
-startup.rtexe	1.0.0.19
+startup.rtexe	1.0.0.20
 
 [Output Files]
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\builds\FRC_TrajLib_Test\RT roboRIO Target\RUN_6_Of_6_TESTS\home\lvuser\natinst\bin\startup.rtexe	5/2/2022 12:12:37 PM
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\builds\FRC_TrajLib_Test\RT roboRIO Target\RUN_6_Of_6_TESTS\home\lvuser\natinst\bin\startup.aliases	5/2/2022 12:12:36 PM
-C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\builds\FRC_TrajLib_Test\RT roboRIO Target\RUN_6_Of_6_TESTS\depinstr.bin	5/2/2022 12:12:37 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\builds\FRC_TrajLib_Test\RT roboRIO Target\RUN_6_Of_6_TESTS\home\lvuser\natinst\bin\startup.rtexe	5/3/2022 3:33:51 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\builds\FRC_TrajLib_Test\RT roboRIO Target\RUN_6_Of_6_TESTS\home\lvuser\natinst\bin\startup.aliases	5/3/2022 3:33:50 PM
+C:\Shares\github\FRC_LV_TrajLib_Util_and_Samp\builds\FRC_TrajLib_Test\RT roboRIO Target\RUN_6_Of_6_TESTS\depinstr.bin	5/3/2022 3:33:51 PM
 
-5/2/2022 12:12:37 PM
+5/3/2022 3:33:51 PM
