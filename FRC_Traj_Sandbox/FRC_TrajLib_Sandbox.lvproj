@@ -156,7 +156,6 @@
 				<Item Name="Rotation_Minus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_Minus.vi"/>
 				<Item Name="Rotation_Plus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_Plus.vi"/>
 				<Item Name="Rotation_RotateBy.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_RotateBy.vi"/>
-				<Item Name="Rotation_Times.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_Times.vi"/>
 				<Item Name="Rotation_UnaryMinus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_UnaryMinus.vi"/>
 				<Item Name="RT CPU Load.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/RT CPU Load.ctl"/>
 				<Item Name="RT Get CPU Loads.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/RT Get CPU Loads.vi"/>
@@ -882,7 +881,6 @@ DirectoryIndex index.htm
 				<Item Name="Rotation_Minus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_Minus.vi"/>
 				<Item Name="Rotation_Plus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_Plus.vi"/>
 				<Item Name="Rotation_RotateBy.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_RotateBy.vi"/>
-				<Item Name="Rotation_Times.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_Times.vi"/>
 				<Item Name="Rotation_UnaryMinus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_UnaryMinus.vi"/>
 				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
