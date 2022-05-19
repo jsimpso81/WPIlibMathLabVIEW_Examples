@@ -22,9 +22,9 @@
 */builds/*
 Builds/*
 builds/*
+*/builds/FRC_CtrlTrajLib_Test/*_log.txt
+*/builds/FRC_CtrlTrajLib_Test/*.bin
+builds/FRC_CtrlTrajLib_Test/*_log.txt
+builds/FRC_CtrlTrajLib_Test/*.bin
 FRC_Traj_Util/builds/UtilPgms/*_log.txt
 FRC_Traj_Util/builds/UtilPgms/FRC_LV_Trajectory_Utilities_Create_Trajectory_Using_TrajectoryLibrary_log.txt
-*/builds/FRC_TrajLib_Test/*_log.txt
-*/builds/FRC_TrajLib_Test/*.bin
-builds/FRC_TrajLib_Test/*_log.txt
-builds/FRC_TrajLib_Test/*.bin
