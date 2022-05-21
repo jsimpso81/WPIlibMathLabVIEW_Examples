@@ -15,6 +15,9 @@
 		<Item Name="Analog-Test" Type="Folder" URL="../Analog-Test">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Coordinate-System-Optimize" Type="Folder" URL="../Coordinate-System-Optimize">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="DigSeqLogic" Type="Folder" URL="../DigSeqLogic">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -128,7 +131,6 @@
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
 				<Item Name="PathPlanner.lvlib" Type="Library" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/PathPlanner.lvlib"/>
 				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
-				<Item Name="Pose_Equals.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Pose_Equals.vi"/>
 				<Item Name="Pose_getTranslation.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Pose_getTranslation.vi"/>
 				<Item Name="Pose_Log.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Pose_Log.vi"/>
 				<Item Name="Pose_Minus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Pose_Minus.vi"/>
@@ -150,7 +152,6 @@
 				<Item Name="roboRIO_FPGA_2020_20.1.2.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/roboRIO_FPGA_2020_20.1.2.lvbitx"/>
 				<Item Name="Rotation_CreateAngle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_CreateAngle.vi"/>
 				<Item Name="Rotation_CreateXY.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_CreateXY.vi"/>
-				<Item Name="Rotation_Equals.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_Equals.vi"/>
 				<Item Name="Rotation_GetCos.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_GetCos.vi"/>
 				<Item Name="Rotation_GetSin.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_GetSin.vi"/>
 				<Item Name="Rotation_Minus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_Minus.vi"/>
@@ -178,7 +179,6 @@
 				<Item Name="Transform_Create_PosePose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Transform_Create_PosePose.vi"/>
 				<Item Name="Transform_Create_TransRot.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Transform_Create_TransRot.vi"/>
 				<Item Name="Translation_Create.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Translation_Create.vi"/>
-				<Item Name="Translation_Equals.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Translation_Equals.vi"/>
 				<Item Name="Translation_GetDistance.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Translation_GetDistance.vi"/>
 				<Item Name="Translation_GetXY.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Translation_GetXY.vi"/>
 				<Item Name="Translation_Minus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Translation_Minus.vi"/>
@@ -487,6 +487,46 @@
 				<Property Name="TgtF_productName" Type="Str">FRC-Traj-Lib-timer-test-2</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{F149DDD2-88A2-4EA0-A18A-F5E0A6B14D1F}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">FRC-Traj-Lib-timer-test-2.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="test-coord-system-perf-optimize" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{57EA7E51-CC4E-4082-81DD-681C51B3D4BB}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{C34D7441-B64A-4B63-AE7B-D9AA182A02A0}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{748C637C-146D-47B1-BF71-BE45E3B7DF77}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">test-coord-system-perf-optimize</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/test-coord-system-perf-optimize</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{9DAF5D1E-C982-4748-9B4D-789F4E0ACA38}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">test-coord-system-perf-optimize.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/test-coord-system-perf-optimize/test-coord-system-perf-optimize.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/test-coord-system-perf-optimize/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EABE1E6C-7D5E-4BE5-A5A4-213582D7760B}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Coordinate-System-Optimize/test-coord-system-perf-optimize.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">FRC 4150</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">test-coord-system-perf-optimize</Property>
+				<Property Name="TgtF_internalName" Type="Str">test-coord-system-perf-optimize</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 FRC 4150</Property>
+				<Property Name="TgtF_productName" Type="Str">test-coord-system-perf-optimize</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{B48009E6-5790-49B3-B988-5B4A5CAF9F70}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">test-coord-system-perf-optimize.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="test-filter-exec" Type="EXE">
@@ -853,7 +893,6 @@ DirectoryIndex index.htm
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
 				<Item Name="PathPlanner.lvlib" Type="Library" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/MJansen/PathPlanner/PathPlanner.lvlib"/>
 				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
-				<Item Name="Pose_Equals.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Pose_Equals.vi"/>
 				<Item Name="Pose_getTranslation.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Pose_getTranslation.vi"/>
 				<Item Name="Pose_Log.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Pose_Log.vi"/>
 				<Item Name="Pose_Minus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Pose_Minus.vi"/>
@@ -875,7 +914,6 @@ DirectoryIndex index.htm
 				<Item Name="roboRIO_FPGA_2020_20.1.2.lvbitx" Type="Document" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/roboRIO_FPGA_2020_20.1.2.lvbitx"/>
 				<Item Name="Rotation_CreateAngle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_CreateAngle.vi"/>
 				<Item Name="Rotation_CreateXY.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_CreateXY.vi"/>
-				<Item Name="Rotation_Equals.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_Equals.vi"/>
 				<Item Name="Rotation_GetCos.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_GetCos.vi"/>
 				<Item Name="Rotation_GetSin.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_GetSin.vi"/>
 				<Item Name="Rotation_Minus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Rotation_Minus.vi"/>
@@ -898,7 +936,6 @@ DirectoryIndex index.htm
 				<Item Name="Transform_Create_PosePose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Transform_Create_PosePose.vi"/>
 				<Item Name="Transform_Create_TransRot.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Transform_Create_TransRot.vi"/>
 				<Item Name="Translation_Create.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Translation_Create.vi"/>
-				<Item Name="Translation_Equals.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Translation_Equals.vi"/>
 				<Item Name="Translation_GetDistance.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Translation_GetDistance.vi"/>
 				<Item Name="Translation_GetXY.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Translation_GetXY.vi"/>
 				<Item Name="Translation_Minus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Translation_Minus.vi"/>
