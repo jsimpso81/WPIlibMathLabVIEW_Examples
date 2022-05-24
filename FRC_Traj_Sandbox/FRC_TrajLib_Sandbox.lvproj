@@ -42,6 +42,9 @@
 		<Item Name="trapezoid-profile-position-control" Type="Folder" URL="../trapezoid-profile-position-control">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="VariantEncpasulationTesting" Type="Folder" URL="../VariantEncpasulationTesting">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Secret_Control_Library_Protected.lvlib" Type="Library" URL="../../Secret_Control_Library_Protected/Secret_Control_Library_Protected.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -788,6 +791,9 @@ DirectoryIndex index.htm
 		<Item Name="Analog-Test" Type="Folder" URL="../Analog-Test">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Coordinate-System-Optimize" Type="Folder" URL="../Coordinate-System-Optimize">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="DigSeqLogic" Type="Folder" URL="../DigSeqLogic">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -810,6 +816,9 @@ DirectoryIndex index.htm
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="trapezoid-profile-position-control" Type="Folder" URL="../trapezoid-profile-position-control">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="VariantEncpasulationTesting" Type="Folder" URL="../VariantEncpasulationTesting">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
