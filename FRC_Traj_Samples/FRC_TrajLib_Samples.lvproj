@@ -18,7 +18,13 @@
 		<Item Name="base-AnalogDelay" Type="Folder" URL="../base-AnalogDelay">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="base-bumpless-transfer" Type="Folder" URL="../base-bumpless-transfer">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="base-Filter" Type="Folder" URL="../base-Filter">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="base-lead-lag" Type="Folder" URL="../base-lead-lag">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="base-SlewRateLimiter" Type="Folder" URL="../base-SlewRateLimiter">
@@ -768,7 +774,13 @@ DirectoryIndex index.htm
 		<Item Name="base-AnalogDelay" Type="Folder" URL="../base-AnalogDelay">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="base-bumpless-transfer" Type="Folder" URL="../base-bumpless-transfer">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="base-Filter" Type="Folder" URL="../base-Filter">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="base-lead-lag" Type="Folder" URL="../base-lead-lag">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="base-SlewRateLimiter" Type="Folder" URL="../base-SlewRateLimiter">
