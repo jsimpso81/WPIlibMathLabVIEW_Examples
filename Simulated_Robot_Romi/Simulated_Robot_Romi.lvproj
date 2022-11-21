@@ -57,7 +57,7 @@
 			<Item Name="ROBOT_PICTURE.ctl" Type="VI" URL="../ROBOT_PICTURE.ctl"/>
 			<Item Name="Rotated_Picture_TypeDef.ctl" Type="VI" URL="../Rotated_Picture_TypeDef.ctl"/>
 		</Item>
-		<Item Name="Romi-Robot-Simulation.vi" Type="VI" URL="../Romi-Robot-Simulation.vi"/>
+		<Item Name="Simulated_Robot_Romi.vi" Type="VI" URL="../Simulated_Robot_Romi.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -279,46 +279,46 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="RomiRobotSim" Type="EXE">
+			<Item Name="Simulated_Robot_Romi" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{FAA028EF-A03B-4862-9A3F-3D7B1D041670}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{55965EB5-CFFE-4914-A973-6FBFDD4EE11E}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{49AC0139-6044-429D-B89A-CCE75FA3F94B}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">RomiRobotSim</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Simulated_Robot_Romi</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/RomiRobotSim</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{16A63806-6871-4881-BB86-68E066A3870F}</Property>
-				<Property Name="Bld_userLogFile" Type="Path">../builds/RomiRobotSim_log.txt</Property>
+				<Property Name="Bld_userLogFile" Type="Path">../builds/Simulated_Robot_Romi_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">21</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">RomiRobotSim.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/RomiRobotSim/RomiRobotSim.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Simulated_Robot_Romi.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Simulated_Robot_Romi.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/RomiRobotSim/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[2].destName" Type="Str">FieldInfo</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/RomiRobotSim/FieldInfo</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/FieldInfo</Property>
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[3].destName" Type="Str">PictureDirectory</Property>
-				<Property Name="Destination[3].path" Type="Path">../builds/RomiRobotSim</Property>
+				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1A13051F-7EA8-44CF-8751-38DF4CC4AE60}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{15A1049D-841D-49E5-A5FF-8CBAEB8B4D4D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Romi-Robot-Simulation.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Simulated_Robot_Romi.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
@@ -338,12 +338,12 @@
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/images/robot_signal_light_small_ON.png</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">RomiRobotSim</Property>
-				<Property Name="TgtF_internalName" Type="Str">RomiRobotSim</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Simulated_Robot_Romi</Property>
+				<Property Name="TgtF_internalName" Type="Str">Simulated_Robot_Romi</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 J. A. Simpson</Property>
-				<Property Name="TgtF_productName" Type="Str">RomiRobotSim</Property>
+				<Property Name="TgtF_productName" Type="Str">Simulated_Robot_Romi</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B5D2A15E-AE95-40C2-BA34-638CDE31C8E2}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">RomiRobotSim.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Simulated_Robot_Romi.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
