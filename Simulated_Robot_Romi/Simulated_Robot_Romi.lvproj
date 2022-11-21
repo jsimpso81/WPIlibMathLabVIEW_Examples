@@ -12,6 +12,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Custom-SubVI" Type="Folder" URL="../Custom-SubVI">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="FieldInfo" Type="Folder" URL="../FieldInfo">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -30,32 +33,8 @@
 			<Item Name="romi1.jpg" Type="Document" URL="../romi1.jpg"/>
 			<Item Name="romi2.jpg" Type="Document" URL="../romi2.jpg"/>
 		</Item>
-		<Item Name="PictureRotate" Type="Folder">
-			<Item Name="rotated_picture_init.vi" Type="VI" URL="../rotated_picture_init.vi"/>
-			<Item Name="rotated_picture_rotate.vi" Type="VI" URL="../rotated_picture_rotate.vi"/>
-		</Item>
-		<Item Name="readField" Type="Folder">
-			<Item Name="Convert IMAQ Image to Picture.vi" Type="VI" URL="../Convert IMAQ Image to Picture.vi"/>
-			<Item Name="Create_Trajectory_Field_Crop_and_Scale.vi" Type="VI" URL="../Create_Trajectory_Field_Crop_and_Scale.vi"/>
-			<Item Name="Create_Trajectory_Get_Field_Info.vi" Type="VI" URL="../Create_Trajectory_Get_Field_Info.vi"/>
-			<Item Name="Create_Trajectory_Open_Field_Info_File.vi" Type="VI" URL="../Create_Trajectory_Open_Field_Info_File.vi"/>
-			<Item Name="Create_Trajectory_Read_Field_List.vi" Type="VI" URL="../Create_Trajectory_Read_Field_List.vi"/>
-			<Item Name="Create_Trajectory_Read_Field_Pic.vi" Type="VI" URL="../Create_Trajectory_Read_Field_Pic.vi"/>
-			<Item Name="Create_Trajectory_Read_Image_File.vi" Type="VI" URL="../Create_Trajectory_Read_Image_File.vi"/>
-			<Item Name="TrajectoryUtils_Field_Info.ctl" Type="VI" URL="../TrajectoryUtils_Field_Info.ctl"/>
-		</Item>
-		<Item Name="SubVI" Type="Folder">
-			<Item Name="DIFF_SIM_POSE.vi" Type="VI" URL="../DIFF_SIM_POSE.vi"/>
-			<Item Name="FIELD_ODOM_CLAMP.vi" Type="VI" URL="../FIELD_ODOM_CLAMP.vi"/>
-			<Item Name="Prepare_PNG.vi" Type="VI" URL="../Prepare_PNG.vi"/>
-			<Item Name="RomiSim_Create_Model.vi" Type="VI" URL="../RomiSim_Create_Model.vi"/>
-			<Item Name="RomiSim_Execute_DiffDrive.vi" Type="VI" URL="../RomiSim_Execute_DiffDrive.vi"/>
-			<Item Name="RomiSim_Read_PWM.vi" Type="VI" URL="../RomiSim_Read_PWM.vi"/>
-			<Item Name="RomiSim_WriteSensors.vi" Type="VI" URL="../RomiSim_WriteSensors.vi"/>
-		</Item>
-		<Item Name="TypeDef" Type="Folder">
-			<Item Name="ROBOT_PICTURE.ctl" Type="VI" URL="../ROBOT_PICTURE.ctl"/>
-			<Item Name="Rotated_Picture_TypeDef.ctl" Type="VI" URL="../Rotated_Picture_TypeDef.ctl"/>
+		<Item Name="Simulated_Field" Type="Folder" URL="../Simulated_Field">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Simulated_Robot_Romi.vi" Type="VI" URL="../Simulated_Robot_Romi.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -296,7 +275,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{16A63806-6871-4881-BB86-68E066A3870F}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Simulated_Robot_Romi_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">26</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Simulated_Robot_Romi.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Simulated_Robot_Romi.exe</Property>
