@@ -39,9 +39,8 @@ a trajectory using Jaci's Pathfinder.  This sample uses the LabVIEW ODE simulati
 - **Robot_Sample_5_Swerve_ODE**  --  This LabVIEW robot project includes code for a simple swerve drive robot (No swerve 
 drive is really simple...) that reads a trajectory CSV file and executes it.  This sample uses a combination of the LabVIEW ODE simulation (the older simulation) and a custom field display showing the robot's movements.
 
-- **FRC_Traj_Robot_Sample_6**  --  This LabVIEW robot project uses Differential Drive Pose Estimator instead
-of odometry to determine the field location of the robot while following a trajectory.  Otherwise it is 
-similar to robot sample 1.
+- **Robot_Sample_6_Diff_Cubic_TrajPoseEst_ODE**  --  This sample LabVIEW robot project includes code for a differential drive robot that creates and execute 
+a trajectory using cubic splines.  The robots relative position is calculated using the Differential Drive Pose Estimator instead of standard Odometry.  In all other respects it is similar to Robot Sample 1.  This sample uses the LabVIEW ODE simulation (the older simulation).
 
 - **FRC_DiffSImRobot_Sample_7**  --  This PC robot simulation project uses the state space Differential 
 Drive Simulator to simulate the robot behaviour on a PC.
