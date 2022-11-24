@@ -24,11 +24,11 @@ sample robot project 5.
 - **FRC_LV_Trajectory_Dashboard**  --  This dashboard project can be used with any of the sample robot 
 projects.  It contains tabs to track and trend trajectory execution.
 
-- **FRC_Traj_Robot_Sample_1**  --  This sample LabVIEW robot project includes code to create and execute 
-a trajectory using cubic splines. 
+- **Robot_Sample_1**  --  This sample LabVIEW robot project includes code for a differential drive robot that creates and execute 
+a trajectory using cubic splines.  This sample uses the LabVIEW ODE simulation (the older simulation). 
 
-- **FRC_Traj_Robot_Sample_2**  --  This sample LabVIEW robot project includes code to read a trajectoy 
-CSV file and execute it. 
+- **Robot_Sample_2**  --  This sample LabVIEW robot project includes code for a differential drive robot that reads a trajectoy 
+CSV file and execute it.   This sample uses the LabVIEW ODE simulation (the older simulation)
 
 - **FRC_Traj_Robot_Sample_3**  --  This sample LabVIEW robot project includes code to create and execute 
 a trajectory using quintic splines. 
@@ -36,8 +36,8 @@ a trajectory using quintic splines.
 - **FRC_Traj_Robot_Sample_4**  --  This sample LabVIEW robot project includes code to create and execute 
 a trajectory using Jaci's Pathfinder.
 
-- **FRC_Traj_Robot_Sample_5**  --  This LabVIEW robot project is a simple swerve drive robot. (No swerve 
-drive is really simple...)  It also contains trajectory file read and execute similar to Sample Robot 2.
+- **Robot_Sample_5**  --  This LabVIEW robot project includes code for a simple swerve drive robot (No swerve 
+drive is really simple...) that reads a trajectory CSV file and executes it.  This sample uses a combination of the LabVIEW ODE simulation (the older simulation) and a custom field display showing the robot's movements.
 
 - **FRC_Traj_Robot_Sample_6**  --  This LabVIEW robot project uses Differential Drive Pose Estimator instead
 of odometry to determine the field location of the robot while following a trajectory.  Otherwise it is 
@@ -45,6 +45,12 @@ similar to robot sample 1.
 
 - **FRC_DiffSImRobot_Sample_7**  --  This PC robot simulation project uses the state space Differential 
 Drive Simulator to simulate the robot behaviour on a PC.
+
+- **Robot_Sample_9_Romi**  --  This LabVIEW robot project implements a differential drive for a Rmoi robot.   This code can communicate with a Romi or
+with the separate Simulated Romi Robot.  This is a separate project, which can be run on the same or separate computer.  
+
+- **Simulated Robot Romi**  --  This LabVIEW project simulates the physical Romi robot and the field it drives on.  This uses the new "WPILIB"/json 
+style simulation.  This simulate can be used with robot code created with any FRC language.  
 
 - **FRC_Traj_Samples**  --  This LabVIEW project contains samples of how to use various portions of the 
 Trajectory / Control library.
