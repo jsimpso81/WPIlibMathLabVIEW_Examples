@@ -1,4 +1,4 @@
-## FRC LabVIEW Trajectory Robot Sample 2 Project
+## FRC LabVIEW Trajectory Robot Sample 3 Project
 
 This sample robot based on the standard LabVIEW robot project, contains both a simulated and physical robot that creates and executes a trajectory.  This sample robot demonstrate the FRC LabVIEW Trajectory Library.  This library is an UNOFFICIAL port of the Java/C++ 
 WPILIB routines that don't already exist in LabVIEW.  Before using these projects, install the library.  Here is a link to the github repository for the library.  https://github.com/jsimpso81/FRC_LV_TrajLib
