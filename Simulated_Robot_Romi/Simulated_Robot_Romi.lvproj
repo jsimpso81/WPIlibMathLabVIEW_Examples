@@ -12,9 +12,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Custom-SubVI" Type="Folder" URL="../Custom-SubVI">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="FieldInfo" Type="Folder" URL="../FieldInfo">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -32,6 +29,9 @@
 			<Item Name="romi.PNG" Type="Document" URL="../romi.PNG"/>
 			<Item Name="romi1.jpg" Type="Document" URL="../romi1.jpg"/>
 			<Item Name="romi2.jpg" Type="Document" URL="../romi2.jpg"/>
+		</Item>
+		<Item Name="RomiSim" Type="Folder" URL="../RomiSim">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Simulated_Field" Type="Folder" URL="../Simulated_Field">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -275,7 +275,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{16A63806-6871-4881-BB86-68E066A3870F}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Simulated_Robot_Romi_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">26</Property>
+				<Property Name="Bld_version.build" Type="Int">27</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Simulated_Robot_Romi.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Simulated_Robot_Romi.exe</Property>
