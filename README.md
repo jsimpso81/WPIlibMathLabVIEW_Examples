@@ -24,19 +24,19 @@ sample robot project 5.
 - **FRC_LV_Trajectory_Dashboard**  --  This dashboard project can be used with any of the sample robot 
 projects.  It contains tabs to track and trend trajectory execution.
 
-- **Robot_Sample_1**  --  This sample LabVIEW robot project includes code for a differential drive robot that creates and execute 
+- **Robot_Sample_1_Diff_Cubic_Traj_ODE**  --  This sample LabVIEW robot project includes code for a differential drive robot that creates and execute 
 a trajectory using cubic splines.  This sample uses the LabVIEW ODE simulation (the older simulation). 
 
-- **Robot_Sample_2**  --  This sample LabVIEW robot project includes code for a differential drive robot that reads a trajectoy 
+- **Robot_Sample_2_Diff_File_Traj_ODE**  --  This sample LabVIEW robot project includes code for a differential drive robot that reads a trajectoy 
 CSV file and execute it.   This sample uses the LabVIEW ODE simulation (the older simulation)
 
-- **FRC_Traj_Robot_Sample_3**  --  This sample LabVIEW robot project includes code to create and execute 
-a trajectory using quintic splines. 
+- **Robot_Sample_3_Diff_Quintic_Traj_ODE**  --  This sample LabVIEW robot project includes code for a differential drive robot that creates and execute 
+a trajectory using quintic splines.  This sample uses the LabVIEW ODE simulation (the older simulation). 
 
-- **FRC_Traj_Robot_Sample_4**  --  This sample LabVIEW robot project includes code to create and execute 
-a trajectory using Jaci's Pathfinder.
+- **Robot_Sample_4_Diff_PathFinder_Traj_ODE**  --  This sample LabVIEW robot project includes code for a differential drive robot that creates and execute 
+a trajectory using Jaci's Pathfinder.  This sample uses the LabVIEW ODE simulation (the older simulation).
 
-- **Robot_Sample_5**  --  This LabVIEW robot project includes code for a simple swerve drive robot (No swerve 
+- **Robot_Sample_5_Swerve_ODE**  --  This LabVIEW robot project includes code for a simple swerve drive robot (No swerve 
 drive is really simple...) that reads a trajectory CSV file and executes it.  This sample uses a combination of the LabVIEW ODE simulation (the older simulation) and a custom field display showing the robot's movements.
 
 - **FRC_Traj_Robot_Sample_6**  --  This LabVIEW robot project uses Differential Drive Pose Estimator instead
