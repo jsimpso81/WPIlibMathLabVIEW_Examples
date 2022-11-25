@@ -26,9 +26,6 @@
 			<Item Name="robot_signal_light_small_OFF.png" Type="Document" URL="../robot_signal_light_small_OFF.png"/>
 			<Item Name="robot_signal_light_small_ON.png" Type="Document" URL="../robot_signal_light_small_ON.png"/>
 		</Item>
-		<Item Name="RomiSim" Type="Folder" URL="../RomiSim">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="Simulated_Field" Type="Folder" URL="../Simulated_Field">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -274,7 +271,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{16A63806-6871-4881-BB86-68E066A3870F}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Simulated_Robot_DiffDrive_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">39</Property>
+				<Property Name="Bld_version.build" Type="Int">40</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Simulated_Robot_Diff_Drive.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Simulated_Robot_Diff_Drive.exe</Property>
