@@ -51,7 +51,7 @@ with the separate Simulated Romi Robot.  This is a separate project, which can b
 - **Simulated Robot Romi**  --  This LabVIEW project simulates the physical Romi robot and the field it drives on.  This uses the new "WPILIB"/json 
 style simulation.  This simulate can be used with robot code created with any FRC language.  
 
-- **Simulated Robot Differential Drive **  --  This LabVIEW project simulates the physical Romi robot and the field it drives on.  This uses the 
+- **Simulated Robot Differential Drive**  --  This LabVIEW project simulates the physical Romi robot and the field it drives on.  This uses the 
 new "WPILIB"/json style simulation.  This simulate can be used with robot code created with any FRC language.  It includes left and right motors, 
 left and right encoders, and a gyro.   The drive type, number and type of motors, robot track width and mass are specified when running the simulator.
 
