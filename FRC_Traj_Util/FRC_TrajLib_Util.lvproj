@@ -89,7 +89,6 @@
 				<Item Name="SIMPLE_MOTOR_FF.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/SIMPLE_MOTOR_FF.ctl"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="SWERVE_DRIVE_KINEMATICS.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/SWERVE_DRIVE_KINEMATICS.ctl"/>
-				<Item Name="TRAJ_CONFIG.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/TRAJ_CONFIG.ctl"/>
 				<Item Name="TRAJ_CONSTRAINT_CENTRIPETAL_ACCEL.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/TRAJ_CONSTRAINT_CENTRIPETAL_ACCEL.ctl"/>
 				<Item Name="TRAJ_CONSTRAINT_DIIF_DRIVE_KINEMATICS.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/TRAJ_CONSTRAINT_DIIF_DRIVE_KINEMATICS.ctl"/>
 				<Item Name="TRAJ_CONSTRAINT_DIIF_DRIVE_VOLTAGE.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/TRAJ_CONSTRAINT_DIIF_DRIVE_VOLTAGE.ctl"/>
@@ -98,11 +97,6 @@
 				<Item Name="TRAJ_STATE.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/TRAJ_STATE.ctl"/>
 				<Item Name="TRAJECTORY.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/TRAJECTORY.ctl"/>
 				<Item Name="Trajectory_Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Trajectory_Library.lvlib"/>
-				<Item Name="TrajectoryConfig_GetCentripetalAccelConstraint.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/TrajectoryConfig_GetCentripetalAccelConstraint.vi"/>
-				<Item Name="TrajectoryConfig_GetKinematicsDiffDriveContraint.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/TrajectoryConfig_GetKinematicsDiffDriveContraint.vi"/>
-				<Item Name="TrajectoryConfig_GetKinematicsMecanumDriveConstraint.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/TrajectoryConfig_GetKinematicsMecanumDriveConstraint.vi"/>
-				<Item Name="TrajectoryConfig_GetKinematicsSwerveDriveConstraint.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/TrajectoryConfig_GetKinematicsSwerveDriveConstraint.vi"/>
-				<Item Name="TrajectoryConfig_GetVoltageDiffDriveConstraint.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/TrajectoryConfig_GetVoltageDiffDriveConstraint.vi"/>
 				<Item Name="TRANSLATION2D.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/TRANSLATION2D.ctl"/>
 				<Item Name="Translation_GetDistance.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Translation_GetDistance.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
@@ -138,7 +132,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{138188AF-1F8C-424F-8B5A-7D9CB1230D1E}</Property>
-				<Property Name="Bld_version.build" Type="Int">46</Property>
+				<Property Name="Bld_version.build" Type="Int">47</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">12</Property>
 				<Property Name="Destination[0].destName" Type="Str">Convert_PathWeaver_JSON_To_Trajectory_File.exe</Property>
@@ -201,7 +195,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{55737952-589B-4137-845C-FAF41B20F6C3}</Property>
-				<Property Name="Bld_version.build" Type="Int">48</Property>
+				<Property Name="Bld_version.build" Type="Int">49</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">12</Property>
 				<Property Name="Destination[0].destName" Type="Str">Convert_Trajectory_CSV_To_PathWeaver_JSON_File.exe</Property>
@@ -272,7 +266,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0891982F-6A4F-44AF-99CF-525B24677004}</Property>
-				<Property Name="Bld_version.build" Type="Int">46</Property>
+				<Property Name="Bld_version.build" Type="Int">47</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">12</Property>
 				<Property Name="Destination[0].destName" Type="Str">Create_Trajectory_Using_Pathfinder_Differential.exe</Property>
@@ -324,7 +318,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5AA0748A-2CA0-4C77-8742-DF0A511406A0}</Property>
-				<Property Name="Bld_version.build" Type="Int">46</Property>
+				<Property Name="Bld_version.build" Type="Int">47</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">12</Property>
 				<Property Name="Destination[0].destName" Type="Str">Create_Trajectory_Using_Pathfinder_Swerve.exe</Property>
@@ -379,7 +373,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{CC9A0E3F-FA0F-4328-9FD4-0BFF72BF1DF6}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/UtilPgms/FRC_LV_Trajectory_Utilities_Create_Trajectory_Using_TrajectoryLibrary_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">71</Property>
+				<Property Name="Bld_version.build" Type="Int">72</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">12</Property>
 				<Property Name="Destination[0].destName" Type="Str">Create_Trajectory_Using_TrajectoryLibrary.exe</Property>
@@ -396,7 +390,7 @@
 				<Property Name="Destination[4].path" Type="Path">../bin/FieldInfo</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_TrajectoryLibrary.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6A4F9887-E2BB-4527-99C8-2126D2A8F16B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EC13ECCA-B055-4FCE-84B8-7B5C43EE7AD7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_PathfinderDifferential.vi</Property>
@@ -445,6 +439,12 @@
 				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[21].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/BlankField.png</Property>
 				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/Grid-1-Foot-Light.png</Property>
+				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/Grid-1-Foot.png</Property>
+				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LICENSE.txt</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
@@ -466,7 +466,7 @@
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/2021-galacticsearcha.png</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">22</Property>
+				<Property Name="SourceCount" Type="Int">24</Property>
 				<Property Name="TgtF_companyName" Type="Str">FRC Team Frobotics 4150</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Utility to create Trajectories  FRC 2020</Property>
 				<Property Name="TgtF_internalName" Type="Str">Create_Trajectory_Using_TrajectoryLibrary</Property>

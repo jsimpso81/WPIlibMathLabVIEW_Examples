@@ -275,7 +275,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{16A63806-6871-4881-BB86-68E066A3870F}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Simulated_Robot_Romi_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">27</Property>
+				<Property Name="Bld_version.build" Type="Int">28</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Simulated_Robot_Romi.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Simulated_Robot_Romi.exe</Property>
