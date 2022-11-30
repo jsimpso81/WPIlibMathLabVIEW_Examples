@@ -42,8 +42,8 @@ drive is really simple...) that reads a trajectory CSV file and executes it.  Th
 - **Robot_Sample_6_Diff_Cubic_TrajPoseEst_ODE**  --  This sample LabVIEW robot project includes code for a differential drive robot that creates and execute 
 a trajectory using cubic splines.  The robots relative position is calculated using the Differential Drive Pose Estimator instead of standard Odometry.  In all other respects it is similar to Robot Sample 1.  This sample uses the LabVIEW ODE simulation (the older simulation).
 
-- **FRC_DiffSImRobot_Sample_7**  --  This PC robot simulation project uses the state space Differential 
-Drive Simulator to simulate the robot behaviour on a PC.
+- **Robot_Sample_7_Diff_Cubic_Tra_NewSIM**  --  This sample LabVIEW robot project includes code for a differential drive robot that creates and execute 
+a trajectory using cubic splines.  This sample can run on a real robot or can use the new "json" simulation (the newer simulation)  Otherwise this is similar to Robot Sample 1.  See the Simulated Robot Differential Drive proect below for the simulator to run with this robot project. 
 
 - **Robot_Sample_9_Romi**  --  This LabVIEW robot project implements a differential drive for a Rmoi robot.   This code can communicate with a Romi or
 with the separate Simulated Romi Robot.  This is a separate project, which can be run on the same or separate computer.  
