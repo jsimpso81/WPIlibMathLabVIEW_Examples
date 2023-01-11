@@ -56,7 +56,8 @@ new "WPILIB"/json style simulation.  This simulate can be used with robot code c
 left and right encoders, and a gyro.   The drive type, number and type of motors, robot track width and mass are specified when running the simulator.
 
 - **FRC_Traj_Samples**  --  This LabVIEW project contains samples of how to use various portions of the 
-Trajectory / Control library.
+Trajectory / Control library.  Many of these samples have been made into separate projects and placed under
+the LabVIEW *Find Examples* help item.  Browse by direction and navigate to FRC\RoboRIO\Math - Control and Trajectory.
 
 - **FRC_Traj_Sandbox**  --  This LabVIEW project contains programs that have been used to test various 
 portions of the Trajectory / Control library.
