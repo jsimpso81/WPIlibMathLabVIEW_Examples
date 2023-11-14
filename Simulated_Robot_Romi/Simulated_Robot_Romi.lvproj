@@ -36,6 +36,7 @@
 		<Item Name="Simulated_Field" Type="Folder" URL="../Simulated_Field">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Romi_Sim.ico" Type="Document" URL="../Romi_Sim.ico"/>
 		<Item Name="Simulated_Robot_Romi.vi" Type="VI" URL="../Simulated_Robot_Romi.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -276,7 +277,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{16A63806-6871-4881-BB86-68E066A3870F}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Simulated_Robot_Romi_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">32</Property>
+				<Property Name="Bld_version.build" Type="Int">34</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Simulated_Robot_Romi.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../bin/NI_AB_PROJECTNAME.exe</Property>
@@ -291,7 +292,8 @@
 				<Property Name="Destination[3].path" Type="Path">../bin</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{694BEB84-D767-4AC2-9B41-E2150546B457}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Romi_Sim.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F017A96B-2D3F-49CA-B1DE-9B546CCDF0A2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Simulated_Robot_Romi.vi</Property>

@@ -32,7 +32,7 @@
 		<Item Name="Test_Programs" Type="Folder" URL="../Test_Programs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="SimDiffDrive_Icon.ico" Type="Document" URL="../SimDiffDrive_Icon.ico"/>
+		<Item Name="Sim_DiffDrive.ico" Type="Document" URL="../Sim_DiffDrive.ico"/>
 		<Item Name="Simulated_Robot_Diff_Drive.vi" Type="VI" URL="../Simulated_Robot_Diff_Drive.vi"/>
 		<Item Name="Simulated_Robot_Globals.vi" Type="VI" URL="../Simulated_Robot_Globals.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -289,7 +289,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{16A63806-6871-4881-BB86-68E066A3870F}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/Simulated_Robot_DiffDrive_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">63</Property>
+				<Property Name="Bld_version.build" Type="Int">64</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Simulated_Robot_Diff_Drive.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../bin/NI_AB_PROJECTNAME.exe</Property>
@@ -304,8 +304,8 @@
 				<Property Name="Destination[3].path" Type="Path">../bin</Property>
 				<Property Name="Destination[3].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/SimDiffDrive_Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5E27E94B-12BA-42BE-ACF9-59C34B6EE93C}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Sim_DiffDrive.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F3EA12E6-FA59-45F3-BC31-142DFD1F2A15}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Simulated_Robot_Diff_Drive.vi</Property>
