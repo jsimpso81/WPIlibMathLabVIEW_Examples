@@ -23,7 +23,6 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
-				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
@@ -37,12 +36,9 @@
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
-				<Item Name="DIFF_DRIVE_KINEMATICS.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/DIFF_DRIVE_KINEMATICS.ctl"/>
 				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
 				<Item Name="DISPLAY_WAYPOINT.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/DISPLAY_WAYPOINT.ctl"/>
-				<Item Name="DISPLAY_WEIGHTED_WAYPOINT.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/DISPLAY_WEIGHTED_WAYPOINT.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="errorList.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/errorList.vi"/>
 				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
 				<Item Name="FindElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElement.vi"/>
 				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
@@ -57,12 +53,7 @@
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
 				<Item Name="IMAQ SetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ SetImageSize"/>
-				<Item Name="Initialize Mouse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Initialize Mouse.vi"/>
-				<Item Name="joystickAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/joystickAcquire.vi"/>
-				<Item Name="keyboardAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/keyboardAcquire.vi"/>
 				<Item Name="LVCursorListTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVCursorListTypeDef.ctl"/>
-				<Item Name="MECA_DRIVE_KINEMATICS.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/MECA_DRIVE_KINEMATICS.ctl"/>
-				<Item Name="mouseAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/mouseAcquire.vi"/>
 				<Item Name="NetComm_UsageReport_report.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UsageReport_report.vi"/>
 				<Item Name="NetComm_UsageReport_ResourceType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UsageReport_ResourceType.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
@@ -86,29 +77,18 @@
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="ROTATION2D.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/ROTATION2D.ctl"/>
-				<Item Name="SIMPLE_MOTOR_FF.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/SIMPLE_MOTOR_FF.ctl"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="SWERVE_DRIVE_KINEMATICS.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/SWERVE_DRIVE_KINEMATICS.ctl"/>
-				<Item Name="TRAJ_CONSTRAINT_CENTRIPETAL_ACCEL.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/TRAJ_CONSTRAINT_CENTRIPETAL_ACCEL.ctl"/>
-				<Item Name="TRAJ_CONSTRAINT_DIIF_DRIVE_KINEMATICS.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/TRAJ_CONSTRAINT_DIIF_DRIVE_KINEMATICS.ctl"/>
-				<Item Name="TRAJ_CONSTRAINT_DIIF_DRIVE_VOLTAGE.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/TRAJ_CONSTRAINT_DIIF_DRIVE_VOLTAGE.ctl"/>
-				<Item Name="TRAJ_CONSTRAINT_MECA_DRIVE_KINEMATICS.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/TRAJ_CONSTRAINT_MECA_DRIVE_KINEMATICS.ctl"/>
-				<Item Name="TRAJ_CONSTRAINT_SWERVE_DRIVE_KINEMATICS.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/TRAJ_CONSTRAINT_SWERVE_DRIVE_KINEMATICS.ctl"/>
 				<Item Name="TRAJ_STATE.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/TRAJ_STATE.ctl"/>
-				<Item Name="TRAJECTORY.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/TRAJECTORY.ctl"/>
 				<Item Name="Trajectory_Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Trajectory_Library.lvlib"/>
 				<Item Name="TRANSLATION2D.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/TRANSLATION2D.ctl"/>
 				<Item Name="Translation_GetDistance.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/Translation_GetDistance.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="UTIL_PATHFINDER_CONFIG.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/UTIL_PATHFINDER_CONFIG.ctl"/>
-				<Item Name="WEIGHTED_WAYPOINT.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/JAS_Junk/TrajLib/WEIGHTED_WAYPOINT.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -132,9 +112,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{138188AF-1F8C-424F-8B5A-7D9CB1230D1E}</Property>
-				<Property Name="Bld_version.build" Type="Int">49</Property>
-				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.patch" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">51</Property>
+				<Property Name="Bld_version.major" Type="Int">2024</Property>
 				<Property Name="Destination[0].destName" Type="Str">Convert_PathWeaver_JSON_To_Trajectory_File.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../bin/Convert PathWeaver JSON to Trajectory File.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -146,8 +125,8 @@
 				<Property Name="Destination[3].destName" Type="Str">Samples</Property>
 				<Property Name="Destination[3].path" Type="Path">../bin/Samples</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UtilityPrograms/Convert_PathWeaverJSON_To_TrajectoryFile.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E404CB5F-7618-42B7-B684-13BEEB03091A}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UtilityPrograms/Icons/Convert_PathWeaverJSON_To_TrajectoryFile.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E4D3033D-A878-43EA-9A8E-5F967920A064}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_PathfinderDifferential.vi</Property>
@@ -195,9 +174,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{55737952-589B-4137-845C-FAF41B20F6C3}</Property>
-				<Property Name="Bld_version.build" Type="Int">51</Property>
-				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.patch" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">53</Property>
+				<Property Name="Bld_version.major" Type="Int">2024</Property>
 				<Property Name="Destination[0].destName" Type="Str">Convert_Trajectory_CSV_To_PathWeaver_JSON_File.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../bin/Convert Trajectory CSV File to PathWeaver JSON File.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -209,8 +187,8 @@
 				<Property Name="Destination[3].destName" Type="Str">Samples</Property>
 				<Property Name="Destination[3].path" Type="Path">../bin/Samples</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UtilityPrograms/Convert_TrajectoryCSVFile_To_PathWeaverJSONFile.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E404CB5F-7618-42B7-B684-13BEEB03091A}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UtilityPrograms/Icons/Convert_TrajectoryCSVFile_To_PathWeaverJSONFile.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E4D3033D-A878-43EA-9A8E-5F967920A064}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_PathfinderDifferential.vi</Property>
@@ -266,9 +244,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0891982F-6A4F-44AF-99CF-525B24677004}</Property>
-				<Property Name="Bld_version.build" Type="Int">49</Property>
-				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.patch" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">51</Property>
+				<Property Name="Bld_version.major" Type="Int">2024</Property>
 				<Property Name="Destination[0].destName" Type="Str">Create_Trajectory_Using_Pathfinder_Differential.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../bin/Create_Trajectory_Using_Pathfinder_Differential.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -280,9 +257,9 @@
 				<Property Name="Destination[3].destName" Type="Str">Samples</Property>
 				<Property Name="Destination[3].path" Type="Path">../bin/Samples</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_PathfinderDifferential.ico</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UtilityPrograms/Icons/Create_Trajectory_Using_PathfinderDifferential.ico</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E404CB5F-7618-42B7-B684-13BEEB03091A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E4D3033D-A878-43EA-9A8E-5F967920A064}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_PathfinderDifferential.vi</Property>
@@ -318,9 +295,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5AA0748A-2CA0-4C77-8742-DF0A511406A0}</Property>
-				<Property Name="Bld_version.build" Type="Int">49</Property>
-				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.patch" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">51</Property>
+				<Property Name="Bld_version.major" Type="Int">2024</Property>
 				<Property Name="Destination[0].destName" Type="Str">Create_Trajectory_Using_Pathfinder_Swerve.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../bin/Create_Trajectory_Using_Pathfinder_Swerve.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -330,9 +306,9 @@
 				<Property Name="Destination[2].destName" Type="Str">EXE Directory</Property>
 				<Property Name="Destination[2].path" Type="Path">../bin</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_PathfinderSwerve.ico</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UtilityPrograms/Icons/Create_Trajectory_Using_PathfinderSwerve.ico</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E404CB5F-7618-42B7-B684-13BEEB03091A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E4D3033D-A878-43EA-9A8E-5F967920A064}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_PathfinderDifferential.vi</Property>
@@ -373,9 +349,8 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{CC9A0E3F-FA0F-4328-9FD4-0BFF72BF1DF6}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/UtilPgms/FRC_LV_Trajectory_Utilities_Create_Trajectory_Using_TrajectoryLibrary_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">77</Property>
-				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.patch" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">82</Property>
+				<Property Name="Bld_version.major" Type="Int">2024</Property>
 				<Property Name="Destination[0].destName" Type="Str">Create_Trajectory_Using_TrajectoryLibrary.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../bin/Create_Trajectory_Using_TrajectoryLibrary.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -389,22 +364,20 @@
 				<Property Name="Destination[4].destName" Type="Str">FieldInfo</Property>
 				<Property Name="Destination[4].path" Type="Path">../bin/FieldInfo</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_TrajectoryLibrary.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E404CB5F-7618-42B7-B684-13BEEB03091A}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UtilityPrograms/Icons/Create_Trajectory_Using_TrajectoryLibrary.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E4D3033D-A878-43EA-9A8E-5F967920A064}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UtilityPrograms/Create_Trajectory_Using_PathfinderDifferential.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/2021-galacticsearchb.png</Property>
-				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].itemID" Type="Ref"></Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/2021-slalom.png</Property>
-				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].itemID" Type="Ref"></Property>
 				<Property Name="Source[12].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[12].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields</Property>
+				<Property Name="Source[12].itemID" Type="Ref"></Property>
 				<Property Name="Source[12].type" Type="Str">Container</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[13].itemID" Type="Ref">/My Computer/UtilityPrograms/Samples/Sample-Robot-2-Trajectory-TrajLibrary.xml</Property>
@@ -415,11 +388,9 @@
 				<Property Name="Source[14].itemID" Type="Ref">/My Computer/UtilityPrograms/Samples</Property>
 				<Property Name="Source[14].type" Type="Str">Container</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/field_info.ini</Property>
-				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[15].itemID" Type="Ref"></Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/2022-field-capture-cropped.png</Property>
-				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[16].itemID" Type="Ref"></Property>
 				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[17].itemID" Type="Ref">/My Computer/UtilityPrograms/Samples/RapidReact2022Sample.csv</Property>
 				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
@@ -434,42 +405,86 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/2022-field.png</Property>
-				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[20].itemID" Type="Ref"></Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/BlankField.png</Property>
-				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[21].itemID" Type="Ref"></Property>
 				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[22].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/Grid-1-Foot-Light.png</Property>
-				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[22].itemID" Type="Ref"></Property>
 				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[23].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/Grid-1-Foot.png</Property>
-				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[23].itemID" Type="Ref"></Property>
 				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[24].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/2023-field.png</Property>
-				<Property Name="Source[24].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[24].itemID" Type="Ref"></Property>
+				<Property Name="Source[25].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[25].itemID" Type="Ref">/My Computer/UtilityPrograms/FieldInfo/field_info.ini</Property>
+				<Property Name="Source[25].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[26].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[26].itemID" Type="Ref">/My Computer/UtilityPrograms/FieldInfo/2018-field.jpg</Property>
+				<Property Name="Source[26].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[27].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[27].itemID" Type="Ref">/My Computer/UtilityPrograms/FieldInfo/2019-field.jpg</Property>
+				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[28].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[28].itemID" Type="Ref">/My Computer/UtilityPrograms/FieldInfo/2020-Field.png</Property>
+				<Property Name="Source[28].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[29].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[29].itemID" Type="Ref">/My Computer/UtilityPrograms/FieldInfo/2021-barrel.png</Property>
+				<Property Name="Source[29].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LICENSE.txt</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[30].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[30].itemID" Type="Ref">/My Computer/UtilityPrograms/FieldInfo/2021-bounce.png</Property>
+				<Property Name="Source[30].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[31].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[31].itemID" Type="Ref">/My Computer/UtilityPrograms/FieldInfo/2021-galacticsearchb.png</Property>
+				<Property Name="Source[31].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[32].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[32].itemID" Type="Ref">/My Computer/UtilityPrograms/FieldInfo/2021-galacticsearcha.png</Property>
+				<Property Name="Source[32].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[33].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[33].itemID" Type="Ref">/My Computer/UtilityPrograms/FieldInfo/2021-slalom.png</Property>
+				<Property Name="Source[33].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[34].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[34].itemID" Type="Ref">/My Computer/UtilityPrograms/FieldInfo/2022-field-capture-cropped.png</Property>
+				<Property Name="Source[34].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[35].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[35].itemID" Type="Ref">/My Computer/UtilityPrograms/FieldInfo/2022-field.png</Property>
+				<Property Name="Source[35].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[36].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[36].itemID" Type="Ref">/My Computer/UtilityPrograms/FieldInfo/2023-field.png</Property>
+				<Property Name="Source[36].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[37].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[37].itemID" Type="Ref">/My Computer/UtilityPrograms/FieldInfo/2024-Crescendo-Miklast-rotated.png</Property>
+				<Property Name="Source[37].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[38].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[38].itemID" Type="Ref">/My Computer/UtilityPrograms/FieldInfo/2024-field.png</Property>
+				<Property Name="Source[38].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[39].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[39].itemID" Type="Ref">/My Computer/UtilityPrograms/FieldInfo/BlankField.png</Property>
+				<Property Name="Source[39].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/2018-field.jpg</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
+				<Property Name="Source[40].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[40].itemID" Type="Ref">/My Computer/UtilityPrograms/FieldInfo/Grid-1-Foot-Light.png</Property>
+				<Property Name="Source[40].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[41].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[41].itemID" Type="Ref">/My Computer/UtilityPrograms/FieldInfo/Grid-1-Foot.png</Property>
+				<Property Name="Source[41].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[42].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[42].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[42].itemID" Type="Ref">/My Computer/UtilityPrograms/FieldInfo</Property>
+				<Property Name="Source[42].type" Type="Str">Container</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/2019-field.jpg</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/2020-Field.png</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/2021-barrel.png</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].itemID" Type="Ref"></Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/2021-bounce.png</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].itemID" Type="Ref"></Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/UtilityPrograms/Fields/2021-galacticsearcha.png</Property>
-				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">25</Property>
+				<Property Name="Source[9].itemID" Type="Ref"></Property>
+				<Property Name="SourceCount" Type="Int">43</Property>
 				<Property Name="TgtF_companyName" Type="Str">FRC Team Frobotics 4150</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Utility to create Trajectories  FRC 2020</Property>
 				<Property Name="TgtF_internalName" Type="Str">Create_Trajectory_Using_TrajectoryLibrary</Property>
